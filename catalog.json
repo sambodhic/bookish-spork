@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-01",
+  "designs": [
+    {
+      "id": "desert-state-of-mind",
+      "bookId": "dune",
+      "title": "Desert State of Mind",
+      "concept": "Minimal sandworm silhouette wrapping around bold desert typography.",
+      "imageUrl": "designs/dune/desert-state-of-mind.svg",
+      "products": [
+        "T-shirt",
+        "Tote Bag",
+        "Ceramic Mug",
+        "Water Bottle"
+      ]
+    },
+    {
+      "id": "as-you-wish-badge",
+      "bookId": "princess-bride",
+      "title": "As You Wish Badge",
+      "concept": "Vintage quest-map badge with warm hand-lettered romance adventure styling.",
+      "imageUrl": "designs/princess-bride/as-you-wish-badge.svg",
+      "products": [
+        "T-shirt",
+        "Tote Bag",
+        "Ceramic Mug"
+      ]
+    }
+  ]
+}

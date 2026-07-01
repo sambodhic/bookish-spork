@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Arrakis Travel Poster</title>
+  <desc id="desc">A draft retro desert travel poster concept.</desc>
+  <rect width="1200" height="1200" fill="#fef3c7"/>
+  <rect x="110" y="110" width="980" height="980" rx="28" fill="#fde68a" stroke="#7c2d12" stroke-width="18"/>
+  <circle cx="820" cy="315" r="64" fill="#fff7ed" stroke="#7c2d12" stroke-width="12"/>
+  <circle cx="925" cy="265" r="42" fill="#fed7aa" stroke="#7c2d12" stroke-width="10"/>
+  <path d="M170 790c160-150 310-190 450-120 130 65 250 25 410-140v430H170z" fill="#c2410c"/>
+  <path d="M170 890c160-90 320-100 480-30 110 48 230 30 380-55v155H170z" fill="#0f766e"/>
+  <text x="600" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="76" font-weight="900" fill="#7c2d12">ARRAKIS</text>
+  <text x="600" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="800" letter-spacing="6" fill="#7c2d12">TRAVEL BUREAU</text>
+</svg>

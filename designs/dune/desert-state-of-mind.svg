@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Desert State of Mind</title>
+  <desc id="desc">A stylized desert-inspired design for BookTalkieTees.</desc>
+  <rect width="1200" height="1200" fill="#f7e2a4"/>
+  <circle cx="945" cy="230" r="92" fill="#f97316" opacity="0.85"/>
+  <path d="M120 760c130-170 280-170 430 0s310 170 530 0" fill="none" stroke="#0f172a" stroke-width="58" stroke-linecap="round"/>
+  <path d="M160 820c120-120 260-120 420 0s310 120 460 0" fill="none" stroke="#0f766e" stroke-width="20" stroke-linecap="round"/>
+  <text x="600" y="515" text-anchor="middle" font-family="Georgia, serif" font-size="112" font-weight="700" fill="#111827">DESERT</text>
+  <text x="600" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="8" fill="#0f766e">STATE OF MIND</text>
+  <text x="600" y="930" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">BOOKTALKIETEES ORIGINAL</text>
+</svg>

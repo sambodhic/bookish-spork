@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">As You Wish Badge</title>
+  <desc id="desc">A vintage quest badge inspired by romantic adventure stories.</desc>
+  <rect width="1200" height="1200" fill="#f8ede3"/>
+  <circle cx="600" cy="600" r="420" fill="#fff7ed" stroke="#7c2d12" stroke-width="24"/>
+  <path d="M340 700l150-210 100 130 90-115 180 245" fill="none" stroke="#0f766e" stroke-width="46" stroke-linejoin="round"/>
+  <path d="M390 370c90-70 210-70 300 0 90-70 210-70 300 0" fill="none" stroke="#be123c" stroke-width="28" stroke-linecap="round"/>
+  <text x="600" y="590" text-anchor="middle" font-family="Georgia, serif" font-size="104" font-weight="700" fill="#7c2d12">As You</text>
+  <text x="600" y="700" text-anchor="middle" font-family="Georgia, serif" font-size="104" font-weight="700" fill="#7c2d12">Wish</text>
+  <text x="600" y="830" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="5" fill="#0f766e">QUEST CLUB</text>
+</svg>
