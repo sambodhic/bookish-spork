@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BookTalkieTees</title>
+    <meta name="description" content="Book and movie inspired product design catalog.">
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <button class="brand" data-view="home" aria-label="BookTalkieTees home">
+          <span class="brand-mark">BT</span>
+          <span>BookTalkieTees</span>
+        </button>
+        <nav class="nav-tabs" aria-label="Primary">
+          <button class="nav-tab is-active" data-view="home">Home</button>
+          <button class="nav-tab" data-view="explore">Explore</button>
+          <button class="nav-tab" data-view="search">Search</button>
+          <button class="nav-tab" data-view="favorites">Favorites</button>
+          <button class="nav-tab cart-tab" data-view="cart">Cart <span id="cartCount">0</span></button>
+        </nav>
+      </header>
+
+      <main id="app" tabindex="-1"></main>
+    </div>
+
+    <div class="modal" id="detailModal" hidden>
+      <div class="modal-backdrop" data-close-modal></div>
+      <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="icon-button modal-close" data-close-modal aria-label="Close">x</button>
+        <div id="modalContent"></div>
+      </section>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

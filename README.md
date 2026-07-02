@@ -1,6 +1,12 @@
-# Public Designs
+# BookTalkieTees Public Designs
 
-Approved public design assets for the mobile app.
+Approved public design assets and static website for the BookTalkieTees app.
+
+Website:
+
+```text
+https://sambodhic.github.io/bookish-spork/
+```
 
 Public catalog:
 

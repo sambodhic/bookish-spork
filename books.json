@@ -1,0 +1,80 @@
+[
+  {
+    "id": "dune",
+    "title": "Dune",
+    "type": "book",
+    "author": "Frank Herbert",
+    "bookSummary": "A desert planet, a noble family in danger, and a young heir pulled into politics, prophecy, and survival.",
+    "movie": "Dune: Part One",
+    "movieYear": "2021",
+    "movieSummary": "Denis Villeneuve's adaptation follows Paul Atreides as House Atreides takes stewardship of Arrakis.",
+    "genre": "Sci-Fi",
+    "quotes": ["Fear is the mind-killer.", "The mystery of life isn't a problem to solve, but a reality to experience."],
+    "shirtIdeas": ["Minimal sandworm silhouette wrapping around the phrase Desert State of Mind.", "Arrakis travel-poster design with twin moons and spice-toned lettering."]
+  },
+  {
+    "id": "princess-bride",
+    "title": "The Princess Bride",
+    "type": "book",
+    "author": "William Goldman",
+    "bookSummary": "A playful adventure of true love, swordplay, revenge, giants, and wonderfully theatrical danger.",
+    "movie": "The Princess Bride",
+    "movieYear": "1987",
+    "movieSummary": "A beloved fairy-tale comedy that turns quests, villains, and romance into endlessly quotable fun.",
+    "genre": "Fantasy",
+    "quotes": ["As you wish.", "Inconceivable!"],
+    "shirtIdeas": ["Vintage quest-map graphic with As You Wish stitched like a travel badge.", "Sword-and-rose crest for a playful fairy-tale adventure tee."]
+  },
+  {
+    "id": "pride-prejudice",
+    "title": "Pride and Prejudice",
+    "type": "book",
+    "author": "Jane Austen",
+    "bookSummary": "Elizabeth Bennet and Mr. Darcy spar through pride, class, family pressure, and slowly earned affection.",
+    "movie": "Pride & Prejudice",
+    "movieYear": "2005",
+    "movieSummary": "A sweeping adaptation centered on glances, misunderstandings, and emotional restraint breaking open.",
+    "genre": "Romance",
+    "quotes": ["I dearly love a laugh.", "Till this moment I never knew myself."],
+    "shirtIdeas": ["Regency-style letterpress: I Dearly Love a Laugh with tiny teacup and book icons.", "Elegant ballroom typography with a tiny handwritten Pemberley note."]
+  },
+  {
+    "id": "gone-girl",
+    "title": "Gone Girl",
+    "type": "book",
+    "author": "Gillian Flynn",
+    "bookSummary": "A marriage becomes a media spectacle after a disappearance reveals layers of manipulation and resentment.",
+    "movie": "Gone Girl",
+    "movieYear": "2014",
+    "movieSummary": "David Fincher's cool, tense adaptation turns the missing-person story into a sharp psychological trap.",
+    "genre": "Thriller",
+    "quotes": ["There is a difference between really loving someone and loving the idea of her.", "Sleep is like a cat: It only comes to you if you ignore it."],
+    "shirtIdeas": ["Noir evidence-board layout reading Plot Twist Department.", "Minimal missing-poster design with sharp thriller typography."]
+  },
+  {
+    "id": "charlottes-web",
+    "title": "Charlotte's Web",
+    "type": "book",
+    "author": "E. B. White",
+    "bookSummary": "A gentle story about friendship, courage, farm life, and the words that can save someone.",
+    "movie": "Charlotte's Web",
+    "movieYear": "2006",
+    "movieSummary": "A warm family adaptation that keeps the farmyard friendship at the heart of the story.",
+    "genre": "Kids",
+    "quotes": ["It is not often that someone comes along who is a true friend and a good writer.", "With the right words, you can change the world."],
+    "shirtIdeas": ["Soft storybook web lettering spelling Some Friend across a pocket tee.", "Farmyard badge design with gentle hand-drawn type."]
+  },
+  {
+    "id": "little-women",
+    "title": "Little Women",
+    "type": "book",
+    "author": "Louisa May Alcott",
+    "bookSummary": "Four sisters grow through art, ambition, love, loss, and the daily work of becoming themselves.",
+    "movie": "Little Women",
+    "movieYear": "2019",
+    "movieSummary": "Greta Gerwig's adaptation braids memory and adulthood into a lively portrait of the March sisters.",
+    "genre": "Classics",
+    "quotes": ["I am not afraid of storms, for I am learning how to sail my ship.", "I like good strong words that mean something."],
+    "shirtIdeas": ["Ink-and-thread design: Good Strong Words with four small book spines.", "Sisterhood literary-club crest with warm vintage typography."]
+  }
+]
