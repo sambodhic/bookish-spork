@@ -16,16 +16,17 @@
           <span class="brand-mark"><img src="assets/logo.jpg" alt="" aria-hidden="true"></span>
           <span>BookTalkieTees</span>
         </button>
-        <label class="market-select" for="marketplaceSelect">
-          <span>Marketplace</span>
-          <select id="marketplaceSelect" aria-label="Preferred Amazon marketplace"></select>
-        </label>
         <nav class="nav-tabs" aria-label="Primary">
           <button class="nav-tab is-active" data-view="home">Home</button>
           <button class="nav-tab" data-view="explore">Explore</button>
           <button class="nav-tab" data-view="search">Search</button>
           <button class="nav-tab" data-view="favorites">Favorites</button>
           <button class="nav-tab cart-tab" data-view="cart">Cart <span id="cartCount">0</span></button>
+          <label class="market-select" for="marketplaceSelect" title="Marketplace">
+            <span class="market-icon" aria-hidden="true">◎</span>
+            <span id="marketplaceCode">US</span>
+            <select id="marketplaceSelect" aria-label="Preferred Amazon marketplace"></select>
+          </label>
         </nav>
       </header>
 

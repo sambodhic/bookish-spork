@@ -155,9 +155,11 @@ function setupMarketplaceSelector() {
     .join('');
   select.value = amazonMarketplaces[state.marketplace] ? state.marketplace : defaultMarketplaceForTimezone();
   state.marketplace = select.value;
+  syncMarketplaceSelector();
   writeStore('booktalkietees:marketplace', state.marketplace);
   select.addEventListener('change', () => {
     state.marketplace = select.value;
+    syncMarketplaceSelector();
     writeStore('booktalkietees:marketplace', state.marketplace);
     render();
   });
@@ -166,6 +168,8 @@ function setupMarketplaceSelector() {
 function syncMarketplaceSelector() {
   const select = document.querySelector('#marketplaceSelect');
   if (select) select.value = state.marketplace;
+  const code = document.querySelector('#marketplaceCode');
+  if (code) code.textContent = state.marketplace;
 }
 
 function setPreferredMarketplace(marketplace) {
