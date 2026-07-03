@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-03",
+  "note": "Suggested product subtotal estimates only. Actual Amazon prices, taxes, and shipping can vary by marketplace, availability, and delivery address.",
+  "marketplaces": {
+    "US": "amazon.com",
+    "UK": "amazon.co.uk",
+    "JP": "amazon.co.jp",
+    "IT": "amazon.it",
+    "FR": "amazon.fr",
+    "DE": "amazon.de",
+    "ES": "amazon.es"
+  },
+  "currencySymbols": {
+    "US": "$",
+    "UK": "£",
+    "JP": "¥",
+    "IT": "€",
+    "FR": "€",
+    "DE": "€",
+    "ES": "€"
+  },
+  "suggestedPrices": {
+    "T-shirt": {
+      "US": 24.99,
+      "UK": 22.99,
+      "JP": 3200,
+      "IT": 24.99,
+      "FR": 24.99,
+      "DE": 24.99,
+      "ES": 24.99
+    },
+    "iPhone Case": {
+      "US": 19.99,
+      "UK": 18.99,
+      "JP": 2800,
+      "IT": 21.99,
+      "FR": 21.99,
+      "DE": 21.99,
+      "ES": 21.99
+    },
+    "Tote Bag": {
+      "US": 21.99,
+      "UK": 19.99,
+      "JP": 3000,
+      "IT": 22.99,
+      "FR": 22.99,
+      "DE": 22.99,
+      "ES": 22.99
+    },
+    "Tumbler": {
+      "US": 27.99,
+      "UK": 25.99,
+      "JP": 3900,
+      "IT": 29.99,
+      "FR": 29.99,
+      "DE": 29.99,
+      "ES": 29.99
+    },
+    "Throw Pillow": {
+      "US": 26.99,
+      "UK": 24.99,
+      "JP": 3800,
+      "IT": 28.99,
+      "FR": 28.99,
+      "DE": 28.99,
+      "ES": 28.99
+    },
+    "Ceramic Mug": {
+      "US": 16.99,
+      "UK": 14.99,
+      "JP": 2200,
+      "IT": 17.99,
+      "FR": 17.99,
+      "DE": 17.99,
+      "ES": 17.99
+    },
+    "Water Bottle": {
+      "US": 25.99,
+      "UK": 23.99,
+      "JP": 3600,
+      "IT": 27.99,
+      "FR": 27.99,
+      "DE": 27.99,
+      "ES": 27.99
+    }
+  }
+}

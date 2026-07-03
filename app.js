@@ -4,7 +4,7 @@ const modalContent = document.querySelector('#modalContent');
 const cartCount = document.querySelector('#cartCount');
 const toastEl = document.querySelector('#toast');
 
-const supportEmail = 'support@booktalkietees.com';
+const supportEmail = 'booktalkietees@gmail.com';
 const productTypes = ['T-shirt', 'iPhone Case', 'Tote Bag', 'Tumbler', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle'];
 const amazonMarketplaces = {
   US: 'amazon.com',
@@ -15,6 +15,16 @@ const amazonMarketplaces = {
   DE: 'amazon.de',
   ES: 'amazon.es',
 };
+let marketplaceSymbols = { US: '$', UK: '£', JP: '¥', IT: '€', FR: '€', DE: '€', ES: '€' };
+let suggestedPrices = {
+  'T-shirt': { US: 24.99, UK: 22.99, JP: 3200, IT: 24.99, FR: 24.99, DE: 24.99, ES: 24.99 },
+  'iPhone Case': { US: 19.99, UK: 18.99, JP: 2800, IT: 21.99, FR: 21.99, DE: 21.99, ES: 21.99 },
+  'Tote Bag': { US: 21.99, UK: 19.99, JP: 3000, IT: 22.99, FR: 22.99, DE: 22.99, ES: 22.99 },
+  Tumbler: { US: 27.99, UK: 25.99, JP: 3900, IT: 29.99, FR: 29.99, DE: 29.99, ES: 29.99 },
+  'Throw Pillow': { US: 26.99, UK: 24.99, JP: 3800, IT: 28.99, FR: 28.99, DE: 28.99, ES: 28.99 },
+  'Ceramic Mug': { US: 16.99, UK: 14.99, JP: 2200, IT: 17.99, FR: 17.99, DE: 17.99, ES: 17.99 },
+  'Water Bottle': { US: 25.99, UK: 23.99, JP: 3600, IT: 27.99, FR: 27.99, DE: 27.99, ES: 27.99 },
+};
 const state = {
   view: 'home',
   genre: 'Sci-Fi',
@@ -23,6 +33,7 @@ const state = {
   designs: [],
   favorites: readStore('booktalkietees:favorites', []),
   cart: readStore('booktalkietees:cart', []),
+  marketplace: readStore('booktalkietees:marketplace', defaultMarketplaceForTimezone()),
 };
 
 function readStore(key, fallback) {
@@ -35,6 +46,69 @@ function readStore(key, fallback) {
 
 function writeStore(key, value) {
   localStorage.setItem(key, JSON.stringify(value));
+}
+
+function defaultMarketplaceForTimezone() {
+  const offsetHours = -new Date().getTimezoneOffset() / 60;
+  if (offsetHours >= 8 && offsetHours <= 10) return 'JP';
+  if (offsetHours <= -4 && offsetHours >= -10) return 'US';
+  if (offsetHours === 0) return 'UK';
+  if (offsetHours === 1 || offsetHours === 2) return 'DE';
+  return 'US';
+}
+
+function marketplaceLabel(marketplace) {
+  return `${marketplace} / ${amazonMarketplaces[marketplace] ?? marketplace}`;
+}
+
+function suggestedPriceFor(product, marketplace = state.marketplace) {
+  return suggestedPrices[product]?.[marketplace] ?? suggestedPrices[product]?.US ?? 0;
+}
+
+function formatPrice(value, marketplace = state.marketplace) {
+  const symbol = marketplaceSymbols[marketplace] ?? '';
+  if (marketplace === 'JP') return `${symbol}${Math.round(value)}`;
+  return `${symbol}${Number(value).toFixed(2)}`;
+}
+
+function cartTotals() {
+  return state.cart.reduce((totals, item) => {
+    const marketplace = item.marketplace ?? state.marketplace;
+    totals[marketplace] = (totals[marketplace] ?? 0) + suggestedPriceFor(item.product, marketplace);
+    return totals;
+  }, {});
+}
+
+function formatCartTotals() {
+  const totals = cartTotals();
+  return Object.entries(totals).map(([marketplace, value]) => `${formatPrice(value, marketplace)} ${marketplace}`).join(' + ');
+}
+
+async function loadPricing() {
+  try {
+    const response = await fetch('pricing.json', { cache: 'no-store' });
+    if (!response.ok) return;
+    const pricing = await response.json();
+    if (pricing.currencySymbols && typeof pricing.currencySymbols === 'object') {
+      marketplaceSymbols = { ...marketplaceSymbols, ...pricing.currencySymbols };
+    }
+    if (pricing.suggestedPrices && typeof pricing.suggestedPrices === 'object') {
+      suggestedPrices = normalizeSuggestedPrices(pricing.suggestedPrices);
+    }
+  } catch {
+    // Keep fallback prices if pricing.json is unavailable.
+  }
+}
+
+function normalizeSuggestedPrices(rawPrices) {
+  return Object.fromEntries(
+    Object.entries(rawPrices).map(([product, markets]) => [
+      product,
+      Object.fromEntries(
+        Object.entries(markets ?? {}).map(([marketplace, value]) => [marketplace, Number(value)]),
+      ),
+    ]),
+  );
 }
 
 function escapeHtml(value) {
@@ -52,6 +126,7 @@ async function boot() {
     const [books, catalog] = await Promise.all([
       fetch('books.json').then((response) => response.json()),
       fetch('catalog.json').then((response) => response.json()),
+      loadPricing(),
     ]);
     state.books = books;
     state.designs = catalog.designs ?? [];
@@ -63,12 +138,41 @@ async function boot() {
   document.querySelectorAll('[data-view]').forEach((button) => {
     button.addEventListener('click', () => setView(button.dataset.view));
   });
+  setupMarketplaceSelector();
   document.querySelectorAll('[data-close-modal]').forEach((button) => button.addEventListener('click', closeModal));
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') closeModal();
   });
   updateCartCount();
   render();
+}
+
+function setupMarketplaceSelector() {
+  const select = document.querySelector('#marketplaceSelect');
+  if (!select) return;
+  select.innerHTML = Object.entries(amazonMarketplaces)
+    .map(([key, domain]) => `<option value="${key}">${key} / ${domain}</option>`)
+    .join('');
+  select.value = amazonMarketplaces[state.marketplace] ? state.marketplace : defaultMarketplaceForTimezone();
+  state.marketplace = select.value;
+  writeStore('booktalkietees:marketplace', state.marketplace);
+  select.addEventListener('change', () => {
+    state.marketplace = select.value;
+    writeStore('booktalkietees:marketplace', state.marketplace);
+    render();
+  });
+}
+
+function syncMarketplaceSelector() {
+  const select = document.querySelector('#marketplaceSelect');
+  if (select) select.value = state.marketplace;
+}
+
+function setPreferredMarketplace(marketplace) {
+  if (!amazonMarketplaces[marketplace]) return;
+  state.marketplace = marketplace;
+  writeStore('booktalkietees:marketplace', marketplace);
+  syncMarketplaceSelector();
 }
 
 function setView(view) {
@@ -117,7 +221,7 @@ function toggleFavorite(kind, id) {
   render();
 }
 
-function addToCart(book, design, products) {
+function addToCart(book, design, products, marketplace = state.marketplace) {
   const chosen = products.length ? products : [design.products[0] ?? productTypes[0]];
   const additions = chosen.map((product) => ({
     id: `${design.id}:${product}:${Date.now()}:${Math.random().toString(16).slice(2)}`,
@@ -126,6 +230,7 @@ function addToCart(book, design, products) {
     designId: design.id,
     designTitle: design.title,
     product,
+    marketplace,
   }));
   state.cart = [...state.cart, ...additions];
   writeStore('booktalkietees:cart', state.cart);
@@ -227,6 +332,10 @@ function renderFavorites() {
 function renderCart() {
   app.innerHTML = `
     <div class="section-head"><div><h1>Cart</h1><p>${state.cart.length} item${state.cart.length === 1 ? '' : 's'} ready to email.</p></div></div>
+    <section class="panel price-summary">
+      <strong>Suggested subtotal: ${state.cart.length ? escapeHtml(formatCartTotals()) : formatPrice(0, state.marketplace)}</strong>
+      <p>Taxes and shipping are based on delivery address. Amazon listing prices can vary by marketplace and availability.</p>
+    </section>
     <section class="stack">
       ${state.cart.length ? state.cart.map(cartRow).join('') : '<div class="panel empty-state">Your cart is empty.</div>'}
       ${state.cart.length ? '<button class="button tonal" data-checkout>Email support</button>' : ''}
@@ -312,9 +421,9 @@ function designCard(book, design) {
         <h3>${escapeHtml(design.title)}</h3>
         <p>${escapeHtml(design.concept)}</p>
         <div class="product-picker">
-          ${design.products.map((product, index) => `<button class="product-chip ${index === 0 ? 'is-selected' : ''}" data-product="${escapeHtml(product)}">${escapeHtml(product)}</button>`).join('')}
+          ${design.products.map((product, index) => `<button class="product-chip ${index === 0 ? 'is-selected' : ''}" data-product="${escapeHtml(product)}">${escapeHtml(product)} <span>${escapeHtml(formatPrice(suggestedPriceFor(product, state.marketplace), state.marketplace))}</span></button>`).join('')}
         </div>
-        ${hasAmazonListings ? `<div class="marketplace-picker">${Object.entries(amazonMarketplaces).map(([key, domain], index) => `<button class="product-chip marketplace-chip ${index === 0 ? 'is-selected' : ''}" data-marketplace="${key}">${key}</button>`).join('')}</div>` : ''}
+        ${hasAmazonListings ? `<div class="marketplace-picker">${Object.entries(amazonMarketplaces).map(([key, domain]) => `<button class="product-chip marketplace-chip ${key === state.marketplace ? 'is-selected' : ''}" data-marketplace="${key}" title="${escapeHtml(domain)}">${key}</button>`).join('')}</div>` : ''}
         <div class="book-card-actions">
           <button class="button tonal" data-commerce-action="${escapeHtml(design.id)}">Add to cart</button>
           <button class="icon-button ${isFavorite('design', design.id) ? 'is-active' : ''}" data-favorite="design:${design.id}" aria-label="Save ${escapeHtml(design.title)}">♥</button>
@@ -327,8 +436,12 @@ function designCard(book, design) {
 function amazonUrlForSelection(card, design) {
   const selectedProducts = [...card.querySelectorAll('[data-product].is-selected')].map((chip) => chip.dataset.product);
   if (selectedProducts.length !== 1) return '';
-  const marketplace = card.querySelector('[data-marketplace].is-selected')?.dataset.marketplace ?? 'US';
+  const marketplace = selectedMarketplaceForCard(card);
   return design.amazonListings?.[selectedProducts[0]]?.[marketplace] ?? '';
+}
+
+function selectedMarketplaceForCard(card) {
+  return card.querySelector('[data-marketplace].is-selected')?.dataset.marketplace ?? state.marketplace;
 }
 
 function updateCommerceButton(card, design) {
@@ -351,6 +464,7 @@ function bindDesignActions(book, designs) {
       chip.addEventListener('click', () => {
         card.querySelectorAll('[data-marketplace]').forEach((item) => item.classList.remove('is-selected'));
         chip.classList.add('is-selected');
+        setPreferredMarketplace(chip.dataset.marketplace);
         updateCommerceButton(card, design);
       });
     });
@@ -366,7 +480,7 @@ function bindDesignActions(book, designs) {
         return;
       }
       const selected = [...card.querySelectorAll('[data-product].is-selected')].map((chip) => chip.dataset.product);
-      addToCart(book, design, selected);
+      addToCart(book, design, selected, selectedMarketplaceForCard(card));
     });
   });
 }
@@ -409,16 +523,25 @@ function emailSupportForCart() {
     '',
     'I would like to order these inspired products:',
     '',
-    ...state.cart.map((item) => `- ${item.product}: ${item.designTitle} / ${item.bookTitle}`),
+    ...state.cart.map((item) => {
+      const marketplace = item.marketplace ?? state.marketplace;
+      const price = suggestedPriceFor(item.product, marketplace);
+      return `- ${item.product}: ${item.designTitle} / ${item.bookTitle} - ${marketplaceLabel(marketplace)} - ${formatPrice(price, marketplace)} estimate`;
+    }),
     '',
-    'Please send next steps for availability, pricing, and shipping.',
+    `Suggested subtotal: ${formatCartTotals()}`,
+    'Taxes and shipping are based on delivery address. Amazon listing prices can vary by marketplace and availability.',
+    '',
+    'Please send next steps for availability and shipping.',
   ].join('\n');
   const url = `mailto:${supportEmail}?subject=${encodeURIComponent('BookTalkieTees order request')}&body=${encodeURIComponent(body)}`;
   window.location.href = url;
 }
 
 function cartRow(item) {
-  return `<div class="cart-row"><div><strong>${escapeHtml(item.designTitle)}</strong><span>${escapeHtml(item.product)} / ${escapeHtml(item.bookTitle)}</span></div><button class="icon-button" data-remove-cart="${escapeHtml(item.id)}" aria-label="Remove item">x</button></div>`;
+  const marketplace = item.marketplace ?? state.marketplace;
+  const price = suggestedPriceFor(item.product, marketplace);
+  return `<div class="cart-row"><div><strong>${escapeHtml(item.designTitle)}</strong><span>${escapeHtml(item.product)} / ${escapeHtml(item.bookTitle)} / ${escapeHtml(marketplaceLabel(marketplace))} / ${escapeHtml(formatPrice(price, marketplace))} estimate</span></div><button class="icon-button" data-remove-cart="${escapeHtml(item.id)}" aria-label="Remove item">x</button></div>`;
 }
 
 function closeModal() {
