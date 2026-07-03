@@ -141,35 +141,67 @@ async function boot() {
   setupMarketplaceSelector();
   document.querySelectorAll('[data-close-modal]').forEach((button) => button.addEventListener('click', closeModal));
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') closeModal();
+    if (event.key === 'Escape') {
+      closeModal();
+      closeMarketplaceMenu();
+    }
   });
   updateCartCount();
   render();
 }
 
 function setupMarketplaceSelector() {
-  const select = document.querySelector('#marketplaceSelect');
-  if (!select) return;
-  select.innerHTML = Object.entries(amazonMarketplaces)
-    .map(([key, domain]) => `<option value="${key}">${key} / ${domain}</option>`)
+  const button = document.querySelector('#marketplaceButton');
+  const menu = document.querySelector('#marketplaceMenu');
+  if (!button || !menu) return;
+
+  state.marketplace = amazonMarketplaces[state.marketplace] ? state.marketplace : defaultMarketplaceForTimezone();
+  menu.innerHTML = Object.entries(amazonMarketplaces)
+    .map(([key, domain]) => `<button class="market-option" type="button" role="menuitemradio" data-marketplace-option="${key}">${key}<span>${domain}</span></button>`)
     .join('');
-  select.value = amazonMarketplaces[state.marketplace] ? state.marketplace : defaultMarketplaceForTimezone();
-  state.marketplace = select.value;
+
+  button.addEventListener('click', (event) => {
+    event.stopPropagation();
+    toggleMarketplaceMenu();
+  });
+  menu.querySelectorAll('[data-marketplace-option]').forEach((option) => {
+    option.addEventListener('click', () => {
+      setPreferredMarketplace(option.dataset.marketplaceOption);
+      closeMarketplaceMenu();
+      render();
+    });
+  });
+  document.addEventListener('click', closeMarketplaceMenu);
   syncMarketplaceSelector();
   writeStore('booktalkietees:marketplace', state.marketplace);
-  select.addEventListener('change', () => {
-    state.marketplace = select.value;
-    syncMarketplaceSelector();
-    writeStore('booktalkietees:marketplace', state.marketplace);
-    render();
-  });
+}
+
+function toggleMarketplaceMenu() {
+  const menu = document.querySelector('#marketplaceMenu');
+  const button = document.querySelector('#marketplaceButton');
+  if (!menu || !button) return;
+  const open = menu.hidden;
+  menu.hidden = !open;
+  button.setAttribute('aria-expanded', String(open));
+}
+
+function closeMarketplaceMenu() {
+  const menu = document.querySelector('#marketplaceMenu');
+  const button = document.querySelector('#marketplaceButton');
+  if (!menu || !button) return;
+  menu.hidden = true;
+  button.setAttribute('aria-expanded', 'false');
 }
 
 function syncMarketplaceSelector() {
-  const select = document.querySelector('#marketplaceSelect');
-  if (select) select.value = state.marketplace;
   const code = document.querySelector('#marketplaceCode');
   if (code) code.textContent = state.marketplace;
+  document.querySelector('#marketplaceButton')?.setAttribute('aria-label', `Marketplace ${marketplaceLabel(state.marketplace)}`);
+  document.querySelectorAll('[data-marketplace-option]').forEach((option) => {
+    const selected = option.dataset.marketplaceOption === state.marketplace;
+    option.classList.toggle('is-selected', selected);
+    option.setAttribute('aria-checked', String(selected));
+  });
 }
 
 function setPreferredMarketplace(marketplace) {

@@ -22,11 +22,13 @@
           <button class="nav-tab" data-view="search">Search</button>
           <button class="nav-tab" data-view="favorites">Favorites</button>
           <button class="nav-tab cart-tab" data-view="cart">Cart <span id="cartCount">0</span></button>
-          <label class="market-select" for="marketplaceSelect" title="Marketplace">
-            <span class="market-icon" aria-hidden="true">◎</span>
-            <span id="marketplaceCode">US</span>
-            <select id="marketplaceSelect" aria-label="Preferred Amazon marketplace"></select>
-          </label>
+          <div class="market-menu-wrap">
+            <button class="market-button" id="marketplaceButton" type="button" aria-label="Marketplace" aria-haspopup="menu" aria-expanded="false">
+              <span class="market-icon" aria-hidden="true">◎</span>
+              <span id="marketplaceCode">US</span>
+            </button>
+            <div class="market-menu" id="marketplaceMenu" role="menu" hidden></div>
+          </div>
         </nav>
       </header>
 
