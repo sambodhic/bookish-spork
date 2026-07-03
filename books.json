@@ -9,11 +9,258 @@
     "movieYear": "2021",
     "movieSummary": "Denis Villeneuve's adaptation follows Paul Atreides as House Atreides takes stewardship of Arrakis.",
     "genre": "Sci-Fi",
-    "quotes": ["Fear is the mind-killer.", "The mystery of life isn't a problem to solve, but a reality to experience."],
-    "shirtIdeas": ["Minimal sandworm silhouette wrapping around the phrase Desert State of Mind.", "Arrakis travel-poster design with twin moons and spice-toned lettering."]
+    "quotes": [
+      "Fear can be faced.",
+      "Power changes every promise.",
+      "The desert remembers."
+    ],
+    "shirtIdeas": [
+      "Desert State of Mind",
+      "Arrakis Travel Poster"
+    ]
   },
   {
-    "id": "princess-bride",
+    "id": "the-martian",
+    "title": "The Martian",
+    "type": "book",
+    "author": "Andy Weir",
+    "bookSummary": "An astronaut stranded on Mars turns engineering, humor, and stubborn optimism into a survival plan.",
+    "movie": "The Martian",
+    "movieYear": "2015",
+    "movieSummary": "Ridley Scott's film turns the rescue mission into a bright, witty space survival adventure.",
+    "genre": "Sci-Fi",
+    "quotes": [
+      "Solve the next problem.",
+      "Hope grows one fix at a time.",
+      "Science can be heroic."
+    ],
+    "shirtIdeas": [
+      "Mars Problem Solver",
+      "Botany Bay Crew"
+    ]
+  },
+  {
+    "id": "jurassic-park",
+    "title": "Jurassic Park",
+    "type": "book",
+    "author": "Michael Crichton",
+    "bookSummary": "A theme park full of cloned dinosaurs becomes a warning about ambition, control, and systems failing at scale.",
+    "movie": "Jurassic Park",
+    "movieYear": "1993",
+    "movieSummary": "Steven Spielberg's blockbuster adaptation blends wonder, suspense, and sharp warnings about spectacle.",
+    "genre": "Sci-Fi",
+    "quotes": [
+      "Wonder needs wisdom.",
+      "Nature does not sign waivers.",
+      "Control is a fragile illusion."
+    ],
+    "shirtIdeas": [
+      "Clever Girl Fossil Club",
+      "Chaos Theory Tour"
+    ]
+  },
+  {
+    "id": "ready-player-one",
+    "title": "Ready Player One",
+    "type": "book",
+    "author": "Ernest Cline",
+    "bookSummary": "A treasure hunt inside a virtual universe becomes a race through pop culture, identity, and corporate control.",
+    "movie": "Ready Player One",
+    "movieYear": "2018",
+    "movieSummary": "The film adaptation turns the digital quest into a fast, effects-driven adventure.",
+    "genre": "Sci-Fi",
+    "quotes": [
+      "The real prize is connection.",
+      "Avatars still need courage.",
+      "Play can become resistance."
+    ],
+    "shirtIdeas": [
+      "Quest Key Arcade",
+      "Oasis Retro Grid"
+    ]
+  },
+  {
+    "id": "the-hunger-games",
+    "title": "The Hunger Games",
+    "type": "book",
+    "author": "Suzanne Collins",
+    "bookSummary": "A televised survival contest becomes the spark for resistance, image-making, and moral courage.",
+    "movie": "The Hunger Games",
+    "movieYear": "2012",
+    "movieSummary": "The adaptation follows Katniss Everdeen from tribute to reluctant symbol.",
+    "genre": "Sci-Fi",
+    "quotes": [
+      "A spark can travel.",
+      "Performance can hide defiance.",
+      "Survival has a cost."
+    ],
+    "shirtIdeas": [
+      "District Signal Badge",
+      "Mocking Flame Emblem"
+    ]
+  },
+  {
+    "id": "ender-s-game",
+    "title": "Ender's Game",
+    "type": "book",
+    "author": "Orson Scott Card",
+    "bookSummary": "A gifted child is trained through games that blur strategy, manipulation, and empathy.",
+    "movie": "Ender's Game",
+    "movieYear": "2013",
+    "movieSummary": "The film adaptation focuses on Battle School, command, and the burden of winning.",
+    "genre": "Sci-Fi",
+    "quotes": [
+      "Games can carry consequences.",
+      "Strategy without empathy fails.",
+      "Children should not inherit every war."
+    ],
+    "shirtIdeas": [
+      "Battle Room Geometry",
+      "Command School Crest"
+    ]
+  },
+  {
+    "id": "the-time-machine",
+    "title": "The Time Machine",
+    "type": "book",
+    "author": "H. G. Wells",
+    "bookSummary": "A traveler pushes into the far future and finds beauty, danger, and uncomfortable questions about progress.",
+    "movie": "The Time Machine",
+    "movieYear": "2002",
+    "movieSummary": "The film reimagines the journey through time with sweeping future-world visuals.",
+    "genre": "Sci-Fi",
+    "quotes": [
+      "Time reveals what choices build.",
+      "Progress needs a conscience.",
+      "Tomorrow is not neutral."
+    ],
+    "shirtIdeas": [
+      "Chrononaut Society",
+      "Future Clockwork Map"
+    ]
+  },
+  {
+    "id": "the-war-of-the-worlds",
+    "title": "The War of the Worlds",
+    "type": "book",
+    "author": "H. G. Wells",
+    "bookSummary": "An invasion story turns human certainty upside down as ordinary life meets overwhelming alien force.",
+    "movie": "War of the Worlds",
+    "movieYear": "2005",
+    "movieSummary": "The modern film adaptation grounds the panic through one family's survival.",
+    "genre": "Sci-Fi",
+    "quotes": [
+      "The sky can change everything.",
+      "Small lives matter in large disasters.",
+      "Survival begins at home."
+    ],
+    "shirtIdeas": [
+      "Tripod Warning Poster",
+      "Red Planet Broadcast"
+    ]
+  },
+  {
+    "id": "i-am-legend",
+    "title": "I Am Legend",
+    "type": "book",
+    "author": "Richard Matheson",
+    "bookSummary": "A lone survivor navigates isolation, memory, and the frightening line between monster and myth.",
+    "movie": "I Am Legend",
+    "movieYear": "2007",
+    "movieSummary": "The film adaptation recasts the story as a haunting post-apocalyptic survival drama.",
+    "genre": "Sci-Fi",
+    "quotes": [
+      "Loneliness has an echo.",
+      "Legends depend on who is left.",
+      "Routine can hold back fear."
+    ],
+    "shirtIdeas": [
+      "Last Light Research Club",
+      "Empty City Signal"
+    ]
+  },
+  {
+    "id": "annihilation",
+    "title": "Annihilation",
+    "type": "book",
+    "author": "Jeff VanderMeer",
+    "bookSummary": "An expedition enters a transformed zone where biology, memory, and identity become unstable.",
+    "movie": "Annihilation",
+    "movieYear": "2018",
+    "movieSummary": "Alex Garland's film turns the strange area into a hypnotic ecological nightmare.",
+    "genre": "Sci-Fi",
+    "quotes": [
+      "Change can be beautiful and terrifying.",
+      "The unknown rewrites the observer.",
+      "Nature keeps no simple borders."
+    ],
+    "shirtIdeas": [
+      "Shimmer Field Study",
+      "Biology of Wonder"
+    ]
+  },
+  {
+    "id": "the-hobbit",
+    "title": "The Hobbit",
+    "type": "book",
+    "author": "J.R.R. Tolkien",
+    "bookSummary": "A comfort-loving hobbit is pulled into a quest with dwarves, a wizard, a dragon, and a much larger world than he expected.",
+    "movie": "The Hobbit: An Unexpected Journey",
+    "movieYear": "2012",
+    "movieSummary": "The film adaptation begins Bilbo's road toward the Lonely Mountain.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Adventure may knock softly.",
+      "Small travelers can change maps.",
+      "Home means more after the road."
+    ],
+    "shirtIdeas": [
+      "There and Back Again Map",
+      "Mountain Door Adventure"
+    ]
+  },
+  {
+    "id": "the-fellowship-of-the-ring",
+    "title": "The Fellowship of the Ring",
+    "type": "book",
+    "author": "J.R.R. Tolkien",
+    "bookSummary": "A dangerous ring draws a fellowship across a world of ancient power, loyalty, and sacrifice.",
+    "movie": "The Lord of the Rings: The Fellowship of the Ring",
+    "movieYear": "2001",
+    "movieSummary": "Peter Jackson's adaptation opens the journey from the Shire toward Mordor.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Friendship carries heavy burdens.",
+      "Even small hands can help history turn.",
+      "The road chooses companions."
+    ],
+    "shirtIdeas": [
+      "Fellowship Trail Badge",
+      "One Quest Typography"
+    ]
+  },
+  {
+    "id": "harry-potter-and-the-sorcerer-s-stone",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "type": "book",
+    "author": "J.K. Rowling",
+    "bookSummary": "An orphan discovers a hidden school of magic, friendship, rivalry, and a mystery tied to his past.",
+    "movie": "Harry Potter and the Sorcerer's Stone",
+    "movieYear": "2001",
+    "movieSummary": "The film introduces Hogwarts, first friendships, and the wonder of the wizarding world.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Magic begins with belonging.",
+      "New worlds need brave friends.",
+      "A letter can change a life."
+    ],
+    "shirtIdeas": [
+      "Wizard School Welcome",
+      "First Year Spellbook"
+    ]
+  },
+  {
+    "id": "the-princess-bride",
     "title": "The Princess Bride",
     "type": "book",
     "author": "William Goldman",
@@ -22,11 +269,138 @@
     "movieYear": "1987",
     "movieSummary": "A beloved fairy-tale comedy that turns quests, villains, and romance into endlessly quotable fun.",
     "genre": "Fantasy",
-    "quotes": ["As you wish.", "Inconceivable!"],
-    "shirtIdeas": ["Vintage quest-map graphic with As You Wish stitched like a travel badge.", "Sword-and-rose crest for a playful fairy-tale adventure tee."]
+    "quotes": [
+      "True love travels well.",
+      "Adventure prefers wit.",
+      "Every quest needs style."
+    ],
+    "shirtIdeas": [
+      "As You Wish Badge",
+      "Sword and Rose Crest"
+    ]
   },
   {
-    "id": "pride-prejudice",
+    "id": "stardust",
+    "title": "Stardust",
+    "type": "book",
+    "author": "Neil Gaiman",
+    "bookSummary": "A young man crosses into a magical realm and finds that a fallen star is not what he imagined.",
+    "movie": "Stardust",
+    "movieYear": "2007",
+    "movieSummary": "The film adaptation turns the fairy-tale quest into a warm, witty romantic fantasy.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Stars have their own plans.",
+      "Wishes can become journeys.",
+      "Magic rewards the open-hearted."
+    ],
+    "shirtIdeas": [
+      "Fallen Star Market",
+      "Wall Crossing Club"
+    ]
+  },
+  {
+    "id": "the-lion-the-witch-and-the-wardrobe",
+    "title": "The Lion, the Witch and the Wardrobe",
+    "type": "book",
+    "author": "C. S. Lewis",
+    "bookSummary": "Four children enter a winter-bound world where courage, loyalty, and wonder awaken a kingdom.",
+    "movie": "The Chronicles of Narnia",
+    "movieYear": "2005",
+    "movieSummary": "The film brings Narnia's snowy magic and battle for freedom to the screen.",
+    "genre": "Fantasy",
+    "quotes": [
+      "A wardrobe can become a doorway.",
+      "Courage warms the longest winter.",
+      "Kings and queens begin as children."
+    ],
+    "shirtIdeas": [
+      "Wardrobe Door Society",
+      "Winter Kingdom Crest"
+    ]
+  },
+  {
+    "id": "howl-s-moving-castle",
+    "title": "Howl's Moving Castle",
+    "type": "book",
+    "author": "Diana Wynne Jones",
+    "bookSummary": "A young woman cursed into old age finds magic, self-possession, and a very unusual moving home.",
+    "movie": "Howl's Moving Castle",
+    "movieYear": "2004",
+    "movieSummary": "Studio Ghibli's adaptation emphasizes wonder, anti-war feeling, and emotional transformation.",
+    "genre": "Fantasy",
+    "quotes": [
+      "A home can walk with you.",
+      "Curses cannot name the whole heart.",
+      "Magic needs tenderness."
+    ],
+    "shirtIdeas": [
+      "Moving Castle Mechanics",
+      "Starfire Breakfast Club"
+    ]
+  },
+  {
+    "id": "alice-s-adventures-in-wonderland",
+    "title": "Alice's Adventures in Wonderland",
+    "type": "book",
+    "author": "Lewis Carroll",
+    "bookSummary": "A curious child tumbles into a world of riddles, reversals, and dreamlike logic.",
+    "movie": "Alice in Wonderland",
+    "movieYear": "2010",
+    "movieSummary": "The film reimagines Wonderland as a lavish return to a strange kingdom.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Curiosity opens impossible doors.",
+      "Nonsense has its own map.",
+      "Wonder asks better questions."
+    ],
+    "shirtIdeas": [
+      "Wonderland Field Guide",
+      "Curious Doorway Club"
+    ]
+  },
+  {
+    "id": "the-wonderful-wizard-of-oz",
+    "title": "The Wonderful Wizard of Oz",
+    "type": "book",
+    "author": "L. Frank Baum",
+    "bookSummary": "A girl swept from Kansas follows a strange road toward courage, heart, wisdom, and home.",
+    "movie": "The Wizard of Oz",
+    "movieYear": "1939",
+    "movieSummary": "The classic film adaptation turns the journey into one of cinema's most recognizable fantasies.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Home can be the bravest destination.",
+      "Every road teaches a gift.",
+      "Color arrives after the storm."
+    ],
+    "shirtIdeas": [
+      "Yellow Road Travel Co",
+      "Emerald City Souvenir"
+    ]
+  },
+  {
+    "id": "the-neverending-story",
+    "title": "The Neverending Story",
+    "type": "book",
+    "author": "Michael Ende",
+    "bookSummary": "A lonely reader discovers that imagination, grief, and courage can shape an endangered world.",
+    "movie": "The NeverEnding Story",
+    "movieYear": "1984",
+    "movieSummary": "The film adaptation celebrates reading as a portal into heroic fantasy.",
+    "genre": "Fantasy",
+    "quotes": [
+      "A book can answer back.",
+      "Imagination needs defenders.",
+      "Names can restore worlds."
+    ],
+    "shirtIdeas": [
+      "Fantasia Reading Club",
+      "Luck Dragon Sky Tour"
+    ]
+  },
+  {
+    "id": "pride-and-prejudice",
     "title": "Pride and Prejudice",
     "type": "book",
     "author": "Jane Austen",
@@ -35,8 +409,195 @@
     "movieYear": "2005",
     "movieSummary": "A sweeping adaptation centered on glances, misunderstandings, and emotional restraint breaking open.",
     "genre": "Romance",
-    "quotes": ["I dearly love a laugh.", "Till this moment I never knew myself."],
-    "shirtIdeas": ["Regency-style letterpress: I Dearly Love a Laugh with tiny teacup and book icons.", "Elegant ballroom typography with a tiny handwritten Pemberley note."]
+    "quotes": [
+      "A laugh can reveal the truth.",
+      "First impressions can be rewritten.",
+      "Affection grows through honesty."
+    ],
+    "shirtIdeas": [
+      "Regency Laugh Letterpress",
+      "Pemberley Ballroom Note"
+    ]
+  },
+  {
+    "id": "the-notebook",
+    "title": "The Notebook",
+    "type": "book",
+    "author": "Nicholas Sparks",
+    "bookSummary": "A summer romance becomes a lifelong story of memory, class difference, and devotion.",
+    "movie": "The Notebook",
+    "movieYear": "2004",
+    "movieSummary": "The film adaptation leans into rain-soaked longing and enduring love.",
+    "genre": "Romance",
+    "quotes": [
+      "Some summers keep writing back.",
+      "Memory can hold a hand.",
+      "Love returns to the page."
+    ],
+    "shirtIdeas": [
+      "Rain Porch Romance",
+      "Letters by the Lake"
+    ]
+  },
+  {
+    "id": "me-before-you",
+    "title": "Me Before You",
+    "type": "book",
+    "author": "Jojo Moyes",
+    "bookSummary": "A caregiver and a wealthy quadriplegic man form a bond that challenges comfort, choice, and love.",
+    "movie": "Me Before You",
+    "movieYear": "2016",
+    "movieSummary": "The film adaptation focuses on charm, tenderness, and difficult decisions.",
+    "genre": "Romance",
+    "quotes": [
+      "Live boldly, even softly.",
+      "Care can change both people.",
+      "Love asks hard questions."
+    ],
+    "shirtIdeas": [
+      "Bumblebee Tights Club",
+      "Live Boldly Script"
+    ]
+  },
+  {
+    "id": "the-fault-in-our-stars",
+    "title": "The Fault in Our Stars",
+    "type": "book",
+    "author": "John Green",
+    "bookSummary": "Two teens living with cancer find wit, fear, and first love inside a fragile stretch of time.",
+    "movie": "The Fault in Our Stars",
+    "movieYear": "2014",
+    "movieSummary": "The film adaptation follows their connection with humor and heartbreak.",
+    "genre": "Romance",
+    "quotes": [
+      "Small infinities still count.",
+      "Love is not measured by time.",
+      "Stars can be tender."
+    ],
+    "shirtIdeas": [
+      "Little Infinity Badge",
+      "Star Crossed Notebook"
+    ]
+  },
+  {
+    "id": "jane-eyre",
+    "title": "Jane Eyre",
+    "type": "book",
+    "author": "Charlotte Bronte",
+    "bookSummary": "An independent governess seeks dignity, love, and moral clarity in a house full of secrets.",
+    "movie": "Jane Eyre",
+    "movieYear": "2011",
+    "movieSummary": "The film adaptation emphasizes atmosphere, restraint, and fierce self-respect.",
+    "genre": "Romance",
+    "quotes": [
+      "A quiet will can be iron.",
+      "Love must leave room for selfhood.",
+      "Secrets darken every hallway."
+    ],
+    "shirtIdeas": [
+      "Governess Gothic Crest",
+      "Plain and Fierce Typography"
+    ]
+  },
+  {
+    "id": "sense-and-sensibility",
+    "title": "Sense and Sensibility",
+    "type": "book",
+    "author": "Jane Austen",
+    "bookSummary": "Two sisters navigate grief, money, manners, and different styles of loving wisely.",
+    "movie": "Sense and Sensibility",
+    "movieYear": "1995",
+    "movieSummary": "The film adaptation balances wit, feeling, and social pressure with warmth.",
+    "genre": "Romance",
+    "quotes": [
+      "Feeling needs a steady hand.",
+      "Sisters carry each other forward.",
+      "Love learns patience."
+    ],
+    "shirtIdeas": [
+      "Dashwood Sisterhood Club",
+      "Sense Meets Sensibility"
+    ]
+  },
+  {
+    "id": "emma",
+    "title": "Emma",
+    "type": "book",
+    "author": "Jane Austen",
+    "bookSummary": "A clever matchmaker learns humility as her confident social plans tangle other people's hearts.",
+    "movie": "Emma.",
+    "movieYear": "2020",
+    "movieSummary": "The film adaptation gives the comedy of manners a bright, stylized visual language.",
+    "genre": "Romance",
+    "quotes": [
+      "Matchmaking needs humility.",
+      "Confidence can misread the room.",
+      "The heart resists tidy plans."
+    ],
+    "shirtIdeas": [
+      "Highbury Matchmaker Society",
+      "Box Hill Apology Tour"
+    ]
+  },
+  {
+    "id": "atonement",
+    "title": "Atonement",
+    "type": "book",
+    "author": "Ian McEwan",
+    "bookSummary": "A child's accusation reshapes lives across class, war, guilt, and impossible longing.",
+    "movie": "Atonement",
+    "movieYear": "2007",
+    "movieSummary": "The film adaptation turns memory and regret into a lush romantic tragedy.",
+    "genre": "Romance",
+    "quotes": [
+      "A story can wound.",
+      "Regret edits every memory.",
+      "Love waits inside what might have been."
+    ],
+    "shirtIdeas": [
+      "Green Dress Typewriter",
+      "Unsent Letter Club"
+    ]
+  },
+  {
+    "id": "the-time-traveler-s-wife",
+    "title": "The Time Traveler's Wife",
+    "type": "book",
+    "author": "Audrey Niffenegger",
+    "bookSummary": "A relationship bends around involuntary time travel, absence, and devotion across years.",
+    "movie": "The Time Traveler's Wife",
+    "movieYear": "2009",
+    "movieSummary": "The film adaptation focuses on romance strained by impossible timing.",
+    "genre": "Romance",
+    "quotes": [
+      "Love keeps strange hours.",
+      "Waiting can become a language.",
+      "Time is not always linear."
+    ],
+    "shirtIdeas": [
+      "Chronology of Us",
+      "Time Slip Anniversary"
+    ]
+  },
+  {
+    "id": "crazy-rich-asians",
+    "title": "Crazy Rich Asians",
+    "type": "book",
+    "author": "Kevin Kwan",
+    "bookSummary": "A professor meets her boyfriend's ultra-wealthy family and faces expectation, spectacle, and self-worth.",
+    "movie": "Crazy Rich Asians",
+    "movieYear": "2018",
+    "movieSummary": "The film adaptation celebrates romance, family pressure, and lavish social comedy.",
+    "genre": "Romance",
+    "quotes": [
+      "Love meets legacy.",
+      "Belonging is not bought.",
+      "Confidence has its own sparkle."
+    ],
+    "shirtIdeas": [
+      "Mahjong Moment Club",
+      "Singapore Love Letter"
+    ]
   },
   {
     "id": "gone-girl",
@@ -48,11 +609,198 @@
     "movieYear": "2014",
     "movieSummary": "David Fincher's cool, tense adaptation turns the missing-person story into a sharp psychological trap.",
     "genre": "Thriller",
-    "quotes": ["There is a difference between really loving someone and loving the idea of her.", "Sleep is like a cat: It only comes to you if you ignore it."],
-    "shirtIdeas": ["Noir evidence-board layout reading Plot Twist Department.", "Minimal missing-poster design with sharp thriller typography."]
+    "quotes": [
+      "Every story has a frame.",
+      "Suspicion loves a spotlight.",
+      "Perfect images crack."
+    ],
+    "shirtIdeas": [
+      "Plot Twist Department",
+      "Missing Poster Noir"
+    ]
   },
   {
-    "id": "charlottes-web",
+    "id": "the-girl-with-the-dragon-tattoo",
+    "title": "The Girl with the Dragon Tattoo",
+    "type": "book",
+    "author": "Stieg Larsson",
+    "bookSummary": "A journalist and hacker investigate a decades-old disappearance inside a powerful family.",
+    "movie": "The Girl with the Dragon Tattoo",
+    "movieYear": "2011",
+    "movieSummary": "The film adaptation turns the mystery into icy investigative suspense.",
+    "genre": "Thriller",
+    "quotes": [
+      "Truth leaves a trace.",
+      "Cold cases still burn.",
+      "The archive has teeth."
+    ],
+    "shirtIdeas": [
+      "Archive Hacker Club",
+      "Nordic Noir Signal"
+    ]
+  },
+  {
+    "id": "the-da-vinci-code",
+    "title": "The Da Vinci Code",
+    "type": "book",
+    "author": "Dan Brown",
+    "bookSummary": "A symbolist and cryptologist follow clues through art, history, and conspiracy.",
+    "movie": "The Da Vinci Code",
+    "movieYear": "2006",
+    "movieSummary": "The film adaptation turns puzzle-solving into a globe-trotting mystery chase.",
+    "genre": "Thriller",
+    "quotes": [
+      "Every symbol points somewhere.",
+      "History hides in plain sight.",
+      "A clue can open a cathedral."
+    ],
+    "shirtIdeas": [
+      "Cipher Museum Tour",
+      "Symbol Hunter Badge"
+    ]
+  },
+  {
+    "id": "the-silence-of-the-lambs",
+    "title": "The Silence of the Lambs",
+    "type": "book",
+    "author": "Thomas Harris",
+    "bookSummary": "An FBI trainee consults a brilliant imprisoned killer while hunting another predator.",
+    "movie": "The Silence of the Lambs",
+    "movieYear": "1991",
+    "movieSummary": "The film adaptation became a tense psychological thriller built on interviews and dread.",
+    "genre": "Thriller",
+    "quotes": [
+      "Courage enters the cell.",
+      "Listening can be dangerous.",
+      "The mind is the darkest room."
+    ],
+    "shirtIdeas": [
+      "Case File Academy",
+      "Quiet Dread Typography"
+    ]
+  },
+  {
+    "id": "the-bourne-identity",
+    "title": "The Bourne Identity",
+    "type": "book",
+    "author": "Robert Ludlum",
+    "bookSummary": "An amnesiac man discovers dangerous skills and a conspiracy trying to erase him.",
+    "movie": "The Bourne Identity",
+    "movieYear": "2002",
+    "movieSummary": "The film adaptation reshaped the spy thriller with kinetic realism.",
+    "genre": "Thriller",
+    "quotes": [
+      "Identity is a moving target.",
+      "Memory can be a weapon.",
+      "Run first, ask carefully."
+    ],
+    "shirtIdeas": [
+      "Passport Unknown",
+      "Black Ops Running Club"
+    ]
+  },
+  {
+    "id": "shutter-island",
+    "title": "Shutter Island",
+    "type": "book",
+    "author": "Dennis Lehane",
+    "bookSummary": "A marshal investigates a psychiatric facility where weather, trauma, and truth twist together.",
+    "movie": "Shutter Island",
+    "movieYear": "2010",
+    "movieSummary": "The film adaptation turns the island mystery into a psychological maze.",
+    "genre": "Thriller",
+    "quotes": [
+      "The storm is inside too.",
+      "Truth can be a locked ward.",
+      "Every lighthouse casts a shadow."
+    ],
+    "shirtIdeas": [
+      "Lighthouse Case Notes",
+      "Storm Warning Institute"
+    ]
+  },
+  {
+    "id": "the-firm",
+    "title": "The Firm",
+    "type": "book",
+    "author": "John Grisham",
+    "bookSummary": "A young lawyer joins a prestigious firm and discovers the perks hide dangerous obligations.",
+    "movie": "The Firm",
+    "movieYear": "1993",
+    "movieSummary": "The film adaptation turns legal ambition into a paranoid escape plan.",
+    "genre": "Thriller",
+    "quotes": [
+      "Fine print can trap you.",
+      "Ambition needs an exit route.",
+      "The office has secrets."
+    ],
+    "shirtIdeas": [
+      "Billable Hours Escape Club",
+      "Legal Thriller Letterhead"
+    ]
+  },
+  {
+    "id": "misery",
+    "title": "Misery",
+    "type": "book",
+    "author": "Stephen King",
+    "bookSummary": "An injured author is held by a fan whose devotion turns terrifyingly possessive.",
+    "movie": "Misery",
+    "movieYear": "1990",
+    "movieSummary": "The film adaptation concentrates the dread into a claustrophobic battle of wills.",
+    "genre": "Thriller",
+    "quotes": [
+      "Fandom can turn sharp.",
+      "The page becomes a prison.",
+      "Rescue starts with one sentence."
+    ],
+    "shirtIdeas": [
+      "Writer's Block Survival",
+      "Number One Fan Warning"
+    ]
+  },
+  {
+    "id": "the-talented-mr-ripley",
+    "title": "The Talented Mr. Ripley",
+    "type": "book",
+    "author": "Patricia Highsmith",
+    "bookSummary": "A charming impostor pursues wealth, identity, and belonging through deception.",
+    "movie": "The Talented Mr. Ripley",
+    "movieYear": "1999",
+    "movieSummary": "The film adaptation bathes the suspense in sunlit elegance and unease.",
+    "genre": "Thriller",
+    "quotes": [
+      "Charm can be camouflage.",
+      "Envy packs a suitcase.",
+      "Identity can become a crime."
+    ],
+    "shirtIdeas": [
+      "Impostor Summer Club",
+      "Passport to Trouble"
+    ]
+  },
+  {
+    "id": "no-country-for-old-men",
+    "title": "No Country for Old Men",
+    "type": "book",
+    "author": "Cormac McCarthy",
+    "bookSummary": "A man finds drug money and triggers a bleak pursuit shaped by chance, violence, and fate.",
+    "movie": "No Country for Old Men",
+    "movieYear": "2007",
+    "movieSummary": "The film adaptation delivers stark suspense across the Texas borderlands.",
+    "genre": "Thriller",
+    "quotes": [
+      "Chance leaves tracks.",
+      "Fate walks quietly.",
+      "Some roads do not forgive."
+    ],
+    "shirtIdeas": [
+      "Desert Coin Toss",
+      "Borderland Dread Co"
+    ]
+  },
+  {
+    "id": "charlotte-s-web",
     "title": "Charlotte's Web",
     "type": "book",
     "author": "E. B. White",
@@ -61,8 +809,195 @@
     "movieYear": "2006",
     "movieSummary": "A warm family adaptation that keeps the farmyard friendship at the heart of the story.",
     "genre": "Kids",
-    "quotes": ["It is not often that someone comes along who is a true friend and a good writer.", "With the right words, you can change the world."],
-    "shirtIdeas": ["Soft storybook web lettering spelling Some Friend across a pocket tee.", "Farmyard badge design with gentle hand-drawn type."]
+    "quotes": [
+      "Kind words can rescue.",
+      "Friendship writes beautifully.",
+      "Small lives deserve wonder."
+    ],
+    "shirtIdeas": [
+      "Some Friend Web",
+      "Farmyard Kindness Badge"
+    ]
+  },
+  {
+    "id": "matilda",
+    "title": "Matilda",
+    "type": "book",
+    "author": "Roald Dahl",
+    "bookSummary": "A brilliant child uses books, courage, and a little magic against cruel adults.",
+    "movie": "Matilda",
+    "movieYear": "1996",
+    "movieSummary": "The film adaptation turns Matilda's clever rebellion into a funny, heartfelt family classic.",
+    "genre": "Kids",
+    "quotes": [
+      "Books make brave minds.",
+      "Tiny readers can be mighty.",
+      "Kindness beats cruelty."
+    ],
+    "shirtIdeas": [
+      "Tiny Genius Library",
+      "Telekinetic Book Club"
+    ]
+  },
+  {
+    "id": "where-the-wild-things-are",
+    "title": "Where the Wild Things Are",
+    "type": "book",
+    "author": "Maurice Sendak",
+    "bookSummary": "A child sails into a wild emotional world and learns about anger, imagination, and home.",
+    "movie": "Where the Wild Things Are",
+    "movieYear": "2009",
+    "movieSummary": "The film adaptation expands the picture book into a moody adventure about feelings.",
+    "genre": "Kids",
+    "quotes": [
+      "Wild feelings need room.",
+      "Imagination has a shoreline.",
+      "Home waits after the roar."
+    ],
+    "shirtIdeas": [
+      "Wild Rumpus Crew",
+      "Sail to Bedtime"
+    ]
+  },
+  {
+    "id": "the-polar-express",
+    "title": "The Polar Express",
+    "type": "book",
+    "author": "Chris Van Allsburg",
+    "bookSummary": "A nighttime train ride carries a child toward belief, wonder, and Christmas magic.",
+    "movie": "The Polar Express",
+    "movieYear": "2004",
+    "movieSummary": "The film adaptation transforms the journey into a snowy motion-capture spectacle.",
+    "genre": "Kids",
+    "quotes": [
+      "Belief has a sound.",
+      "Wonder boards at night.",
+      "Keep your ticket close."
+    ],
+    "shirtIdeas": [
+      "Midnight Train Ticket",
+      "Believe Bell Badge"
+    ]
+  },
+  {
+    "id": "the-lorax",
+    "title": "The Lorax",
+    "type": "book",
+    "author": "Dr. Seuss",
+    "bookSummary": "A bright cautionary tale about trees, greed, and speaking up for what cannot speak.",
+    "movie": "The Lorax",
+    "movieYear": "2012",
+    "movieSummary": "The film adaptation expands the environmental fable into a colorful musical comedy.",
+    "genre": "Kids",
+    "quotes": [
+      "Speak for the trees.",
+      "Small seeds need guardians.",
+      "The future grows from care."
+    ],
+    "shirtIdeas": [
+      "Tree Speaker Society",
+      "Unless Seed Club"
+    ]
+  },
+  {
+    "id": "paddington",
+    "title": "Paddington",
+    "type": "book",
+    "author": "Michael Bond",
+    "bookSummary": "A polite bear from Peru finds a new home, comic trouble, and a family in London.",
+    "movie": "Paddington",
+    "movieYear": "2014",
+    "movieSummary": "The film adaptation turns the beloved bear into a warm modern family adventure.",
+    "genre": "Kids",
+    "quotes": [
+      "Kindness travels well.",
+      "Marmalade solves plenty.",
+      "A stranger can become family."
+    ],
+    "shirtIdeas": [
+      "Marmalade Emergency Kit",
+      "Polite Bear London"
+    ]
+  },
+  {
+    "id": "how-to-train-your-dragon",
+    "title": "How to Train Your Dragon",
+    "type": "book",
+    "author": "Cressida Cowell",
+    "bookSummary": "A young Viking challenges tradition by befriending the dragon he was expected to fight.",
+    "movie": "How to Train Your Dragon",
+    "movieYear": "2010",
+    "movieSummary": "The animated film adaptation turns the premise into a soaring friendship adventure.",
+    "genre": "Kids",
+    "quotes": [
+      "Friendship can change a village.",
+      "Listen before you fight.",
+      "The sky belongs to the brave."
+    ],
+    "shirtIdeas": [
+      "Dragon Flight Academy",
+      "Viking Best Friend"
+    ]
+  },
+  {
+    "id": "the-tale-of-peter-rabbit",
+    "title": "The Tale of Peter Rabbit",
+    "type": "book",
+    "author": "Beatrix Potter",
+    "bookSummary": "A mischievous rabbit finds trouble in a garden while learning about boundaries and bravery.",
+    "movie": "Peter Rabbit",
+    "movieYear": "2018",
+    "movieSummary": "The film adaptation updates the garden rivalry with slapstick family comedy.",
+    "genre": "Kids",
+    "quotes": [
+      "Mischief loves a garden gate.",
+      "Bravery can be very small.",
+      "Carrots are worth a plan."
+    ],
+    "shirtIdeas": [
+      "Garden Gate Mischief",
+      "Carrot Patch Crew"
+    ]
+  },
+  {
+    "id": "the-bfg",
+    "title": "The BFG",
+    "type": "book",
+    "author": "Roald Dahl",
+    "bookSummary": "A girl and a gentle giant collect dreams and stand against much scarier giants.",
+    "movie": "The BFG",
+    "movieYear": "2016",
+    "movieSummary": "The film adaptation gives the dream-country adventure a glowing fantasy scale.",
+    "genre": "Kids",
+    "quotes": [
+      "Dreams need careful hands.",
+      "Gentle can still be giant.",
+      "Courage comes in unlikely sizes."
+    ],
+    "shirtIdeas": [
+      "Dream Jar Delivery",
+      "Friendly Giant Club"
+    ]
+  },
+  {
+    "id": "holes",
+    "title": "Holes",
+    "type": "book",
+    "author": "Louis Sachar",
+    "bookSummary": "A boy sent to a desert camp uncovers buried history, friendship, and family curses.",
+    "movie": "Holes",
+    "movieYear": "2003",
+    "movieSummary": "The film adaptation keeps the mystery, humor, and sunbaked adventure tightly connected.",
+    "genre": "Kids",
+    "quotes": [
+      "Every hole has a history.",
+      "Friendship can break a curse.",
+      "The desert keeps receipts."
+    ],
+    "shirtIdeas": [
+      "Camp Green Lake Crew",
+      "Digging for Justice"
+    ]
   },
   {
     "id": "little-women",
@@ -74,7 +1009,194 @@
     "movieYear": "2019",
     "movieSummary": "Greta Gerwig's adaptation braids memory and adulthood into a lively portrait of the March sisters.",
     "genre": "Classics",
-    "quotes": ["I am not afraid of storms, for I am learning how to sail my ship.", "I like good strong words that mean something."],
-    "shirtIdeas": ["Ink-and-thread design: Good Strong Words with four small book spines.", "Sisterhood literary-club crest with warm vintage typography."]
+    "quotes": [
+      "Strong words matter.",
+      "Sisterhood is a shelter.",
+      "Ambition can be tender."
+    ],
+    "shirtIdeas": [
+      "Good Strong Words",
+      "March Sisters Crest"
+    ]
+  },
+  {
+    "id": "to-kill-a-mockingbird",
+    "title": "To Kill a Mockingbird",
+    "type": "book",
+    "author": "Harper Lee",
+    "bookSummary": "A child's view of justice, prejudice, and courage unfolds in a small Southern town.",
+    "movie": "To Kill a Mockingbird",
+    "movieYear": "1962",
+    "movieSummary": "The film adaptation centers moral courage through Atticus Finch and Scout's perspective.",
+    "genre": "Classics",
+    "quotes": [
+      "Courage stands quietly.",
+      "Justice begins with seeing clearly.",
+      "Childhood notices everything."
+    ],
+    "shirtIdeas": [
+      "Quiet Courage Courthouse",
+      "Scout's Front Porch"
+    ]
+  },
+  {
+    "id": "the-great-gatsby",
+    "title": "The Great Gatsby",
+    "type": "book",
+    "author": "F. Scott Fitzgerald",
+    "bookSummary": "A mysterious millionaire's dream collides with wealth, longing, and the illusions of reinvention.",
+    "movie": "The Great Gatsby",
+    "movieYear": "2013",
+    "movieSummary": "The film adaptation turns Jazz Age excess and yearning into a glittering tragedy.",
+    "genre": "Classics",
+    "quotes": [
+      "Glamour can hide grief.",
+      "Dreams throw long shadows.",
+      "The party cannot last."
+    ],
+    "shirtIdeas": [
+      "Green Light Social Club",
+      "Jazz Age Dreamer"
+    ]
+  },
+  {
+    "id": "moby-dick",
+    "title": "Moby-Dick",
+    "type": "book",
+    "author": "Herman Melville",
+    "bookSummary": "A whaling voyage becomes an obsession-driven confrontation with nature, fate, and command.",
+    "movie": "Moby Dick",
+    "movieYear": "1956",
+    "movieSummary": "The film adaptation brings Ahab's pursuit and the sea's scale to classic adventure cinema.",
+    "genre": "Classics",
+    "quotes": [
+      "Obsession steers badly.",
+      "The sea keeps its counsel.",
+      "Some quests consume the captain."
+    ],
+    "shirtIdeas": [
+      "White Whale Watch",
+      "Ahab's Compass"
+    ]
+  },
+  {
+    "id": "great-expectations",
+    "title": "Great Expectations",
+    "type": "book",
+    "author": "Charles Dickens",
+    "bookSummary": "An orphan's rise through class, shame, love, and mystery questions what truly makes a gentleman.",
+    "movie": "Great Expectations",
+    "movieYear": "1998",
+    "movieSummary": "The modern film adaptation reimagines Dickens through art-world ambition and longing.",
+    "genre": "Classics",
+    "quotes": [
+      "Expectation can be a trap.",
+      "Kindness outranks status.",
+      "The past funds the future."
+    ],
+    "shirtIdeas": [
+      "Pip's Ambition Club",
+      "Estella's Garden Gate"
+    ]
+  },
+  {
+    "id": "a-christmas-carol",
+    "title": "A Christmas Carol",
+    "type": "book",
+    "author": "Charles Dickens",
+    "bookSummary": "A miser's haunted night becomes a moral reckoning about generosity, memory, and change.",
+    "movie": "A Christmas Carol",
+    "movieYear": "2009",
+    "movieSummary": "The animated film adaptation turns the ghostly visits into a dark holiday spectacle.",
+    "genre": "Classics",
+    "quotes": [
+      "Change can arrive overnight.",
+      "Generosity warms old rooms.",
+      "The future is still editable."
+    ],
+    "shirtIdeas": [
+      "Ghostly Ledger Society",
+      "Bah Humbug Redemption"
+    ]
+  },
+  {
+    "id": "the-secret-garden",
+    "title": "The Secret Garden",
+    "type": "book",
+    "author": "Frances Hodgson Burnett",
+    "bookSummary": "A lonely child discovers a locked garden and helps a household heal through care and growth.",
+    "movie": "The Secret Garden",
+    "movieYear": "1993",
+    "movieSummary": "The film adaptation emphasizes atmosphere, friendship, and emotional restoration.",
+    "genre": "Classics",
+    "quotes": [
+      "Hidden places can heal.",
+      "Growth begins behind walls.",
+      "Care opens locked gates."
+    ],
+    "shirtIdeas": [
+      "Locked Garden Club",
+      "Bloom Where Found"
+    ]
+  },
+  {
+    "id": "the-call-of-the-wild",
+    "title": "The Call of the Wild",
+    "type": "book",
+    "author": "Jack London",
+    "bookSummary": "A domesticated dog is pulled into the Yukon and awakens to instinct, hardship, and freedom.",
+    "movie": "The Call of the Wild",
+    "movieYear": "2020",
+    "movieSummary": "The film adaptation follows Buck through wilderness adventure and companionship.",
+    "genre": "Classics",
+    "quotes": [
+      "The wild remembers.",
+      "Instinct has a voice.",
+      "Freedom leaves tracks."
+    ],
+    "shirtIdeas": [
+      "Yukon Trail Companion",
+      "Answer the Wild"
+    ]
+  },
+  {
+    "id": "dracula",
+    "title": "Dracula",
+    "type": "book",
+    "author": "Bram Stoker",
+    "bookSummary": "Letters, diaries, and dread build a gothic hunt against an ancient vampire.",
+    "movie": "Bram Stoker's Dracula",
+    "movieYear": "1992",
+    "movieSummary": "The film adaptation leans into lavish gothic romance and horror.",
+    "genre": "Classics",
+    "quotes": [
+      "The night keeps correspondence.",
+      "Old shadows travel far.",
+      "Gothic fear has red ink."
+    ],
+    "shirtIdeas": [
+      "Transylvania Night Mail",
+      "Gothic Stake Society"
+    ]
+  },
+  {
+    "id": "frankenstein",
+    "title": "Frankenstein",
+    "type": "book",
+    "author": "Mary Shelley",
+    "bookSummary": "A scientist's creation forces questions about ambition, responsibility, loneliness, and humanity.",
+    "movie": "Frankenstein",
+    "movieYear": "1994",
+    "movieSummary": "The film adaptation stages the gothic tragedy with heightened emotion and spectacle.",
+    "genre": "Classics",
+    "quotes": [
+      "Creation requires care.",
+      "Loneliness can become monstrous.",
+      "Ambition needs a conscience."
+    ],
+    "shirtIdeas": [
+      "Modern Prometheus Lab",
+      "Creature Comfort Club"
+    ]
   }
 ]
