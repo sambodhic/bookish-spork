@@ -17,7 +17,11 @@
         "Water Bottle"
       ],
       "imageUrl": "designs/dune/dune-desert-state-of-mind.svg",
-      "amazonUrl": "https://a.co/d/0iN1nCjU"
+      "amazonListings": {
+        "T-shirt": {
+          "US": "https://a.co/d/0iN1nCjU"
+        }
+      }
     },
     {
       "id": "dune-arrakis-travel-poster",

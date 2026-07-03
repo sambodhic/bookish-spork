@@ -6,6 +6,15 @@ const toastEl = document.querySelector('#toast');
 
 const supportEmail = 'support@booktalkietees.com';
 const productTypes = ['T-shirt', 'iPhone Case', 'Tote Bag', 'Tumbler', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle'];
+const amazonMarketplaces = {
+  US: 'amazon.com',
+  UK: 'amazon.co.uk',
+  JP: 'amazon.co.jp',
+  IT: 'amazon.it',
+  FR: 'amazon.fr',
+  DE: 'amazon.de',
+  ES: 'amazon.es',
+};
 const state = {
   view: 'home',
   genre: 'Sci-Fi',
@@ -76,7 +85,11 @@ function dailyPick() {
 
 function designsFor(book) {
   const remote = state.designs.filter((design) => design.bookId === book.id);
-  if (remote.length) return remote.map((design) => ({ ...design, products: design.products?.length ? design.products : productTypes }));
+  if (remote.length) return remote.map((design) => ({
+    ...design,
+    products: design.products?.length ? design.products : productTypes,
+    amazonListings: design.amazonListings ?? (design.amazonUrl ? { 'T-shirt': { US: design.amazonUrl } } : {}),
+  }));
   return book.shirtIdeas.map((idea, index) => ({
     id: `${book.id}-idea-${index + 1}`,
     bookId: book.id,
@@ -291,6 +304,7 @@ function openBook(bookId) {
 }
 
 function designCard(book, design) {
+  const hasAmazonListings = Object.keys(design.amazonListings ?? {}).length > 0;
   return `
     <article class="design-card" data-design-id="${escapeHtml(design.id)}">
       <div class="design-art">${designArt(design, book)}</div>
@@ -298,12 +312,11 @@ function designCard(book, design) {
         <h3>${escapeHtml(design.title)}</h3>
         <p>${escapeHtml(design.concept)}</p>
         <div class="product-picker">
-          ${design.products.map((product) => `<button class="product-chip" data-product="${escapeHtml(product)}">${escapeHtml(product)}</button>`).join('')}
+          ${design.products.map((product, index) => `<button class="product-chip ${index === 0 ? 'is-selected' : ''}" data-product="${escapeHtml(product)}">${escapeHtml(product)}</button>`).join('')}
         </div>
+        ${hasAmazonListings ? `<div class="marketplace-picker">${Object.entries(amazonMarketplaces).map(([key, domain], index) => `<button class="product-chip marketplace-chip ${index === 0 ? 'is-selected' : ''}" data-marketplace="${key}">${key}</button>`).join('')}</div>` : ''}
         <div class="book-card-actions">
-          ${design.amazonUrl
-            ? `<a class="button tonal" href="${escapeHtml(design.amazonUrl)}" target="_blank" rel="noopener">Buy on Amazon</a>`
-            : `<button class="button tonal" data-add-design="${escapeHtml(design.id)}">Add to cart</button>`}
+          <button class="button tonal" data-commerce-action="${escapeHtml(design.id)}">Add to cart</button>
           <button class="icon-button ${isFavorite('design', design.id) ? 'is-active' : ''}" data-favorite="design:${design.id}" aria-label="Save ${escapeHtml(design.title)}">♥</button>
         </div>
       </div>
@@ -311,15 +324,48 @@ function designCard(book, design) {
   `;
 }
 
+function amazonUrlForSelection(card, design) {
+  const selectedProducts = [...card.querySelectorAll('[data-product].is-selected')].map((chip) => chip.dataset.product);
+  if (selectedProducts.length !== 1) return '';
+  const marketplace = card.querySelector('[data-marketplace].is-selected')?.dataset.marketplace ?? 'US';
+  return design.amazonListings?.[selectedProducts[0]]?.[marketplace] ?? '';
+}
+
+function updateCommerceButton(card, design) {
+  const button = card.querySelector('[data-commerce-action]');
+  if (!button) return;
+  const amazonUrl = amazonUrlForSelection(card, design);
+  button.textContent = amazonUrl ? 'Buy on Amazon' : 'Add to cart';
+}
+
 function bindDesignActions(book, designs) {
-  modalContent.querySelectorAll('.product-chip').forEach((chip) => {
-    chip.addEventListener('click', () => chip.classList.toggle('is-selected'));
+  modalContent.querySelectorAll('[data-design-id]').forEach((card) => {
+    const design = designs.find((item) => item.id === card.dataset.designId);
+    card.querySelectorAll('[data-product]').forEach((chip) => {
+      chip.addEventListener('click', () => {
+        chip.classList.toggle('is-selected');
+        updateCommerceButton(card, design);
+      });
+    });
+    card.querySelectorAll('[data-marketplace]').forEach((chip) => {
+      chip.addEventListener('click', () => {
+        card.querySelectorAll('[data-marketplace]').forEach((item) => item.classList.remove('is-selected'));
+        chip.classList.add('is-selected');
+        updateCommerceButton(card, design);
+      });
+    });
+    updateCommerceButton(card, design);
   });
-  modalContent.querySelectorAll('[data-add-design]').forEach((button) => {
+  modalContent.querySelectorAll('[data-commerce-action]').forEach((button) => {
     button.addEventListener('click', () => {
       const card = button.closest('[data-design-id]');
-      const design = designs.find((item) => item.id === button.dataset.addDesign);
-      const selected = [...card.querySelectorAll('.product-chip.is-selected')].map((chip) => chip.dataset.product);
+      const design = designs.find((item) => item.id === button.dataset.commerceAction);
+      const amazonUrl = amazonUrlForSelection(card, design);
+      if (amazonUrl) {
+        window.open(amazonUrl, '_blank', 'noopener');
+        return;
+      }
+      const selected = [...card.querySelectorAll('[data-product].is-selected')].map((chip) => chip.dataset.product);
       addToCart(book, design, selected);
     });
   });
