@@ -4,6 +4,7 @@ const modalContent = document.querySelector('#modalContent');
 const cartCount = document.querySelector('#cartCount');
 const toastEl = document.querySelector('#toast');
 
+const supportEmail = 'support@booktalkietees.com';
 const productTypes = ['T-shirt', 'iPhone Case', 'Tote Bag', 'Tumbler', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle'];
 const state = {
   view: 'home',
@@ -212,10 +213,10 @@ function renderFavorites() {
 
 function renderCart() {
   app.innerHTML = `
-    <div class="section-head"><div><h1>Cart</h1><p>${state.cart.length} item${state.cart.length === 1 ? '' : 's'} ready for checkout.</p></div></div>
+    <div class="section-head"><div><h1>Cart</h1><p>${state.cart.length} item${state.cart.length === 1 ? '' : 's'} ready to email.</p></div></div>
     <section class="stack">
       ${state.cart.length ? state.cart.map(cartRow).join('') : '<div class="panel empty-state">Your cart is empty.</div>'}
-      ${state.cart.length ? '<button class="button tonal" data-checkout>Continue to shipping</button>' : ''}
+      ${state.cart.length ? '<button class="button tonal" data-checkout>Email support</button>' : ''}
     </section>
   `;
   document.querySelectorAll('[data-remove-cart]').forEach((button) => {
@@ -226,7 +227,7 @@ function renderCart() {
       renderCart();
     });
   });
-  document.querySelector('[data-checkout]')?.addEventListener('click', () => showToast('Checkout flow coming next'));
+  document.querySelector('[data-checkout]')?.addEventListener('click', emailSupportForCart);
 }
 
 function genreChips() {
@@ -300,7 +301,9 @@ function designCard(book, design) {
           ${design.products.map((product) => `<button class="product-chip" data-product="${escapeHtml(product)}">${escapeHtml(product)}</button>`).join('')}
         </div>
         <div class="book-card-actions">
-          <button class="button tonal" data-add-design="${escapeHtml(design.id)}">Add to cart</button>
+          ${design.amazonUrl
+            ? `<a class="button tonal" href="${escapeHtml(design.amazonUrl)}" target="_blank" rel="noopener">Buy on Amazon</a>`
+            : `<button class="button tonal" data-add-design="${escapeHtml(design.id)}">Add to cart</button>`}
           <button class="icon-button ${isFavorite('design', design.id) ? 'is-active' : ''}" data-favorite="design:${design.id}" aria-label="Save ${escapeHtml(design.title)}">♥</button>
         </div>
       </div>
@@ -351,6 +354,21 @@ function favoriteRow(key) {
   if (!book) return null;
   const label = kind === 'movie' ? book.movie : kind === 'quote' ? `${book.title} quotes` : book.title;
   return `<div class="favorite-row"><div><strong>${escapeHtml(label)}</strong><span>${escapeHtml(kind)}</span></div><button class="icon-button is-active" data-favorite="${escapeHtml(kind)}:${escapeHtml(id)}" aria-label="Remove favorite">♥</button></div>`;
+}
+
+
+function emailSupportForCart() {
+  const body = [
+    'Hi BookTalkieTees support,',
+    '',
+    'I would like to order these inspired products:',
+    '',
+    ...state.cart.map((item) => `- ${item.product}: ${item.designTitle} / ${item.bookTitle}`),
+    '',
+    'Please send next steps for availability, pricing, and shipping.',
+  ].join('\n');
+  const url = `mailto:${supportEmail}?subject=${encodeURIComponent('BookTalkieTees order request')}&body=${encodeURIComponent(body)}`;
+  window.location.href = url;
 }
 
 function cartRow(item) {
