@@ -61,7 +61,14 @@ h1 { margin: 0; font-size: clamp(36px, 7vw, 74px); line-height: 0.98; letter-spa
 .card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
 .book-card, .panel, .design-card, .cart-row, .favorite-row { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: 0 10px 24px rgba(24, 32, 38, 0.06); }
 .book-card { display: flex; flex-direction: column; min-height: 250px; overflow: hidden; }
-.book-card-top { height: 104px; padding: 14px; color: white; background: var(--blue); }
+.book-card-top { position: relative; height: 132px; color: white; background: var(--blue); overflow: hidden; }
+.book-design-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(76px, 1fr)); gap: 1px; height: 100%; background: var(--line); }
+.book-design-preview { min-width: 0; overflow: hidden; background: white; }
+.book-card-top .design-art { height: 100%; aspect-ratio: auto; border: 0; background: white; }
+.book-card-top .design-art img { padding: 6px; }
+.book-card-top .generated-art { padding: 10px; }
+.book-card-top .generated-art strong { font-size: 16px; }
+.book-card-top .badge { position: absolute; left: 10px; top: 10px; background: rgba(24,32,38,0.72); backdrop-filter: blur(8px); }
 .book-card[data-genre="Fantasy"] .book-card-top { background: var(--teal-dark); }
 .book-card[data-genre="Romance"] .book-card-top { background: var(--rose); }
 .book-card[data-genre="Thriller"] .book-card-top { background: #26313a; }

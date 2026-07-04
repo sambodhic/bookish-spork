@@ -394,9 +394,15 @@ function genreChips() {
 }
 
 function bookCard(book) {
+  const previewDesigns = designsFor(book);
   return `
     <article class="book-card" data-genre="${escapeHtml(book.genre)}">
-      <div class="book-card-top"><span class="badge">${escapeHtml(book.genre)}</span></div>
+      <div class="book-card-top">
+        <div class="book-design-strip">
+          ${previewDesigns.map((design) => `<div class="book-design-preview">${designArt(design, book)}</div>`).join('')}
+        </div>
+        <span class="badge">${escapeHtml(book.genre)}</span>
+      </div>
       <div class="book-card-body">
         <h3>${escapeHtml(book.title)}</h3>
         <p>${escapeHtml(book.author)} / ${escapeHtml(book.movie)} (${escapeHtml(book.movieYear)})</p>
