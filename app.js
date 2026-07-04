@@ -397,16 +397,14 @@ function bookCard(book) {
   const previewDesigns = designsFor(book);
   return `
     <article class="book-card" data-genre="${escapeHtml(book.genre)}">
-      <div class="book-card-top">
-        <div class="book-design-strip">
-          ${previewDesigns.map((design) => `<div class="book-design-preview">${designArt(design, book)}</div>`).join('')}
-        </div>
-        <span class="badge">${escapeHtml(book.genre)}</span>
-      </div>
+      <div class="book-card-top"><span class="badge">${escapeHtml(book.genre)}</span></div>
       <div class="book-card-body">
         <h3>${escapeHtml(book.title)}</h3>
         <p>${escapeHtml(book.author)} / ${escapeHtml(book.movie)} (${escapeHtml(book.movieYear)})</p>
         <p>${escapeHtml(book.bookSummary)}</p>
+        <div class="book-design-strip" aria-label="Design previews">
+          ${previewDesigns.map((design) => `<div class="book-design-preview">${designArt(design, book)}</div>`).join('')}
+        </div>
         <div class="book-card-actions">
           <button class="button" data-open-book="${book.id}">Open</button>
           <button class="icon-button ${isFavorite('book', book.id) ? 'is-active' : ''}" data-favorite="book:${book.id}" aria-label="Save ${escapeHtml(book.title)}">♥</button>
@@ -535,7 +533,7 @@ function bindCommonActions(root = document) {
       toggleFavorite(kind, id);
     });
   });
-  root.querySelectorAll('[data-genre]').forEach((button) => {
+  root.querySelectorAll('button[data-genre]').forEach((button) => {
     button.addEventListener('click', () => {
       state.genre = button.dataset.genre;
       if (state.view !== 'explore') setView('explore');
