@@ -6,7 +6,7 @@ const toastEl = document.querySelector('#toast');
 
 const supportEmail = 'booktalkietees@gmail.com';
 const inspiredDisclaimer = 'BookTalkieTees designs are original fan-inspired concepts. They are not official merchandise and are not endorsed by, sponsored by, or affiliated with the authors, publishers, studios, rights holders, or trademark owners of the referenced books or films.';
-const privacyNotice = 'For this MVP, favorites, cart items, preferred marketplace, and cached catalog data are stored locally on your device/browser. If you email support, your email app sends the order request to BookTalkieTees. If checkout, accounts, shipping, or payments are added later, a full privacy policy should describe the data collected and how it is used.';
+const privacyNotice = 'BookTalkieTees does not require signup and we do not collect, sell, or share personal data. Favorites, cart items, marketplace preference, and cached catalog data stay locally on your browser or app device. We do not collect shipping addresses, billing details, or payment information in this MVP. The only information we receive is what you choose to send by email when you contact support or submit an order inquiry, and we use that email only to reply and help with your request.';
 const productTypes = ['T-shirt', 'iPhone Case', 'Tote Bag', 'Tumbler', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle'];
 const usOnlyProductTypes = new Set(['Tote Bag', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle']);
 function isProductAvailableForMarketplace(product, marketplace) {
@@ -332,7 +332,7 @@ function renderAbout() {
         <p>${escapeHtml(inspiredDisclaimer)}</p>
       </article>
       <article class="panel policy-card">
-        <h2>Privacy note</h2>
+        <h2>Privacy Policy</h2>
         <p>${escapeHtml(privacyNotice)}</p>
       </article>
     </section>
