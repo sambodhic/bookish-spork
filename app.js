@@ -5,6 +5,8 @@ const cartCount = document.querySelector('#cartCount');
 const toastEl = document.querySelector('#toast');
 
 const supportEmail = 'booktalkietees@gmail.com';
+const inspiredDisclaimer = 'BookTalkieTees designs are original fan-inspired concepts. They are not official merchandise and are not endorsed by, sponsored by, or affiliated with the authors, publishers, studios, rights holders, or trademark owners of the referenced books or films.';
+const privacyNotice = 'For this MVP, favorites, cart items, preferred marketplace, and cached catalog data are stored locally on your device/browser. If you email support, your email app sends the order request to BookTalkieTees. If checkout, accounts, shipping, or payments are added later, a full privacy policy should describe the data collected and how it is used.';
 const productTypes = ['T-shirt', 'iPhone Case', 'Tote Bag', 'Tumbler', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle'];
 const amazonMarketplaces = {
   US: 'amazon.com',
@@ -292,6 +294,37 @@ function render() {
   if (state.view === 'search') return renderSearch();
   if (state.view === 'favorites') return renderFavorites();
   if (state.view === 'cart') return renderCart();
+  if (state.view === 'about') return renderAbout();
+}
+
+
+function renderAbout() {
+  app.innerHTML = `
+    <div class="section-head"><div><h1>About & Support</h1><p>Book, movie, quote, and product design ideas for readers and film fans.</p></div></div>
+    <section class="policy-grid">
+      <article class="panel policy-card">
+        <h2>About BookTalkieTees</h2>
+        <p>BookTalkieTees connects book/movie pairings with quote-led, inspired product design ideas across shirts, mugs, totes, cases, bottles, tumblers, and home goods.</p>
+      </article>
+      <article class="panel policy-card">
+        <h2>Contact / Support</h2>
+        <p>Questions, order help, design requests, or listing updates: <a href="mailto:${supportEmail}">${supportEmail}</a></p>
+        <button class="button tonal" data-support-email>Email support</button>
+      </article>
+      <article class="panel policy-card">
+        <h2>Inspired-by disclaimer</h2>
+        <p>${escapeHtml(inspiredDisclaimer)}</p>
+      </article>
+      <article class="panel policy-card">
+        <h2>Privacy note</h2>
+        <p>${escapeHtml(privacyNotice)}</p>
+      </article>
+    </section>
+  `;
+  document.querySelector('[data-support-email]')?.addEventListener('click', () => {
+    const url = `mailto:${supportEmail}?subject=${encodeURIComponent('BookTalkieTees support request')}&body=${encodeURIComponent('Hi BookTalkieTees support,\n\n')}`;
+    window.location.href = url;
+  });
 }
 
 function renderHome() {
