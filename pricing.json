@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-03",
+  "updatedAt": "2026-07-05",
   "note": "Suggested product subtotal estimates only. Actual Amazon prices, taxes, and shipping can vary by marketplace, availability, and delivery address.",
   "marketplaces": {
     "US": "amazon.com",
@@ -76,13 +76,13 @@
       "ES": 17.99
     },
     "Water Bottle": {
-      "US": 25.99,
-      "UK": 23.99,
-      "JP": 3600,
-      "IT": 27.99,
-      "FR": 27.99,
-      "DE": 27.99,
-      "ES": 27.99
+      "US": 29.99,
+      "UK": 27.99,
+      "JP": 4200,
+      "IT": 32.99,
+      "FR": 32.99,
+      "DE": 32.99,
+      "ES": 32.99
     }
   }
 }
