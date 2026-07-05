@@ -377,8 +377,10 @@ function renderCart() {
       ${state.cart.length ? '<button class="button tonal" data-checkout>Email support</button>' : ''}
     </section>
   `;
+  bindCommonActions();
   document.querySelectorAll('[data-remove-cart]').forEach((button) => {
-    button.addEventListener('click', () => {
+    button.addEventListener('click', (event) => {
+      event.stopPropagation();
       state.cart = state.cart.filter((item) => item.id !== button.dataset.removeCart);
       writeStore('booktalkietees:cart', state.cart);
       updateCartCount();
@@ -420,7 +422,12 @@ function designArt(design, book) {
   return `<div class="generated-art"><strong>${escapeHtml(book.title)}<br>${escapeHtml(design.title)}</strong></div>`;
 }
 
-function openBook(bookId) {
+function rowThumbnail(book, design) {
+  if (!book || !design) return '';
+  return `<div class="row-thumbnail">${designArt(design, book)}</div>`;
+}
+
+function openBook(bookId, focusDesignId = '') {
   const book = state.books.find((item) => item.id === bookId);
   if (!book) return;
   const designs = designsFor(book);
@@ -450,6 +457,13 @@ function openBook(bookId) {
   modal.hidden = false;
   bindCommonActions(modalContent);
   bindDesignActions(book, designs);
+  if (focusDesignId) {
+    const focusedCard = modalContent.querySelector(`[data-design-id="${CSS.escape(focusDesignId)}"]`);
+    if (focusedCard) {
+      focusedCard.classList.add('is-focused');
+      focusedCard.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    }
+  }
 }
 
 function designCard(book, design) {
@@ -526,9 +540,19 @@ function bindDesignActions(book, designs) {
 }
 
 function bindCommonActions(root = document) {
-  root.querySelectorAll('[data-open-book]').forEach((button) => button.addEventListener('click', () => openBook(button.dataset.openBook)));
+  root.querySelectorAll('[data-open-book]').forEach((button) => {
+    const openTarget = () => openBook(button.dataset.openBook, button.dataset.focusDesign ?? '');
+    button.addEventListener('click', openTarget);
+    button.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openTarget();
+      }
+    });
+  });
   root.querySelectorAll('[data-favorite]').forEach((button) => {
-    button.addEventListener('click', () => {
+    button.addEventListener('click', (event) => {
+      event.stopPropagation();
       const [kind, id] = button.dataset.favorite.split(':');
       toggleFavorite(kind, id);
     });
@@ -548,12 +572,13 @@ function favoriteRow(key) {
     const design = state.designs.find((item) => item.id === id);
     if (!design) return null;
     const book = state.books.find((item) => item.id === design.bookId);
-    return `<div class="favorite-row"><div><strong>${escapeHtml(design.title)}</strong><span>${escapeHtml(book?.title ?? 'Design')} design</span></div><button class="icon-button is-active" data-favorite="design:${escapeHtml(id)}" aria-label="Remove favorite">♥</button></div>`;
+    return `<div class="favorite-row is-clickable" data-open-book="${escapeHtml(book?.id ?? design.bookId)}" data-focus-design="${escapeHtml(design.id)}" role="button" tabindex="0">${rowThumbnail(book, design)}<div class="row-copy"><strong>${escapeHtml(design.title)}</strong><span>${escapeHtml(book?.title ?? 'Design')} design</span></div><button class="icon-button is-active" data-favorite="design:${escapeHtml(id)}" aria-label="Remove favorite">♥</button></div>`;
   }
   const book = state.books.find((item) => item.id === id);
   if (!book) return null;
   const label = kind === 'movie' ? book.movie : kind === 'quote' ? `${book.title} quotes` : book.title;
-  return `<div class="favorite-row"><div><strong>${escapeHtml(label)}</strong><span>${escapeHtml(kind)}</span></div><button class="icon-button is-active" data-favorite="${escapeHtml(kind)}:${escapeHtml(id)}" aria-label="Remove favorite">♥</button></div>`;
+  const design = designsFor(book)[0];
+  return `<div class="favorite-row is-clickable" data-open-book="${escapeHtml(book.id)}" role="button" tabindex="0">${rowThumbnail(book, design)}<div class="row-copy"><strong>${escapeHtml(label)}</strong><span>${escapeHtml(kind)}</span></div><button class="icon-button is-active" data-favorite="${escapeHtml(kind)}:${escapeHtml(id)}" aria-label="Remove favorite">♥</button></div>`;
 }
 
 
@@ -581,7 +606,11 @@ function emailSupportForCart() {
 function cartRow(item) {
   const marketplace = item.marketplace ?? state.marketplace;
   const price = suggestedPriceFor(item.product, marketplace);
-  return `<div class="cart-row"><div><strong>${escapeHtml(item.designTitle)}</strong><span>${escapeHtml(item.product)} / ${escapeHtml(item.bookTitle)} / ${escapeHtml(marketplaceLabel(marketplace))} / ${escapeHtml(formatPrice(price, marketplace))} estimate</span></div><button class="icon-button" data-remove-cart="${escapeHtml(item.id)}" aria-label="Remove item">x</button></div>`;
+  const book = state.books.find((book) => book.id === item.bookId);
+  const design = state.designs.find((design) => design.id === item.designId)
+    ?? (book ? designsFor(book).find((design) => design.id === item.designId) : null);
+  const openAttrs = book ? ` data-open-book="${escapeHtml(book.id)}" data-focus-design="${escapeHtml(item.designId)}" role="button" tabindex="0"` : '';
+  return `<div class="cart-row ${book ? 'is-clickable' : ''}"${openAttrs}>${rowThumbnail(book, design)}<div class="row-copy"><strong>${escapeHtml(item.designTitle)}</strong><span>${escapeHtml(item.product)} / ${escapeHtml(item.bookTitle)} / ${escapeHtml(marketplaceLabel(marketplace))} / ${escapeHtml(formatPrice(price, marketplace))} estimate</span></div><button class="icon-button" data-remove-cart="${escapeHtml(item.id)}" aria-label="Remove item">x</button></div>`;
 }
 
 function closeModal() {
