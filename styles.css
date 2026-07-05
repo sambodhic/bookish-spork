@@ -93,6 +93,7 @@ h1 { margin: 0; font-size: clamp(36px, 7vw, 74px); line-height: 0.98; letter-spa
 .design-body { padding: 12px; }
 .design-body h3 { margin: 0 0 6px; font-size: 17px; }
 .design-body p { margin: 0; color: var(--muted); line-height: 1.4; }
+.muted-note { color: var(--muted); margin: 0; }
 .product-picker { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
 .product-chip { border: 1px solid var(--line); border-radius: 999px; background: white; padding: 8px 10px; font-weight: 750; }
 .product-chip span { color: var(--muted); font-size: 12px; margin-left: 4px; }

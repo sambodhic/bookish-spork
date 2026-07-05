@@ -8,6 +8,16 @@ const supportEmail = 'booktalkietees@gmail.com';
 const inspiredDisclaimer = 'BookTalkieTees designs are original fan-inspired concepts. They are not official merchandise and are not endorsed by, sponsored by, or affiliated with the authors, publishers, studios, rights holders, or trademark owners of the referenced books or films.';
 const privacyNotice = 'For this MVP, favorites, cart items, preferred marketplace, and cached catalog data are stored locally on your device/browser. If you email support, your email app sends the order request to BookTalkieTees. If checkout, accounts, shipping, or payments are added later, a full privacy policy should describe the data collected and how it is used.';
 const productTypes = ['T-shirt', 'iPhone Case', 'Tote Bag', 'Tumbler', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle'];
+const usOnlyProductTypes = new Set(['Tote Bag', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle']);
+function isProductAvailableForMarketplace(product, marketplace) {
+  if (usOnlyProductTypes.has(product)) return marketplace === 'US';
+  if (product === 'Tumbler') return marketplace !== 'JP';
+  return true;
+}
+function productsForMarketplace(products, marketplace) {
+  return (products ?? productTypes).filter((product) => isProductAvailableForMarketplace(product, marketplace));
+}
+
 const amazonMarketplaces = {
   US: 'amazon.com',
   UK: 'amazon.co.uk',
@@ -260,7 +270,13 @@ function toggleFavorite(kind, id) {
 }
 
 function addToCart(book, design, products, marketplace = state.marketplace) {
-  const chosen = products.length ? products : [design.products[0] ?? productTypes[0]];
+  const availableProducts = productsForMarketplace(design.products, marketplace);
+  const chosen = (products.length ? products : [availableProducts[0] ?? productTypes[0]])
+    .filter((product) => availableProducts.includes(product));
+  if (!chosen.length) {
+    showToast('No products available for this marketplace yet');
+    return;
+  }
   const additions = chosen.map((product) => ({
     id: `${design.id}:${product}:${Date.now()}:${Math.random().toString(16).slice(2)}`,
     bookId: book.id,
@@ -508,7 +524,7 @@ function designCard(book, design) {
         <h3>${escapeHtml(design.title)}</h3>
         <p>${escapeHtml(design.concept)}</p>
         <div class="product-picker">
-          ${design.products.map((product, index) => `<button class="product-chip ${index === 0 ? 'is-selected' : ''}" data-product="${escapeHtml(product)}">${escapeHtml(product)} <span>${escapeHtml(formatPrice(suggestedPriceFor(product, state.marketplace), state.marketplace))}</span></button>`).join('')}
+          ${productPickerHtml(design, state.marketplace)}
         </div>
         ${hasAmazonListings ? `<div class="marketplace-picker">${Object.entries(amazonMarketplaces).map(([key, domain]) => `<button class="product-chip marketplace-chip ${key === state.marketplace ? 'is-selected' : ''}" data-marketplace="${key}" title="${escapeHtml(domain)}">${key}</button>`).join('')}</div>` : ''}
         <div class="book-card-actions">
@@ -518,6 +534,22 @@ function designCard(book, design) {
       </div>
     </article>
   `;
+}
+
+
+function productPickerHtml(design, marketplace) {
+  const products = productsForMarketplace(design.products, marketplace);
+  if (!products.length) return '<p class="muted-note">No products are available for this marketplace yet.</p>';
+  return products.map((product, index) => `<button class="product-chip ${index === 0 ? 'is-selected' : ''}" data-product="${escapeHtml(product)}">${escapeHtml(product)} <span>${escapeHtml(formatPrice(suggestedPriceFor(product, marketplace), marketplace))}</span></button>`).join('');
+}
+
+function bindProductChips(card, design) {
+  card.querySelectorAll('[data-product]').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      chip.classList.toggle('is-selected');
+      updateCommerceButton(card, design);
+    });
+  });
 }
 
 function amazonUrlForSelection(card, design) {
@@ -541,17 +573,17 @@ function updateCommerceButton(card, design) {
 function bindDesignActions(book, designs) {
   modalContent.querySelectorAll('[data-design-id]').forEach((card) => {
     const design = designs.find((item) => item.id === card.dataset.designId);
-    card.querySelectorAll('[data-product]').forEach((chip) => {
-      chip.addEventListener('click', () => {
-        chip.classList.toggle('is-selected');
-        updateCommerceButton(card, design);
-      });
-    });
+    bindProductChips(card, design);
     card.querySelectorAll('[data-marketplace]').forEach((chip) => {
       chip.addEventListener('click', () => {
         card.querySelectorAll('[data-marketplace]').forEach((item) => item.classList.remove('is-selected'));
         chip.classList.add('is-selected');
         setPreferredMarketplace(chip.dataset.marketplace);
+        const picker = card.querySelector('.product-picker');
+        if (picker) {
+          picker.innerHTML = productPickerHtml(design, selectedMarketplaceForCard(card));
+          bindProductChips(card, design);
+        }
         updateCommerceButton(card, design);
       });
     });
