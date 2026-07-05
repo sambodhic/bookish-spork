@@ -398,9 +398,13 @@ function renderSearch() {
     <section class="card-grid">${visible.map(bookCard).join('')}</section>
   `;
   document.querySelector('.search-box').addEventListener('input', (event) => {
+    const selectionStart = event.target.selectionStart;
+    const selectionEnd = event.target.selectionEnd;
     state.query = event.target.value;
     renderSearch();
-    document.querySelector('.search-box').focus();
+    const searchBox = document.querySelector('.search-box');
+    searchBox.focus();
+    searchBox.setSelectionRange(selectionStart, selectionEnd);
   });
   bindCommonActions();
 }
