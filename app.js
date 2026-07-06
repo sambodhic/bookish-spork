@@ -520,7 +520,6 @@ function openBook(bookId, focusDesignId = '') {
 }
 
 function designCard(book, design) {
-  const hasAmazonListings = Object.keys(design.amazonListings ?? {}).length > 0;
   return `
     <article class="design-card" data-design-id="${escapeHtml(design.id)}">
       <div class="design-art">${designArt(design, book)}</div>
@@ -530,7 +529,6 @@ function designCard(book, design) {
         <div class="product-picker">
           ${productPickerHtml(design, state.marketplace)}
         </div>
-        ${hasAmazonListings ? `<div class="marketplace-picker">${Object.entries(amazonMarketplaces).map(([key, domain]) => `<button class="product-chip marketplace-chip ${key === state.marketplace ? 'is-selected' : ''}" data-marketplace="${key}" title="${escapeHtml(domain)}">${key}</button>`).join('')}</div>` : ''}
         <div class="book-card-actions">
           <button class="button tonal" data-commerce-action="${escapeHtml(design.id)}">Add to cart</button>
           <button class="icon-button ${isFavorite('design', design.id) ? 'is-active' : ''}" data-favorite="design:${design.id}" aria-label="Save ${escapeHtml(design.title)}">♥</button>
@@ -559,12 +557,7 @@ function bindProductChips(card, design) {
 function amazonUrlForSelection(card, design) {
   const selectedProducts = [...card.querySelectorAll('[data-product].is-selected')].map((chip) => chip.dataset.product);
   if (selectedProducts.length !== 1) return '';
-  const marketplace = selectedMarketplaceForCard(card);
-  return design.amazonListings?.[selectedProducts[0]]?.[marketplace] ?? '';
-}
-
-function selectedMarketplaceForCard(card) {
-  return card.querySelector('[data-marketplace].is-selected')?.dataset.marketplace ?? state.marketplace;
+  return design.amazonListings?.[selectedProducts[0]]?.[state.marketplace] ?? '';
 }
 
 function updateCommerceButton(card, design) {
@@ -578,19 +571,6 @@ function bindDesignActions(book, designs) {
   modalContent.querySelectorAll('[data-design-id]').forEach((card) => {
     const design = designs.find((item) => item.id === card.dataset.designId);
     bindProductChips(card, design);
-    card.querySelectorAll('[data-marketplace]').forEach((chip) => {
-      chip.addEventListener('click', () => {
-        card.querySelectorAll('[data-marketplace]').forEach((item) => item.classList.remove('is-selected'));
-        chip.classList.add('is-selected');
-        setPreferredMarketplace(chip.dataset.marketplace);
-        const picker = card.querySelector('.product-picker');
-        if (picker) {
-          picker.innerHTML = productPickerHtml(design, selectedMarketplaceForCard(card));
-          bindProductChips(card, design);
-        }
-        updateCommerceButton(card, design);
-      });
-    });
     updateCommerceButton(card, design);
   });
   modalContent.querySelectorAll('[data-commerce-action]').forEach((button) => {
@@ -603,7 +583,7 @@ function bindDesignActions(book, designs) {
         return;
       }
       const selected = [...card.querySelectorAll('[data-product].is-selected')].map((chip) => chip.dataset.product);
-      addToCart(book, design, selected, selectedMarketplaceForCard(card));
+      addToCart(book, design, selected, state.marketplace);
     });
   });
 }
