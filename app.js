@@ -471,7 +471,7 @@ function bookCard(book) {
 
 function designArt(design, book) {
   const src = resolveAsset(design.imageUrl);
-  if (src) return `<img src="${escapeHtml(src)}" alt="${escapeHtml(design.title)} design">`;
+  if (src) return `<img class="art-image" src="${escapeHtml(src)}" alt="${escapeHtml(design.title)} design" loading="lazy">`;
   return `<div class="generated-art"><strong>${escapeHtml(book.title)}<br>${escapeHtml(design.title)}</strong></div>`;
 }
 
