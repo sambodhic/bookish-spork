@@ -5,7 +5,8 @@ const cartCount = document.querySelector('#cartCount');
 const toastEl = document.querySelector('#toast');
 
 const supportEmail = 'booktalkietees@gmail.com';
-const inspiredDisclaimer = 'BookTalkieTees designs are original fan-inspired concepts. They are not official merchandise and are not endorsed by, sponsored by, or affiliated with the authors, publishers, studios, rights holders, or trademark owners of the referenced books or films.';
+const homePageScrambleDesigns = true;
+const inspiredDisclaimer = 'BookTalkieTees designs are original fan-inspired concepts. Some artwork and visual mockups may be created or assisted by AI tools, then selected, edited, or arranged by BookTalkieTees. They are not official merchandise and are not endorsed by, sponsored by, or affiliated with the authors, publishers, studios, rights holders, or trademark owners of the referenced books or films.';
 const privacyNotice = 'BookTalkieTees does not require signup and we do not collect, sell, or share personal data. Favorites, cart items, marketplace preference, and cached catalog data stay locally on your browser or app device. We do not collect shipping addresses, billing details, or payment information in this MVP. The only information we receive is what you choose to send by email when you contact support or submit an order inquiry, and we use that email only to reply and help with your request.';
 const productTypes = ['T-shirt', 'iPhone Case', 'Tote Bag', 'Tumbler', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle'];
 const usOnlyProductTypes = new Set(['Tote Bag', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle']);
@@ -235,6 +236,21 @@ function dailyPick() {
   return state.books[index];
 }
 
+function dailyShuffle(items) {
+  const seed = new Date().toISOString().slice(0, 10);
+  return [...items].sort((a, b) => seededSortValue(a.design.id, seed) - seededSortValue(b.design.id, seed));
+}
+
+function seededSortValue(value, seed) {
+  const text = `${seed}:${value}`;
+  let hash = 2166136261;
+  for (let index = 0; index < text.length; index += 1) {
+    hash ^= text.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+}
+
 function designsFor(book) {
   const remote = state.designs.filter((design) => design.bookId === book.id);
   if (remote.length) return remote.map((design) => ({
@@ -344,31 +360,46 @@ function renderAbout() {
 }
 
 function renderHome() {
-  const pick = dailyPick();
-  const featured = designsFor(pick)[0];
+  const designEntries = state.designs
+    .map((design) => ({
+      design,
+      book: state.books.find((book) => book.id === design.bookId),
+    }))
+    .filter((entry) => entry.book);
+  const visibleDesigns = homePageScrambleDesigns ? dailyShuffle(designEntries) : designEntries;
+  const featured = visibleDesigns[0];
   app.innerHTML = `
-    <section class="hero">
+    <section class="hero design-hero" data-design-id="${escapeHtml(featured.design.id)}">
       <div class="hero-copy">
-        <p class="eyebrow">Daily pick</p>
-        <h1>${escapeHtml(pick.title)}</h1>
-        <p class="lede">${escapeHtml(pick.bookSummary)}</p>
+        <p class="eyebrow">Featured design</p>
+        <h1>${escapeHtml(featured.design.title)}</h1>
+        <p class="lede">${escapeHtml(featured.book.title)} / ${escapeHtml(featured.book.movie)} (${escapeHtml(featured.book.movieYear)})</p>
+        <p>${escapeHtml(featured.design.concept)}</p>
+        <div class="product-picker hero-product-picker">
+          ${productPickerHtml(featured.design, state.marketplace)}
+        </div>
         <div class="hero-actions">
-          <button class="button" data-open-book="${pick.id}">Open detail</button>
-          <button class="button secondary" data-favorite="book:${pick.id}">${isFavorite('book', pick.id) ? 'Saved' : 'Save book'}</button>
+          <button class="button" data-commerce-action="${escapeHtml(featured.design.id)}">Add to cart</button>
+          <button class="button secondary" data-open-book="${escapeHtml(featured.book.id)}" data-focus-design="${escapeHtml(featured.design.id)}">Details</button>
+          <button class="button secondary" data-favorite="design:${escapeHtml(featured.design.id)}">${isFavorite('design', featured.design.id) ? 'Saved' : 'Save design'}</button>
         </div>
       </div>
       <figure class="hero-art">
-        ${designArt(featured, pick)}
-        <figcaption>${escapeHtml(featured.title)} for ${escapeHtml(pick.movie)} (${escapeHtml(pick.movieYear)})</figcaption>
+        ${designArt(featured.design, featured.book)}
+        <figcaption>${escapeHtml(featured.design.title)} for ${escapeHtml(featured.book.title)}</figcaption>
       </figure>
     </section>
     <div class="section-head">
-      <div><h2>Explore connections</h2><p>Books, adaptations, quotes, and product design ideas.</p></div>
-      ${genreChips()}
+      <div><h2>Browse designs</h2><p>Shop from artwork first, or use Explore for categories and book details.</p></div>
+      <button class="button secondary" data-home-explore>Explore categories</button>
     </div>
-    <section class="card-grid">${state.books.map(bookCard).join('')}</section>
+    <section class="design-grid home-design-grid">
+      ${visibleDesigns.map(({ book, design }) => designCard(book, design, { showBookMeta: true })).join('')}
+    </section>
   `;
   bindCommonActions();
+  document.querySelector('[data-home-explore]')?.addEventListener('click', () => setView('explore'));
+  bindDesignActions(app);
 }
 
 function renderExplore() {
@@ -509,7 +540,7 @@ function openBook(bookId, focusDesignId = '') {
   `;
   modal.hidden = false;
   bindCommonActions(modalContent);
-  bindDesignActions(book, designs);
+  bindDesignActions(modalContent, book, designs);
   if (focusDesignId) {
     const focusedCard = modalContent.querySelector(`[data-design-id="${CSS.escape(focusDesignId)}"]`);
     if (focusedCard) {
@@ -519,18 +550,20 @@ function openBook(bookId, focusDesignId = '') {
   }
 }
 
-function designCard(book, design) {
+function designCard(book, design, options = {}) {
   return `
     <article class="design-card" data-design-id="${escapeHtml(design.id)}">
       <div class="design-art">${designArt(design, book)}</div>
       <div class="design-body">
         <h3>${escapeHtml(design.title)}</h3>
+        ${options.showBookMeta ? `<p class="design-meta">${escapeHtml(book.title)} / ${escapeHtml(book.movie)}</p>` : ''}
         <p>${escapeHtml(design.concept)}</p>
         <div class="product-picker">
           ${productPickerHtml(design, state.marketplace)}
         </div>
         <div class="book-card-actions">
           <button class="button tonal" data-commerce-action="${escapeHtml(design.id)}">Add to cart</button>
+          ${options.showBookMeta ? `<button class="button secondary" data-open-book="${escapeHtml(book.id)}" data-focus-design="${escapeHtml(design.id)}">Details</button>` : ''}
           <button class="icon-button ${isFavorite('design', design.id) ? 'is-active' : ''}" data-favorite="design:${design.id}" aria-label="Save ${escapeHtml(design.title)}">♥</button>
         </div>
       </div>
@@ -567,16 +600,20 @@ function updateCommerceButton(card, design) {
   button.textContent = amazonUrl ? 'Buy on Amazon' : 'Add to cart';
 }
 
-function bindDesignActions(book, designs) {
-  modalContent.querySelectorAll('[data-design-id]').forEach((card) => {
-    const design = designs.find((item) => item.id === card.dataset.designId);
+function bindDesignActions(root, scopedBook = null, scopedDesigns = null) {
+  root.querySelectorAll('[data-design-id]').forEach((card) => {
+    const design = (scopedDesigns ?? state.designs).find((item) => item.id === card.dataset.designId);
+    if (!design) return;
     bindProductChips(card, design);
     updateCommerceButton(card, design);
   });
-  modalContent.querySelectorAll('[data-commerce-action]').forEach((button) => {
+  root.querySelectorAll('[data-commerce-action]').forEach((button) => {
     button.addEventListener('click', () => {
-      const card = button.closest('[data-design-id]');
-      const design = designs.find((item) => item.id === button.dataset.commerceAction);
+      const card = button.closest('[data-design-id]') ?? root.querySelector(`[data-design-id="${CSS.escape(button.dataset.commerceAction)}"]`);
+      const design = (scopedDesigns ?? state.designs).find((item) => item.id === button.dataset.commerceAction);
+      if (!card || !design) return;
+      const book = scopedBook ?? state.books.find((item) => item.id === design.bookId);
+      if (!book) return;
       const amazonUrl = amazonUrlForSelection(card, design);
       if (amazonUrl) {
         window.open(amazonUrl, '_blank', 'noopener');
