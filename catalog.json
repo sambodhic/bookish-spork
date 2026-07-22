@@ -1,305 +1,12 @@
 {
-  "version": 2,
-  "updatedAt": "2026-07-12",
+  "version": 3,
+  "updatedAt": "2026-07-22",
   "designs": [
-    {
-      "id": "dune-Fear-can-be-faced",
-      "bookId": "dune",
-      "title": "Fear can be faced",
-      "concept": "Fear can be faced inspired by Dune, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/dune/Fear-can-be-faced.png",
-      "amazonListings": {
-        "T-shirt": {
-          "US": "https://a.co/d/0iN1nCjU"
-        }
-      }
-    },
-    {
-      "id": "dune-Power-changes-every-promise",
-      "bookId": "dune",
-      "title": "Power changes every promise",
-      "concept": "Power changes every promise inspired by Dune, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/dune/Power-changes-every-promise.png"
-    },
-    {
-      "id": "dune-The-desert-remembers",
-      "bookId": "dune",
-      "title": "The desert remembers",
-      "concept": "The desert remembers inspired by Dune, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/dune/The-desert-remembers.png"
-    },
-    {
-      "id": "the-martian-Solve-the-next-problem",
-      "bookId": "the-martian",
-      "title": "Solve the next problem",
-      "concept": "Solve the next problem inspired by The Martian, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-martian/Solve-the-next-problem.png"
-    },
-    {
-      "id": "the-martian-Hope-grows-one-fix-at-a-time",
-      "bookId": "the-martian",
-      "title": "Hope grows one fix at a time",
-      "concept": "Hope grows one fix at a time inspired by The Martian, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-martian/Hope-grows-one-fix-at-a-time.png"
-    },
-    {
-      "id": "the-martian-Science-can-be-heroic",
-      "bookId": "the-martian",
-      "title": "Science can be heroic",
-      "concept": "Science can be heroic inspired by The Martian, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-martian/Science-can-be-heroic.png"
-    },
-    {
-      "id": "jurassic-park-Wonder-needs-wisdom",
-      "bookId": "jurassic-park",
-      "title": "Wonder needs wisdom",
-      "concept": "Wonder needs wisdom inspired by Jurassic Park, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/jurassic-park/Wonder-needs-wisdom.png"
-    },
-    {
-      "id": "jurassic-park-Nature-does-not-sign-waivers",
-      "bookId": "jurassic-park",
-      "title": "Nature does not sign waivers",
-      "concept": "Nature does not sign waivers inspired by Jurassic Park, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/jurassic-park/Nature-does-not-sign-waivers.png"
-    },
-    {
-      "id": "jurassic-park-Control-is-a-fragile-illusion",
-      "bookId": "jurassic-park",
-      "title": "Control is a fragile illusion",
-      "concept": "Control is a fragile illusion inspired by Jurassic Park, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/jurassic-park/Control-is-a-fragile-illusion.png"
-    },
-    {
-      "id": "ready-player-one-The-real-prize-is-connection",
-      "bookId": "ready-player-one",
-      "title": "The real prize is connection",
-      "concept": "The real prize is connection inspired by Ready Player One, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/ready-player-one/The-real-prize-is-connection.png"
-    },
-    {
-      "id": "ready-player-one-Avatars-still-need-courage",
-      "bookId": "ready-player-one",
-      "title": "Avatars still need courage",
-      "concept": "Avatars still need courage inspired by Ready Player One, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/ready-player-one/Avatars-still-need-courage.png"
-    },
-    {
-      "id": "ready-player-one-Play-can-become-resistance",
-      "bookId": "ready-player-one",
-      "title": "Play can become resistance",
-      "concept": "Play can become resistance inspired by Ready Player One, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/ready-player-one/Play-can-become-resistance.png"
-    },
-    {
-      "id": "the-hunger-games-A-spark-can-travel",
-      "bookId": "the-hunger-games",
-      "title": "A spark can travel",
-      "concept": "A spark can travel inspired by The Hunger Games, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-hunger-games/A-spark-can-travel.png"
-    },
-    {
-      "id": "the-hunger-games-Performance-can-hide-defiance",
-      "bookId": "the-hunger-games",
-      "title": "Performance can hide defiance",
-      "concept": "Performance can hide defiance inspired by The Hunger Games, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-hunger-games/Performance-can-hide-defiance.png"
-    },
-    {
-      "id": "the-hunger-games-Survival-has-a-cost",
-      "bookId": "the-hunger-games",
-      "title": "Survival has a cost",
-      "concept": "Survival has a cost inspired by The Hunger Games, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-hunger-games/Survival-has-a-cost.png"
-    },
-    {
-      "id": "ender-s-game-Games-can-carry-consequences",
-      "bookId": "ender-s-game",
-      "title": "Games can carry consequences",
-      "concept": "Games can carry consequences inspired by Ender's Game, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/ender-s-game/Games-can-carry-consequences.png"
-    },
-    {
-      "id": "ender-s-game-Strategy-without-empathy-fails",
-      "bookId": "ender-s-game",
-      "title": "Strategy without empathy fails",
-      "concept": "Strategy without empathy fails inspired by Ender's Game, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/ender-s-game/Strategy-without-empathy-fails.png"
-    },
-    {
-      "id": "ender-s-game-Children-should-not-inherit-every-war",
-      "bookId": "ender-s-game",
-      "title": "Children should not inherit every war",
-      "concept": "Children should not inherit every war inspired by Ender's Game, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/ender-s-game/Children-should-not-inherit-every-war.png"
-    },
     {
       "id": "the-time-machine-Time-reveals-what-choices-build",
       "bookId": "the-time-machine",
       "title": "Time reveals what choices build",
-      "concept": "Time reveals what choices build inspired by The Time Machine, designed as adaptable typography and icon art for print products.",
+      "concept": "Time reveals what choices build inspired by The Time Machine, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -315,7 +22,7 @@
       "id": "the-time-machine-Progress-needs-a-conscience",
       "bookId": "the-time-machine",
       "title": "Progress needs a conscience",
-      "concept": "Progress needs a conscience inspired by The Time Machine, designed as adaptable typography and icon art for print products.",
+      "concept": "Progress needs a conscience inspired by The Time Machine, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -331,7 +38,7 @@
       "id": "the-time-machine-Tomorrow-is-not-neutral",
       "bookId": "the-time-machine",
       "title": "Tomorrow is not neutral",
-      "concept": "Tomorrow is not neutral inspired by The Time Machine, designed as adaptable typography and icon art for print products.",
+      "concept": "Tomorrow is not neutral inspired by The Time Machine, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -347,7 +54,7 @@
       "id": "the-war-of-the-worlds-The-sky-can-change-everything",
       "bookId": "the-war-of-the-worlds",
       "title": "The sky can change everything",
-      "concept": "The sky can change everything inspired by The War of the Worlds, designed as adaptable typography and icon art for print products.",
+      "concept": "The sky can change everything inspired by The War of the Worlds, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -360,26 +67,10 @@
       "imageUrl": "designs/the-war-of-the-worlds/The-sky-can-change-everything.png"
     },
     {
-      "id": "the-war-of-the-worlds-Small-lives-matter-in-large-disasters",
-      "bookId": "the-war-of-the-worlds",
-      "title": "Small lives matter in large disasters",
-      "concept": "Small lives matter in large disasters inspired by The War of the Worlds, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-war-of-the-worlds/Small-lives-matter-in-large-disasters.png"
-    },
-    {
       "id": "the-war-of-the-worlds-Survival-begins-at-home",
       "bookId": "the-war-of-the-worlds",
       "title": "Survival begins at home",
-      "concept": "Survival begins at home inspired by The War of the Worlds, designed as adaptable typography and icon art for print products.",
+      "concept": "Survival begins at home inspired by The War of the Worlds, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -392,10 +83,10 @@
       "imageUrl": "designs/the-war-of-the-worlds/Survival-begins-at-home.png"
     },
     {
-      "id": "i-am-legend-Loneliness-has-an-echo",
-      "bookId": "i-am-legend",
-      "title": "Loneliness has an echo",
-      "concept": "Loneliness has an echo inspired by I Am Legend, designed as adaptable typography and icon art for print products.",
+      "id": "the-war-of-the-worlds-Small-lives-matter-in-large-disasters",
+      "bookId": "the-war-of-the-worlds",
+      "title": "Small lives matter in large disasters",
+      "concept": "Small lives matter in large disasters inspired by The War of the Worlds, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -405,13 +96,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/i-am-legend/Loneliness-has-an-echo.png"
+      "imageUrl": "designs/the-war-of-the-worlds/Small-lives-matter-in-large-disasters.png"
     },
     {
-      "id": "i-am-legend-Legends-depend-on-who-is-left",
-      "bookId": "i-am-legend",
-      "title": "Legends depend on who is left",
-      "concept": "Legends depend on who is left inspired by I Am Legend, designed as adaptable typography and icon art for print products.",
+      "id": "twenty-thousand-leagues-under-the-seas-Wonder-dives-below-the-map",
+      "bookId": "twenty-thousand-leagues-under-the-seas",
+      "title": "Wonder dives below the map",
+      "concept": "Wonder dives below the map inspired by Twenty Thousand Leagues Under the Seas, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -421,13 +112,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/i-am-legend/Legends-depend-on-who-is-left.png"
+      "imageUrl": "designs/twenty-thousand-leagues-under-the-seas/Wonder-dives-below-the-map.png"
     },
     {
-      "id": "i-am-legend-Routine-can-hold-back-fear",
-      "bookId": "i-am-legend",
-      "title": "Routine can hold back fear",
-      "concept": "Routine can hold back fear inspired by I Am Legend, designed as adaptable typography and icon art for print products.",
+      "id": "twenty-thousand-leagues-under-the-seas-The-deep-keeps-strange-counsel",
+      "bookId": "twenty-thousand-leagues-under-the-seas",
+      "title": "The deep keeps strange counsel",
+      "concept": "The deep keeps strange counsel inspired by Twenty Thousand Leagues Under the Seas, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -437,13 +128,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/i-am-legend/Routine-can-hold-back-fear.png"
+      "imageUrl": "designs/twenty-thousand-leagues-under-the-seas/The-deep-keeps-strange-counsel.png"
     },
     {
-      "id": "annihilation-Change-can-be-beautiful-and-terrifying",
-      "bookId": "annihilation",
-      "title": "Change can be beautiful and terrifying",
-      "concept": "Change can be beautiful and terrifying inspired by Annihilation, designed as adaptable typography and icon art for print products.",
+      "id": "twenty-thousand-leagues-under-the-seas-Freedom-can-choose-the-sea",
+      "bookId": "twenty-thousand-leagues-under-the-seas",
+      "title": "Freedom can choose the sea",
+      "concept": "Freedom can choose the sea inspired by Twenty Thousand Leagues Under the Seas, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -453,13 +144,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/annihilation/Change-can-be-beautiful-and-terrifying.png"
+      "imageUrl": "designs/twenty-thousand-leagues-under-the-seas/Freedom-can-choose-the-sea.png"
     },
     {
-      "id": "annihilation-The-unknown-rewrites-the-observer",
-      "bookId": "annihilation",
-      "title": "The unknown rewrites the observer",
-      "concept": "The unknown rewrites the observer inspired by Annihilation, designed as adaptable typography and icon art for print products.",
+      "id": "journey-to-the-center-of-the-earth-Curiosity-digs-deep",
+      "bookId": "journey-to-the-center-of-the-earth",
+      "title": "Curiosity digs deep",
+      "concept": "Curiosity digs deep inspired by Journey to the Center of the Earth, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -469,13 +160,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/annihilation/The-unknown-rewrites-the-observer.png"
+      "imageUrl": "designs/journey-to-the-center-of-the-earth/Curiosity-digs-deep.png"
     },
     {
-      "id": "annihilation-Nature-keeps-no-simple-borders",
-      "bookId": "annihilation",
-      "title": "Nature keeps no simple borders",
-      "concept": "Nature keeps no simple borders inspired by Annihilation, designed as adaptable typography and icon art for print products.",
+      "id": "journey-to-the-center-of-the-earth-The-map-can-point-downward",
+      "bookId": "journey-to-the-center-of-the-earth",
+      "title": "The map can point downward",
+      "concept": "The map can point downward inspired by Journey to the Center of the Earth, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -485,13 +176,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/annihilation/Nature-keeps-no-simple-borders.png"
+      "imageUrl": "designs/journey-to-the-center-of-the-earth/The-map-can-point-downward.png"
     },
     {
-      "id": "the-hobbit-Adventure-may-knock-softly",
-      "bookId": "the-hobbit",
-      "title": "Adventure may knock softly",
-      "concept": "Adventure may knock softly inspired by The Hobbit, designed as adaptable typography and icon art for print products.",
+      "id": "journey-to-the-center-of-the-earth-Discovery-has-underground-weather",
+      "bookId": "journey-to-the-center-of-the-earth",
+      "title": "Discovery has underground weather",
+      "concept": "Discovery has underground weather inspired by Journey to the Center of the Earth, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -501,13 +192,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-hobbit/Adventure-may-knock-softly.png"
+      "imageUrl": "designs/journey-to-the-center-of-the-earth/Discovery-has-underground-weather.png"
     },
     {
-      "id": "the-hobbit-Small-travelers-can-change-maps",
-      "bookId": "the-hobbit",
-      "title": "Small travelers can change maps",
-      "concept": "Small travelers can change maps inspired by The Hobbit, designed as adaptable typography and icon art for print products.",
+      "id": "from-the-earth-to-the-moon-Aim-beyond-the-argument",
+      "bookId": "from-the-earth-to-the-moon",
+      "title": "Aim beyond the argument",
+      "concept": "Aim beyond the argument inspired by From the Earth to the Moon, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -517,13 +208,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-hobbit/Small-travelers-can-change-maps.png"
+      "imageUrl": "designs/from-the-earth-to-the-moon/Aim-beyond-the-argument.png"
     },
     {
-      "id": "the-hobbit-Home-means-more-after-the-road",
-      "bookId": "the-hobbit",
-      "title": "Home means more after the road",
-      "concept": "Home means more after the road inspired by The Hobbit, designed as adaptable typography and icon art for print products.",
+      "id": "from-the-earth-to-the-moon-Big-dreams-need-calculations",
+      "bookId": "from-the-earth-to-the-moon",
+      "title": "Big dreams need calculations",
+      "concept": "Big dreams need calculations inspired by From the Earth to the Moon, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -533,13 +224,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-hobbit/Home-means-more-after-the-road.png"
+      "imageUrl": "designs/from-the-earth-to-the-moon/Big-dreams-need-calculations.png"
     },
     {
-      "id": "the-fellowship-of-the-ring-Friendship-carries-heavy-burdens",
-      "bookId": "the-fellowship-of-the-ring",
-      "title": "Friendship carries heavy burdens",
-      "concept": "Friendship carries heavy burdens inspired by The Fellowship of the Ring, designed as adaptable typography and icon art for print products.",
+      "id": "from-the-earth-to-the-moon-The-moon-invites-audacity",
+      "bookId": "from-the-earth-to-the-moon",
+      "title": "The moon invites audacity",
+      "concept": "The moon invites audacity inspired by From the Earth to the Moon, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -549,13 +240,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-fellowship-of-the-ring/Friendship-carries-heavy-burdens.png"
+      "imageUrl": "designs/from-the-earth-to-the-moon/The-moon-invites-audacity.png"
     },
     {
-      "id": "the-fellowship-of-the-ring-Even-small-hands-can-help-history-turn",
-      "bookId": "the-fellowship-of-the-ring",
-      "title": "Even small hands can help history turn",
-      "concept": "Even small hands can help history turn inspired by The Fellowship of the Ring, designed as adaptable typography and icon art for print products.",
+      "id": "the-first-men-in-the-moon-Moonlight-exposes-ambition",
+      "bookId": "the-first-men-in-the-moon",
+      "title": "Moonlight exposes ambition",
+      "concept": "Moonlight exposes ambition inspired by The First Men in the Moon, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -565,13 +256,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-fellowship-of-the-ring/Even-small-hands-can-help-history-turn.png"
+      "imageUrl": "designs/the-first-men-in-the-moon/Moonlight-exposes-ambition.png"
     },
     {
-      "id": "the-fellowship-of-the-ring-The-road-chooses-companions",
-      "bookId": "the-fellowship-of-the-ring",
-      "title": "The road chooses companions",
-      "concept": "The road chooses companions inspired by The Fellowship of the Ring, designed as adaptable typography and icon art for print products.",
+      "id": "the-first-men-in-the-moon-New-worlds-ask-old-questions",
+      "bookId": "the-first-men-in-the-moon",
+      "title": "New worlds ask old questions",
+      "concept": "New worlds ask old questions inspired by The First Men in the Moon, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -581,13 +272,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-fellowship-of-the-ring/The-road-chooses-companions.png"
+      "imageUrl": "designs/the-first-men-in-the-moon/New-worlds-ask-old-questions.png"
     },
     {
-      "id": "harry-potter-and-the-sorcerer-s-stone-Magic-begins-with-belonging",
-      "bookId": "harry-potter-and-the-sorcerer-s-stone",
-      "title": "Magic begins with belonging",
-      "concept": "Magic begins with belonging inspired by Harry Potter and the Sorcerer's Stone, designed as adaptable typography and icon art for print products.",
+      "id": "the-first-men-in-the-moon-Invention-changes-the-view",
+      "bookId": "the-first-men-in-the-moon",
+      "title": "Invention changes the view",
+      "concept": "Invention changes the view inspired by The First Men in the Moon, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -597,13 +288,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/harry-potter-and-the-sorcerer-s-stone/Magic-begins-with-belonging.png"
+      "imageUrl": "designs/the-first-men-in-the-moon/Invention-changes-the-view.png"
     },
     {
-      "id": "harry-potter-and-the-sorcerer-s-stone-New-worlds-need-brave-friends",
-      "bookId": "harry-potter-and-the-sorcerer-s-stone",
-      "title": "New worlds need brave friends",
-      "concept": "New worlds need brave friends inspired by Harry Potter and the Sorcerer's Stone, designed as adaptable typography and icon art for print products.",
+      "id": "the-invisible-man-Power-unseen-still-leaves-marks",
+      "bookId": "the-invisible-man",
+      "title": "Power unseen still leaves marks",
+      "concept": "Power unseen still leaves marks inspired by The Invisible Man, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -613,13 +304,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/harry-potter-and-the-sorcerer-s-stone/New-worlds-need-brave-friends.png"
+      "imageUrl": "designs/the-invisible-man/Power-unseen-still-leaves-marks.png"
     },
     {
-      "id": "harry-potter-and-the-sorcerer-s-stone-A-letter-can-change-a-life",
-      "bookId": "harry-potter-and-the-sorcerer-s-stone",
-      "title": "A letter can change a life",
-      "concept": "A letter can change a life inspired by Harry Potter and the Sorcerer's Stone, designed as adaptable typography and icon art for print products.",
+      "id": "the-invisible-man-Isolation-can-distort-genius",
+      "bookId": "the-invisible-man",
+      "title": "Isolation can distort genius",
+      "concept": "Isolation can distort genius inspired by The Invisible Man, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -629,13 +320,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/harry-potter-and-the-sorcerer-s-stone/A-letter-can-change-a-life.png"
+      "imageUrl": "designs/the-invisible-man/Isolation-can-distort-genius.png"
     },
     {
-      "id": "the-princess-bride-True-love-travels-well",
-      "bookId": "the-princess-bride",
-      "title": "True love travels well",
-      "concept": "True love travels well inspired by The Princess Bride, designed as adaptable typography and icon art for print products.",
+      "id": "the-invisible-man-No-secret-stays-weightless",
+      "bookId": "the-invisible-man",
+      "title": "No secret stays weightless",
+      "concept": "No secret stays weightless inspired by The Invisible Man, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -645,13 +336,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-princess-bride/True-love-travels-well.png"
+      "imageUrl": "designs/the-invisible-man/No-secret-stays-weightless.png"
     },
     {
-      "id": "the-princess-bride-Adventure-prefers-wit",
-      "bookId": "the-princess-bride",
-      "title": "Adventure prefers wit",
-      "concept": "Adventure prefers wit inspired by The Princess Bride, designed as adaptable typography and icon art for print products.",
+      "id": "a-princess-of-mars-Strange-worlds-test-courage",
+      "bookId": "a-princess-of-mars",
+      "title": "Strange worlds test courage",
+      "concept": "Strange worlds test courage inspired by A Princess of Mars, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -661,13 +352,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-princess-bride/Adventure-prefers-wit.png"
+      "imageUrl": "designs/a-princess-of-mars/Strange-worlds-test-courage.png"
     },
     {
-      "id": "the-princess-bride-Every-quest-needs-style",
-      "bookId": "the-princess-bride",
-      "title": "Every quest needs style",
-      "concept": "Every quest needs style inspired by The Princess Bride, designed as adaptable typography and icon art for print products.",
+      "id": "a-princess-of-mars-Honor-travels-between-planets",
+      "bookId": "a-princess-of-mars",
+      "title": "Honor travels between planets",
+      "concept": "Honor travels between planets inspired by A Princess of Mars, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -677,13 +368,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-princess-bride/Every-quest-needs-style.png"
+      "imageUrl": "designs/a-princess-of-mars/Honor-travels-between-planets.png"
     },
     {
-      "id": "stardust-Stars-have-their-own-plans",
-      "bookId": "stardust",
-      "title": "Stars have their own plans",
-      "concept": "Stars have their own plans inspired by Stardust, designed as adaptable typography and icon art for print products.",
+      "id": "a-princess-of-mars-Adventure-wears-red-dust",
+      "bookId": "a-princess-of-mars",
+      "title": "Adventure wears red dust",
+      "concept": "Adventure wears red dust inspired by A Princess of Mars, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -693,13 +384,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/stardust/Stars-have-their-own-plans.png"
+      "imageUrl": "designs/a-princess-of-mars/Adventure-wears-red-dust.png"
     },
     {
-      "id": "stardust-Wishes-can-become-journeys",
-      "bookId": "stardust",
-      "title": "Wishes can become journeys",
-      "concept": "Wishes can become journeys inspired by Stardust, designed as adaptable typography and icon art for print products.",
+      "id": "the-lost-world-The-old-world-still-roars",
+      "bookId": "the-lost-world",
+      "title": "The old world still roars",
+      "concept": "The old world still roars inspired by The Lost World, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -709,13 +400,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/stardust/Wishes-can-become-journeys.png"
+      "imageUrl": "designs/the-lost-world/The-old-world-still-roars.png"
     },
     {
-      "id": "stardust-Magic-rewards-the-open-hearted",
-      "bookId": "stardust",
-      "title": "Magic rewards the open-hearted",
-      "concept": "Magic rewards the open-hearted inspired by Stardust, designed as adaptable typography and icon art for print products.",
+      "id": "the-lost-world-Maps-can-keep-secrets",
+      "bookId": "the-lost-world",
+      "title": "Maps can keep secrets",
+      "concept": "Maps can keep secrets inspired by The Lost World, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -725,13 +416,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/stardust/Magic-rewards-the-open-hearted.png"
+      "imageUrl": "designs/the-lost-world/Maps-can-keep-secrets.png"
     },
     {
-      "id": "the-lion-the-witch-and-the-wardrobe-A-wardrobe-can-become-a-doorway",
-      "bookId": "the-lion-the-witch-and-the-wardrobe",
-      "title": "A wardrobe can become a doorway",
-      "concept": "A wardrobe can become a doorway inspired by The Lion, the Witch and the Wardrobe, designed as adaptable typography and icon art for print products.",
+      "id": "the-lost-world-Discovery-needs-humility",
+      "bookId": "the-lost-world",
+      "title": "Discovery needs humility",
+      "concept": "Discovery needs humility inspired by The Lost World, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -741,13 +432,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-lion-the-witch-and-the-wardrobe/A-wardrobe-can-become-a-doorway.png"
+      "imageUrl": "designs/the-lost-world/Discovery-needs-humility.png"
     },
     {
-      "id": "the-lion-the-witch-and-the-wardrobe-Courage-warms-the-longest-winter",
-      "bookId": "the-lion-the-witch-and-the-wardrobe",
-      "title": "Courage warms the longest winter",
-      "concept": "Courage warms the longest winter inspired by The Lion, the Witch and the Wardrobe, designed as adaptable typography and icon art for print products.",
+      "id": "flatland-Perspective-changes-everything",
+      "bookId": "flatland",
+      "title": "Perspective changes everything",
+      "concept": "Perspective changes everything inspired by Flatland, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -757,13 +448,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-lion-the-witch-and-the-wardrobe/Courage-warms-the-longest-winter.png"
+      "imageUrl": "designs/flatland/Perspective-changes-everything.png"
     },
     {
-      "id": "the-lion-the-witch-and-the-wardrobe-Kings-and-queens-begin-as-children",
-      "bookId": "the-lion-the-witch-and-the-wardrobe",
-      "title": "Kings and queens begin as children",
-      "concept": "Kings and queens begin as children inspired by The Lion, the Witch and the Wardrobe, designed as adaptable typography and icon art for print products.",
+      "id": "flatland-A-line-can-dream-of-space",
+      "bookId": "flatland",
+      "title": "A line can dream of space",
+      "concept": "A line can dream of space inspired by Flatland, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -773,13 +464,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-lion-the-witch-and-the-wardrobe/Kings-and-queens-begin-as-children.png"
+      "imageUrl": "designs/flatland/A-line-can-dream-of-space.png"
     },
     {
-      "id": "howl-s-moving-castle-A-home-can-walk-with-you",
-      "bookId": "howl-s-moving-castle",
-      "title": "A home can walk with you",
-      "concept": "A home can walk with you inspired by Howl's Moving Castle, designed as adaptable typography and icon art for print products.",
+      "id": "flatland-Dimensions-humble-certainty",
+      "bookId": "flatland",
+      "title": "Dimensions humble certainty",
+      "concept": "Dimensions humble certainty inspired by Flatland, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -789,45 +480,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/howl-s-moving-castle/A-home-can-walk-with-you.png"
-    },
-    {
-      "id": "howl-s-moving-castle-Curses-cannot-name-the-whole-heart",
-      "bookId": "howl-s-moving-castle",
-      "title": "Curses cannot name the whole heart",
-      "concept": "Curses cannot name the whole heart inspired by Howl's Moving Castle, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/howl-s-moving-castle/Curses-cannot-name-the-whole-heart.png"
-    },
-    {
-      "id": "howl-s-moving-castle-Magic-needs-tenderness",
-      "bookId": "howl-s-moving-castle",
-      "title": "Magic needs tenderness",
-      "concept": "Magic needs tenderness inspired by Howl's Moving Castle, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/howl-s-moving-castle/Magic-needs-tenderness.png"
+      "imageUrl": "designs/flatland/Dimensions-humble-certainty.png"
     },
     {
       "id": "alice-s-adventures-in-wonderland-Curiosity-opens-impossible-doors",
       "bookId": "alice-s-adventures-in-wonderland",
       "title": "Curiosity opens impossible doors",
-      "concept": "Curiosity opens impossible doors inspired by Alice's Adventures in Wonderland, designed as adaptable typography and icon art for print products.",
+      "concept": "Curiosity opens impossible doors inspired by Alice's Adventures in Wonderland, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -843,7 +502,7 @@
       "id": "alice-s-adventures-in-wonderland-Nonsense-has-its-own-map",
       "bookId": "alice-s-adventures-in-wonderland",
       "title": "Nonsense has its own map",
-      "concept": "Nonsense has its own map inspired by Alice's Adventures in Wonderland, designed as adaptable typography and icon art for print products.",
+      "concept": "Nonsense has its own map inspired by Alice's Adventures in Wonderland, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -859,7 +518,7 @@
       "id": "alice-s-adventures-in-wonderland-Wonder-asks-better-questions",
       "bookId": "alice-s-adventures-in-wonderland",
       "title": "Wonder asks better questions",
-      "concept": "Wonder asks better questions inspired by Alice's Adventures in Wonderland, designed as adaptable typography and icon art for print products.",
+      "concept": "Wonder asks better questions inspired by Alice's Adventures in Wonderland, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -875,7 +534,7 @@
       "id": "the-wonderful-wizard-of-oz-Home-can-be-the-bravest-destination",
       "bookId": "the-wonderful-wizard-of-oz",
       "title": "Home can be the bravest destination",
-      "concept": "Home can be the bravest destination inspired by The Wonderful Wizard of Oz, designed as adaptable typography and icon art for print products.",
+      "concept": "Home can be the bravest destination inspired by The Wonderful Wizard of Oz, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -891,7 +550,7 @@
       "id": "the-wonderful-wizard-of-oz-Every-road-teaches-a-gift",
       "bookId": "the-wonderful-wizard-of-oz",
       "title": "Every road teaches a gift",
-      "concept": "Every road teaches a gift inspired by The Wonderful Wizard of Oz, designed as adaptable typography and icon art for print products.",
+      "concept": "Every road teaches a gift inspired by The Wonderful Wizard of Oz, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -907,7 +566,7 @@
       "id": "the-wonderful-wizard-of-oz-Color-arrives-after-the-storm",
       "bookId": "the-wonderful-wizard-of-oz",
       "title": "Color arrives after the storm",
-      "concept": "Color arrives after the storm inspired by The Wonderful Wizard of Oz, designed as adaptable typography and icon art for print products.",
+      "concept": "Color arrives after the storm inspired by The Wonderful Wizard of Oz, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -920,10 +579,10 @@
       "imageUrl": "designs/the-wonderful-wizard-of-oz/Color-arrives-after-the-storm.png"
     },
     {
-      "id": "the-neverending-story-A-book-can-answer-back",
-      "bookId": "the-neverending-story",
-      "title": "A book can answer back",
-      "concept": "A book can answer back inspired by The Neverending Story, designed as adaptable typography and icon art for print products.",
+      "id": "peter-pan-Childhood-knows-hidden-routes",
+      "bookId": "peter-pan",
+      "title": "Childhood knows hidden routes",
+      "concept": "Childhood knows hidden routes inspired by Peter Pan, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -933,13 +592,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-neverending-story/A-book-can-answer-back.png"
+      "imageUrl": "designs/peter-pan/Childhood-knows-hidden-routes.png"
     },
     {
-      "id": "the-neverending-story-Imagination-needs-defenders",
-      "bookId": "the-neverending-story",
-      "title": "Imagination needs defenders",
-      "concept": "Imagination needs defenders inspired by The Neverending Story, designed as adaptable typography and icon art for print products.",
+      "id": "peter-pan-Adventure-forgets-the-clock",
+      "bookId": "peter-pan",
+      "title": "Adventure forgets the clock",
+      "concept": "Adventure forgets the clock inspired by Peter Pan, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -949,13 +608,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-neverending-story/Imagination-needs-defenders.png"
+      "imageUrl": "designs/peter-pan/Adventure-forgets-the-clock.png"
     },
     {
-      "id": "the-neverending-story-Names-can-restore-worlds",
-      "bookId": "the-neverending-story",
-      "title": "Names can restore worlds",
-      "concept": "Names can restore worlds inspired by The Neverending Story, designed as adaptable typography and icon art for print products.",
+      "id": "peter-pan-Growing-up-casts-a-shadow",
+      "bookId": "peter-pan",
+      "title": "Growing up casts a shadow",
+      "concept": "Growing up casts a shadow inspired by Peter Pan, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -965,13 +624,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-neverending-story/Names-can-restore-worlds.png"
+      "imageUrl": "designs/peter-pan/Growing-up-casts-a-shadow.png"
     },
     {
-      "id": "pride-and-prejudice-A-laugh-can-reveal-the-truth",
-      "bookId": "pride-and-prejudice",
-      "title": "A laugh can reveal the truth",
-      "concept": "A laugh can reveal the truth inspired by Pride and Prejudice, designed as adaptable typography and icon art for print products.",
+      "id": "the-velveteen-rabbit-Love-makes-things-real",
+      "bookId": "the-velveteen-rabbit",
+      "title": "Love makes things real",
+      "concept": "Love makes things real inspired by The Velveteen Rabbit, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -981,13 +640,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/pride-and-prejudice/A-laugh-can-reveal-the-truth.png"
+      "imageUrl": "designs/the-velveteen-rabbit/Love-makes-things-real.png"
     },
     {
-      "id": "pride-and-prejudice-First-impressions-can-be-rewritten",
-      "bookId": "pride-and-prejudice",
-      "title": "First impressions can be rewritten",
-      "concept": "First impressions can be rewritten inspired by Pride and Prejudice, designed as adaptable typography and icon art for print products.",
+      "id": "the-velveteen-rabbit-Tenderness-leaves-beautiful-marks",
+      "bookId": "the-velveteen-rabbit",
+      "title": "Tenderness leaves beautiful marks",
+      "concept": "Tenderness leaves beautiful marks inspired by The Velveteen Rabbit, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -997,13 +656,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/pride-and-prejudice/First-impressions-can-be-rewritten.png"
+      "imageUrl": "designs/the-velveteen-rabbit/Tenderness-leaves-beautiful-marks.png"
     },
     {
-      "id": "pride-and-prejudice-Affection-grows-through-honesty",
-      "bookId": "pride-and-prejudice",
-      "title": "Affection grows through honesty",
-      "concept": "Affection grows through honesty inspired by Pride and Prejudice, designed as adaptable typography and icon art for print products.",
+      "id": "the-velveteen-rabbit-Being-worn-can-mean-being-cherished",
+      "bookId": "the-velveteen-rabbit",
+      "title": "Being worn can mean being cherished",
+      "concept": "Being worn can mean being cherished inspired by The Velveteen Rabbit, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -1013,13 +672,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/pride-and-prejudice/Affection-grows-through-honesty.png"
+      "imageUrl": "designs/the-velveteen-rabbit/Being-worn-can-mean-being-cherished.png"
     },
     {
-      "id": "the-notebook-Some-summers-keep-writing-back",
-      "bookId": "the-notebook",
-      "title": "Some summers keep writing back",
-      "concept": "Some summers keep writing back inspired by The Notebook, designed as adaptable typography and icon art for print products.",
+      "id": "the-wind-in-the-willows-Friendship-follows-the-river",
+      "bookId": "the-wind-in-the-willows",
+      "title": "Friendship follows the river",
+      "concept": "Friendship follows the river inspired by The Wind in the Willows, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -1029,13 +688,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-notebook/Some-summers-keep-writing-back.png"
+      "imageUrl": "designs/the-wind-in-the-willows/Friendship-follows-the-river.png"
     },
     {
-      "id": "the-notebook-Memory-can-hold-a-hand",
-      "bookId": "the-notebook",
-      "title": "Memory can hold a hand",
-      "concept": "Memory can hold a hand inspired by The Notebook, designed as adaptable typography and icon art for print products.",
+      "id": "the-wind-in-the-willows-Home-waits-beside-the-water",
+      "bookId": "the-wind-in-the-willows",
+      "title": "Home waits beside the water",
+      "concept": "Home waits beside the water inspired by The Wind in the Willows, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -1045,13 +704,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-notebook/Memory-can-hold-a-hand.png"
+      "imageUrl": "designs/the-wind-in-the-willows/Home-waits-beside-the-water.png"
     },
     {
-      "id": "the-notebook-Love-returns-to-the-page",
-      "bookId": "the-notebook",
-      "title": "Love returns to the page",
-      "concept": "Love returns to the page inspired by The Notebook, designed as adaptable typography and icon art for print products.",
+      "id": "the-wind-in-the-willows-Adventure-needs-a-warm-return",
+      "bookId": "the-wind-in-the-willows",
+      "title": "Adventure needs a warm return",
+      "concept": "Adventure needs a warm return inspired by The Wind in the Willows, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -1061,13 +720,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-notebook/Love-returns-to-the-page.png"
+      "imageUrl": "designs/the-wind-in-the-willows/Adventure-needs-a-warm-return.png"
     },
     {
-      "id": "me-before-you-Live-boldly-even-softly",
-      "bookId": "me-before-you",
-      "title": "Live boldly, even softly",
-      "concept": "Live boldly, even softly inspired by Me Before You, designed as adaptable typography and icon art for print products.",
+      "id": "black-beauty-Kindness-has-reins",
+      "bookId": "black-beauty",
+      "title": "Kindness has reins",
+      "concept": "Kindness has reins inspired by Black Beauty, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -1077,13 +736,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/me-before-you/Live-boldly-even-softly.png"
+      "imageUrl": "designs/black-beauty/Kindness-has-reins.png"
     },
     {
-      "id": "me-before-you-Care-can-change-both-people",
-      "bookId": "me-before-you",
-      "title": "Care can change both people",
-      "concept": "Care can change both people inspired by Me Before You, designed as adaptable typography and icon art for print products.",
+      "id": "black-beauty-Gentle-strength-deserves-care",
+      "bookId": "black-beauty",
+      "title": "Gentle strength deserves care",
+      "concept": "Gentle strength deserves care inspired by Black Beauty, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -1093,13 +752,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/me-before-you/Care-can-change-both-people.png"
+      "imageUrl": "designs/black-beauty/Gentle-strength-deserves-care.png"
     },
     {
-      "id": "me-before-you-Love-asks-hard-questions",
-      "bookId": "me-before-you",
-      "title": "Love asks hard questions",
-      "concept": "Love asks hard questions inspired by Me Before You, designed as adaptable typography and icon art for print products.",
+      "id": "black-beauty-Every-creature-carries-a-story",
+      "bookId": "black-beauty",
+      "title": "Every creature carries a story",
+      "concept": "Every creature carries a story inspired by Black Beauty, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -1109,13 +768,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/me-before-you/Love-asks-hard-questions.png"
+      "imageUrl": "designs/black-beauty/Every-creature-carries-a-story.png"
     },
     {
-      "id": "the-fault-in-our-stars-Small-infinities-still-count",
-      "bookId": "the-fault-in-our-stars",
-      "title": "Small infinities still count",
-      "concept": "Small infinities still count inspired by The Fault in Our Stars, designed as adaptable typography and icon art for print products.",
+      "id": "heidi-Fresh-air-heals-heavy-hearts",
+      "bookId": "heidi",
+      "title": "Fresh air heals heavy hearts",
+      "concept": "Fresh air heals heavy hearts inspired by Heidi, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -1125,13 +784,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-fault-in-our-stars/Small-infinities-still-count.png"
+      "imageUrl": "designs/heidi/Fresh-air-heals-heavy-hearts.png"
     },
     {
-      "id": "the-fault-in-our-stars-Love-is-not-measured-by-time",
-      "bookId": "the-fault-in-our-stars",
-      "title": "Love is not measured by time",
-      "concept": "Love is not measured by time inspired by The Fault in Our Stars, designed as adaptable typography and icon art for print products.",
+      "id": "heidi-Kindness-climbs-mountains",
+      "bookId": "heidi",
+      "title": "Kindness climbs mountains",
+      "concept": "Kindness climbs mountains inspired by Heidi, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -1141,13 +800,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-fault-in-our-stars/Love-is-not-measured-by-time.png"
+      "imageUrl": "designs/heidi/Kindness-climbs-mountains.png"
     },
     {
-      "id": "the-fault-in-our-stars-Stars-can-be-tender",
-      "bookId": "the-fault-in-our-stars",
-      "title": "Stars can be tender",
-      "concept": "Stars can be tender inspired by The Fault in Our Stars, designed as adaptable typography and icon art for print products.",
+      "id": "heidi-Home-can-smell-like-pine",
+      "bookId": "heidi",
+      "title": "Home can smell like pine",
+      "concept": "Home can smell like pine inspired by Heidi, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -1157,1261 +816,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-fault-in-our-stars/Stars-can-be-tender.png"
-    },
-    {
-      "id": "jane-eyre-A-quiet-will-can-be-iron",
-      "bookId": "jane-eyre",
-      "title": "A quiet will can be iron",
-      "concept": "A quiet will can be iron inspired by Jane Eyre, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/jane-eyre/A-quiet-will-can-be-iron.png"
-    },
-    {
-      "id": "jane-eyre-Love-must-leave-room-for-selfhood",
-      "bookId": "jane-eyre",
-      "title": "Love must leave room for selfhood",
-      "concept": "Love must leave room for selfhood inspired by Jane Eyre, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/jane-eyre/Love-must-leave-room-for-selfhood.png"
-    },
-    {
-      "id": "jane-eyre-Secrets-darken-every-hallway",
-      "bookId": "jane-eyre",
-      "title": "Secrets darken every hallway",
-      "concept": "Secrets darken every hallway inspired by Jane Eyre, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/jane-eyre/Secrets-darken-every-hallway.png"
-    },
-    {
-      "id": "sense-and-sensibility-Feeling-needs-a-steady-hand",
-      "bookId": "sense-and-sensibility",
-      "title": "Feeling needs a steady hand",
-      "concept": "Feeling needs a steady hand inspired by Sense and Sensibility, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/sense-and-sensibility/Feeling-needs-a-steady-hand.png"
-    },
-    {
-      "id": "sense-and-sensibility-Sisters-carry-each-other-forward",
-      "bookId": "sense-and-sensibility",
-      "title": "Sisters carry each other forward",
-      "concept": "Sisters carry each other forward inspired by Sense and Sensibility, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/sense-and-sensibility/Sisters-carry-each-other-forward.png"
-    },
-    {
-      "id": "sense-and-sensibility-Love-learns-patience",
-      "bookId": "sense-and-sensibility",
-      "title": "Love learns patience",
-      "concept": "Love learns patience inspired by Sense and Sensibility, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/sense-and-sensibility/Love-learns-patience.png"
-    },
-    {
-      "id": "emma-Matchmaking-needs-humility",
-      "bookId": "emma",
-      "title": "Matchmaking needs humility",
-      "concept": "Matchmaking needs humility inspired by Emma, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/emma/Matchmaking-needs-humility.png"
-    },
-    {
-      "id": "emma-Confidence-can-misread-the-room",
-      "bookId": "emma",
-      "title": "Confidence can misread the room",
-      "concept": "Confidence can misread the room inspired by Emma, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/emma/Confidence-can-misread-the-room.png"
-    },
-    {
-      "id": "emma-The-heart-resists-tidy-plans",
-      "bookId": "emma",
-      "title": "The heart resists tidy plans",
-      "concept": "The heart resists tidy plans inspired by Emma, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/emma/The-heart-resists-tidy-plans.png"
-    },
-    {
-      "id": "atonement-A-story-can-wound",
-      "bookId": "atonement",
-      "title": "A story can wound",
-      "concept": "A story can wound inspired by Atonement, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/atonement/A-story-can-wound.png"
-    },
-    {
-      "id": "atonement-Regret-edits-every-memory",
-      "bookId": "atonement",
-      "title": "Regret edits every memory",
-      "concept": "Regret edits every memory inspired by Atonement, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/atonement/Regret-edits-every-memory.png"
-    },
-    {
-      "id": "atonement-Love-waits-inside-what-might-have-been",
-      "bookId": "atonement",
-      "title": "Love waits inside what might have been",
-      "concept": "Love waits inside what might have been inspired by Atonement, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/atonement/Love-waits-inside-what-might-have-been.png"
-    },
-    {
-      "id": "the-time-traveler-s-wife-Love-keeps-strange-hours",
-      "bookId": "the-time-traveler-s-wife",
-      "title": "Love keeps strange hours",
-      "concept": "Love keeps strange hours inspired by The Time Traveler's Wife, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-time-traveler-s-wife/Love-keeps-strange-hours.png"
-    },
-    {
-      "id": "the-time-traveler-s-wife-Waiting-can-become-a-language",
-      "bookId": "the-time-traveler-s-wife",
-      "title": "Waiting can become a language",
-      "concept": "Waiting can become a language inspired by The Time Traveler's Wife, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-time-traveler-s-wife/Waiting-can-become-a-language.png"
-    },
-    {
-      "id": "the-time-traveler-s-wife-Time-is-not-always-linear",
-      "bookId": "the-time-traveler-s-wife",
-      "title": "Time is not always linear",
-      "concept": "Time is not always linear inspired by The Time Traveler's Wife, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-time-traveler-s-wife/Time-is-not-always-linear.png"
-    },
-    {
-      "id": "crazy-rich-asians-Love-meets-legacy",
-      "bookId": "crazy-rich-asians",
-      "title": "Love meets legacy",
-      "concept": "Love meets legacy inspired by Crazy Rich Asians, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/crazy-rich-asians/Love-meets-legacy.png"
-    },
-    {
-      "id": "crazy-rich-asians-Belonging-is-not-bought",
-      "bookId": "crazy-rich-asians",
-      "title": "Belonging is not bought",
-      "concept": "Belonging is not bought inspired by Crazy Rich Asians, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/crazy-rich-asians/Belonging-is-not-bought.png"
-    },
-    {
-      "id": "crazy-rich-asians-Confidence-has-its-own-sparkle",
-      "bookId": "crazy-rich-asians",
-      "title": "Confidence has its own sparkle",
-      "concept": "Confidence has its own sparkle inspired by Crazy Rich Asians, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/crazy-rich-asians/Confidence-has-its-own-sparkle.png"
-    },
-    {
-      "id": "gone-girl-Every-story-has-a-frame",
-      "bookId": "gone-girl",
-      "title": "Every story has a frame",
-      "concept": "Every story has a frame inspired by Gone Girl, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/gone-girl/Every-story-has-a-frame.png"
-    },
-    {
-      "id": "gone-girl-Suspicion-loves-a-spotlight",
-      "bookId": "gone-girl",
-      "title": "Suspicion loves a spotlight",
-      "concept": "Suspicion loves a spotlight inspired by Gone Girl, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/gone-girl/Suspicion-loves-a-spotlight.png"
-    },
-    {
-      "id": "gone-girl-Perfect-images-crack",
-      "bookId": "gone-girl",
-      "title": "Perfect images crack",
-      "concept": "Perfect images crack inspired by Gone Girl, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/gone-girl/Perfect-images-crack.png"
-    },
-    {
-      "id": "the-girl-with-the-dragon-tattoo-Truth-leaves-a-trace",
-      "bookId": "the-girl-with-the-dragon-tattoo",
-      "title": "Truth leaves a trace",
-      "concept": "Truth leaves a trace inspired by The Girl with the Dragon Tattoo, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-girl-with-the-dragon-tattoo/Truth-leaves-a-trace.png"
-    },
-    {
-      "id": "the-girl-with-the-dragon-tattoo-Cold-cases-still-burn",
-      "bookId": "the-girl-with-the-dragon-tattoo",
-      "title": "Cold cases still burn",
-      "concept": "Cold cases still burn inspired by The Girl with the Dragon Tattoo, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-girl-with-the-dragon-tattoo/Cold-cases-still-burn.png"
-    },
-    {
-      "id": "the-girl-with-the-dragon-tattoo-The-archive-has-teeth",
-      "bookId": "the-girl-with-the-dragon-tattoo",
-      "title": "The archive has teeth",
-      "concept": "The archive has teeth inspired by The Girl with the Dragon Tattoo, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-girl-with-the-dragon-tattoo/The-archive-has-teeth.png"
-    },
-    {
-      "id": "the-da-vinci-code-Every-symbol-points-somewhere",
-      "bookId": "the-da-vinci-code",
-      "title": "Every symbol points somewhere",
-      "concept": "Every symbol points somewhere inspired by The Da Vinci Code, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-da-vinci-code/Every-symbol-points-somewhere.png"
-    },
-    {
-      "id": "the-da-vinci-code-History-hides-in-plain-sight",
-      "bookId": "the-da-vinci-code",
-      "title": "History hides in plain sight",
-      "concept": "History hides in plain sight inspired by The Da Vinci Code, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-da-vinci-code/History-hides-in-plain-sight.png"
-    },
-    {
-      "id": "the-da-vinci-code-A-clue-can-open-a-cathedral",
-      "bookId": "the-da-vinci-code",
-      "title": "A clue can open a cathedral",
-      "concept": "A clue can open a cathedral inspired by The Da Vinci Code, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-da-vinci-code/A-clue-can-open-a-cathedral.png"
-    },
-    {
-      "id": "the-silence-of-the-lambs-Courage-enters-the-cell",
-      "bookId": "the-silence-of-the-lambs",
-      "title": "Courage enters the cell",
-      "concept": "Courage enters the cell inspired by The Silence of the Lambs, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-silence-of-the-lambs/Courage-enters-the-cell.png"
-    },
-    {
-      "id": "the-silence-of-the-lambs-Listening-can-be-dangerous",
-      "bookId": "the-silence-of-the-lambs",
-      "title": "Listening can be dangerous",
-      "concept": "Listening can be dangerous inspired by The Silence of the Lambs, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-silence-of-the-lambs/Listening-can-be-dangerous.png"
-    },
-    {
-      "id": "the-silence-of-the-lambs-The-mind-is-the-darkest-room",
-      "bookId": "the-silence-of-the-lambs",
-      "title": "The mind is the darkest room",
-      "concept": "The mind is the darkest room inspired by The Silence of the Lambs, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-silence-of-the-lambs/The-mind-is-the-darkest-room.png"
-    },
-    {
-      "id": "the-bourne-identity-Identity-is-a-moving-target",
-      "bookId": "the-bourne-identity",
-      "title": "Identity is a moving target",
-      "concept": "Identity is a moving target inspired by The Bourne Identity, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-bourne-identity/Identity-is-a-moving-target.png"
-    },
-    {
-      "id": "the-bourne-identity-Memory-can-be-a-weapon",
-      "bookId": "the-bourne-identity",
-      "title": "Memory can be a weapon",
-      "concept": "Memory can be a weapon inspired by The Bourne Identity, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-bourne-identity/Memory-can-be-a-weapon.png"
-    },
-    {
-      "id": "the-bourne-identity-Run-first-ask-carefully",
-      "bookId": "the-bourne-identity",
-      "title": "Run first, ask carefully",
-      "concept": "Run first, ask carefully inspired by The Bourne Identity, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-bourne-identity/Run-first-ask-carefully.png"
-    },
-    {
-      "id": "shutter-island-The-storm-is-inside-too",
-      "bookId": "shutter-island",
-      "title": "The storm is inside too",
-      "concept": "The storm is inside too inspired by Shutter Island, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/shutter-island/The-storm-is-inside-too.png"
-    },
-    {
-      "id": "shutter-island-Truth-can-be-a-locked-ward",
-      "bookId": "shutter-island",
-      "title": "Truth can be a locked ward",
-      "concept": "Truth can be a locked ward inspired by Shutter Island, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/shutter-island/Truth-can-be-a-locked-ward.png"
-    },
-    {
-      "id": "shutter-island-Every-lighthouse-casts-a-shadow",
-      "bookId": "shutter-island",
-      "title": "Every lighthouse casts a shadow",
-      "concept": "Every lighthouse casts a shadow inspired by Shutter Island, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/shutter-island/Every-lighthouse-casts-a-shadow.png"
-    },
-    {
-      "id": "the-firm-Fine-print-can-trap-you",
-      "bookId": "the-firm",
-      "title": "Fine print can trap you",
-      "concept": "Fine print can trap you inspired by The Firm, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-firm/Fine-print-can-trap-you.png"
-    },
-    {
-      "id": "the-firm-Ambition-needs-an-exit-route",
-      "bookId": "the-firm",
-      "title": "Ambition needs an exit route",
-      "concept": "Ambition needs an exit route inspired by The Firm, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-firm/Ambition-needs-an-exit-route.png"
-    },
-    {
-      "id": "the-firm-The-office-has-secrets",
-      "bookId": "the-firm",
-      "title": "The office has secrets",
-      "concept": "The office has secrets inspired by The Firm, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-firm/The-office-has-secrets.png"
-    },
-    {
-      "id": "misery-Fandom-can-turn-sharp",
-      "bookId": "misery",
-      "title": "Fandom can turn sharp",
-      "concept": "Fandom can turn sharp inspired by Misery, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/misery/Fandom-can-turn-sharp.png"
-    },
-    {
-      "id": "misery-The-page-becomes-a-prison",
-      "bookId": "misery",
-      "title": "The page becomes a prison",
-      "concept": "The page becomes a prison inspired by Misery, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/misery/The-page-becomes-a-prison.png"
-    },
-    {
-      "id": "misery-Rescue-starts-with-one-sentence",
-      "bookId": "misery",
-      "title": "Rescue starts with one sentence",
-      "concept": "Rescue starts with one sentence inspired by Misery, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/misery/Rescue-starts-with-one-sentence.png"
-    },
-    {
-      "id": "the-talented-mr-ripley-Charm-can-be-camouflage",
-      "bookId": "the-talented-mr-ripley",
-      "title": "Charm can be camouflage",
-      "concept": "Charm can be camouflage inspired by The Talented Mr. Ripley, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-talented-mr-ripley/Charm-can-be-camouflage.png"
-    },
-    {
-      "id": "the-talented-mr-ripley-Envy-packs-a-suitcase",
-      "bookId": "the-talented-mr-ripley",
-      "title": "Envy packs a suitcase",
-      "concept": "Envy packs a suitcase inspired by The Talented Mr. Ripley, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-talented-mr-ripley/Envy-packs-a-suitcase.png"
-    },
-    {
-      "id": "the-talented-mr-ripley-Identity-can-become-a-crime",
-      "bookId": "the-talented-mr-ripley",
-      "title": "Identity can become a crime",
-      "concept": "Identity can become a crime inspired by The Talented Mr. Ripley, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-talented-mr-ripley/Identity-can-become-a-crime.png"
-    },
-    {
-      "id": "no-country-for-old-men-Chance-leaves-tracks",
-      "bookId": "no-country-for-old-men",
-      "title": "Chance leaves tracks",
-      "concept": "Chance leaves tracks inspired by No Country for Old Men, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/no-country-for-old-men/Chance-leaves-tracks.png"
-    },
-    {
-      "id": "no-country-for-old-men-Fate-walks-quietly",
-      "bookId": "no-country-for-old-men",
-      "title": "Fate walks quietly",
-      "concept": "Fate walks quietly inspired by No Country for Old Men, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/no-country-for-old-men/Fate-walks-quietly.png"
-    },
-    {
-      "id": "no-country-for-old-men-Some-roads-do-not-forgive",
-      "bookId": "no-country-for-old-men",
-      "title": "Some roads do not forgive",
-      "concept": "Some roads do not forgive inspired by No Country for Old Men, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/no-country-for-old-men/Some-roads-do-not-forgive.png"
-    },
-    {
-      "id": "charlotte-s-web-Kind-words-can-rescue",
-      "bookId": "charlotte-s-web",
-      "title": "Kind words can rescue",
-      "concept": "Kind words can rescue inspired by Charlotte's Web, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/charlotte-s-web/Kind-words-can-rescue.png"
-    },
-    {
-      "id": "charlotte-s-web-Friendship-writes-beautifully",
-      "bookId": "charlotte-s-web",
-      "title": "Friendship writes beautifully",
-      "concept": "Friendship writes beautifully inspired by Charlotte's Web, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/charlotte-s-web/Friendship-writes-beautifully.png"
-    },
-    {
-      "id": "charlotte-s-web-Small-lives-deserve-wonder",
-      "bookId": "charlotte-s-web",
-      "title": "Small lives deserve wonder",
-      "concept": "Small lives deserve wonder inspired by Charlotte's Web, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/charlotte-s-web/Small-lives-deserve-wonder.png"
-    },
-    {
-      "id": "matilda-Books-make-brave-minds",
-      "bookId": "matilda",
-      "title": "Books make brave minds",
-      "concept": "Books make brave minds inspired by Matilda, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/matilda/Books-make-brave-minds.png"
-    },
-    {
-      "id": "matilda-Tiny-readers-can-be-mighty",
-      "bookId": "matilda",
-      "title": "Tiny readers can be mighty",
-      "concept": "Tiny readers can be mighty inspired by Matilda, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/matilda/Tiny-readers-can-be-mighty.png"
-    },
-    {
-      "id": "matilda-Kindness-beats-cruelty",
-      "bookId": "matilda",
-      "title": "Kindness beats cruelty",
-      "concept": "Kindness beats cruelty inspired by Matilda, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/matilda/Kindness-beats-cruelty.png"
-    },
-    {
-      "id": "where-the-wild-things-are-Wild-feelings-need-room",
-      "bookId": "where-the-wild-things-are",
-      "title": "Wild feelings need room",
-      "concept": "Wild feelings need room inspired by Where the Wild Things Are, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/where-the-wild-things-are/Wild-feelings-need-room.png"
-    },
-    {
-      "id": "where-the-wild-things-are-Imagination-has-a-shoreline",
-      "bookId": "where-the-wild-things-are",
-      "title": "Imagination has a shoreline",
-      "concept": "Imagination has a shoreline inspired by Where the Wild Things Are, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/where-the-wild-things-are/Imagination-has-a-shoreline.png"
-    },
-    {
-      "id": "where-the-wild-things-are-Home-waits-after-the-roar",
-      "bookId": "where-the-wild-things-are",
-      "title": "Home waits after the roar",
-      "concept": "Home waits after the roar inspired by Where the Wild Things Are, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/where-the-wild-things-are/Home-waits-after-the-roar.png"
-    },
-    {
-      "id": "the-polar-express-Belief-has-a-sound",
-      "bookId": "the-polar-express",
-      "title": "Belief has a sound",
-      "concept": "Belief has a sound inspired by The Polar Express, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-polar-express/Belief-has-a-sound.png"
-    },
-    {
-      "id": "the-polar-express-Wonder-boards-at-night",
-      "bookId": "the-polar-express",
-      "title": "Wonder boards at night",
-      "concept": "Wonder boards at night inspired by The Polar Express, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-polar-express/Wonder-boards-at-night.png"
-    },
-    {
-      "id": "the-polar-express-Keep-your-ticket-close",
-      "bookId": "the-polar-express",
-      "title": "Keep your ticket close",
-      "concept": "Keep your ticket close inspired by The Polar Express, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-polar-express/Keep-your-ticket-close.png"
-    },
-    {
-      "id": "the-lorax-Speak-for-the-trees",
-      "bookId": "the-lorax",
-      "title": "Speak for the trees",
-      "concept": "Speak for the trees inspired by The Lorax, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-lorax/Speak-for-the-trees.png"
-    },
-    {
-      "id": "the-lorax-Small-seeds-need-guardians",
-      "bookId": "the-lorax",
-      "title": "Small seeds need guardians",
-      "concept": "Small seeds need guardians inspired by The Lorax, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-lorax/Small-seeds-need-guardians.png"
-    },
-    {
-      "id": "the-lorax-The-future-grows-from-care",
-      "bookId": "the-lorax",
-      "title": "The future grows from care",
-      "concept": "The future grows from care inspired by The Lorax, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-lorax/The-future-grows-from-care.png"
-    },
-    {
-      "id": "paddington-Kindness-travels-well",
-      "bookId": "paddington",
-      "title": "Kindness travels well",
-      "concept": "Kindness travels well inspired by Paddington, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/paddington/Kindness-travels-well.png"
-    },
-    {
-      "id": "paddington-Marmalade-solves-plenty",
-      "bookId": "paddington",
-      "title": "Marmalade solves plenty",
-      "concept": "Marmalade solves plenty inspired by Paddington, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/paddington/Marmalade-solves-plenty.png"
-    },
-    {
-      "id": "paddington-A-stranger-can-become-family",
-      "bookId": "paddington",
-      "title": "A stranger can become family",
-      "concept": "A stranger can become family inspired by Paddington, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/paddington/A-stranger-can-become-family.png"
-    },
-    {
-      "id": "how-to-train-your-dragon-Friendship-can-change-a-village",
-      "bookId": "how-to-train-your-dragon",
-      "title": "Friendship can change a village",
-      "concept": "Friendship can change a village inspired by How to Train Your Dragon, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/how-to-train-your-dragon/Friendship-can-change-a-village.png"
-    },
-    {
-      "id": "how-to-train-your-dragon-Listen-before-you-fight",
-      "bookId": "how-to-train-your-dragon",
-      "title": "Listen before you fight",
-      "concept": "Listen before you fight inspired by How to Train Your Dragon, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/how-to-train-your-dragon/Listen-before-you-fight.png"
-    },
-    {
-      "id": "how-to-train-your-dragon-The-sky-belongs-to-the-brave",
-      "bookId": "how-to-train-your-dragon",
-      "title": "The sky belongs to the brave",
-      "concept": "The sky belongs to the brave inspired by How to Train Your Dragon, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/how-to-train-your-dragon/The-sky-belongs-to-the-brave.png"
-    },
-    {
-      "id": "the-tale-of-peter-rabbit-Mischief-loves-a-garden-gate",
-      "bookId": "the-tale-of-peter-rabbit",
-      "title": "Mischief loves a garden gate",
-      "concept": "Mischief loves a garden gate inspired by The Tale of Peter Rabbit, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-tale-of-peter-rabbit/Mischief-loves-a-garden-gate.png"
-    },
-    {
-      "id": "the-tale-of-peter-rabbit-Bravery-can-be-very-small",
-      "bookId": "the-tale-of-peter-rabbit",
-      "title": "Bravery can be very small",
-      "concept": "Bravery can be very small inspired by The Tale of Peter Rabbit, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-tale-of-peter-rabbit/Bravery-can-be-very-small.png"
-    },
-    {
-      "id": "the-tale-of-peter-rabbit-Carrots-are-worth-a-plan",
-      "bookId": "the-tale-of-peter-rabbit",
-      "title": "Carrots are worth a plan",
-      "concept": "Carrots are worth a plan inspired by The Tale of Peter Rabbit, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-tale-of-peter-rabbit/Carrots-are-worth-a-plan.png"
-    },
-    {
-      "id": "the-bfg-Dreams-need-careful-hands",
-      "bookId": "the-bfg",
-      "title": "Dreams need careful hands",
-      "concept": "Dreams need careful hands inspired by The BFG, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-bfg/Dreams-need-careful-hands.png"
-    },
-    {
-      "id": "the-bfg-Gentle-can-still-be-giant",
-      "bookId": "the-bfg",
-      "title": "Gentle can still be giant",
-      "concept": "Gentle can still be giant inspired by The BFG, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-bfg/Gentle-can-still-be-giant.png"
-    },
-    {
-      "id": "the-bfg-Courage-comes-in-unlikely-sizes",
-      "bookId": "the-bfg",
-      "title": "Courage comes in unlikely sizes",
-      "concept": "Courage comes in unlikely sizes inspired by The BFG, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-bfg/Courage-comes-in-unlikely-sizes.png"
-    },
-    {
-      "id": "holes-Every-hole-has-a-history",
-      "bookId": "holes",
-      "title": "Every hole has a history",
-      "concept": "Every hole has a history inspired by Holes, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/holes/Every-hole-has-a-history.png"
-    },
-    {
-      "id": "holes-Friendship-can-break-a-curse",
-      "bookId": "holes",
-      "title": "Friendship can break a curse",
-      "concept": "Friendship can break a curse inspired by Holes, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/holes/Friendship-can-break-a-curse.png"
-    },
-    {
-      "id": "holes-The-desert-keeps-receipts",
-      "bookId": "holes",
-      "title": "The desert keeps receipts",
-      "concept": "The desert keeps receipts inspired by Holes, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/holes/The-desert-keeps-receipts.png"
+      "imageUrl": "designs/heidi/Home-can-smell-like-pine.png"
     },
     {
       "id": "little-women-Strong-words-matter",
       "bookId": "little-women",
       "title": "Strong words matter",
-      "concept": "Strong words matter inspired by Little Women, designed as adaptable typography and icon art for print products.",
+      "concept": "Strong words matter inspired by Little Women, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2427,7 +838,7 @@
       "id": "little-women-Sisterhood-is-a-shelter",
       "bookId": "little-women",
       "title": "Sisterhood is a shelter",
-      "concept": "Sisterhood is a shelter inspired by Little Women, designed as adaptable typography and icon art for print products.",
+      "concept": "Sisterhood is a shelter inspired by Little Women, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2443,7 +854,7 @@
       "id": "little-women-Ambition-can-be-tender",
       "bookId": "little-women",
       "title": "Ambition can be tender",
-      "concept": "Ambition can be tender inspired by Little Women, designed as adaptable typography and icon art for print products.",
+      "concept": "Ambition can be tender inspired by Little Women, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2456,10 +867,10 @@
       "imageUrl": "designs/little-women/Ambition-can-be-tender.png"
     },
     {
-      "id": "to-kill-a-mockingbird-Courage-stands-quietly",
-      "bookId": "to-kill-a-mockingbird",
-      "title": "Courage stands quietly",
-      "concept": "Courage stands quietly inspired by To Kill a Mockingbird, designed as adaptable typography and icon art for print products.",
+      "id": "anne-of-green-gables-Imagination-reddens-the-road",
+      "bookId": "anne-of-green-gables",
+      "title": "Imagination reddens the road",
+      "concept": "Imagination reddens the road inspired by Anne of Green Gables, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2469,13 +880,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/to-kill-a-mockingbird/Courage-stands-quietly.png"
+      "imageUrl": "designs/anne-of-green-gables/Imagination-reddens-the-road.png"
     },
     {
-      "id": "to-kill-a-mockingbird-Justice-begins-with-seeing-clearly",
-      "bookId": "to-kill-a-mockingbird",
-      "title": "Justice begins with seeing clearly",
-      "concept": "Justice begins with seeing clearly inspired by To Kill a Mockingbird, designed as adaptable typography and icon art for print products.",
+      "id": "anne-of-green-gables-Mistakes-can-grow-into-grace",
+      "bookId": "anne-of-green-gables",
+      "title": "Mistakes can grow into grace",
+      "concept": "Mistakes can grow into grace inspired by Anne of Green Gables, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2485,13 +896,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/to-kill-a-mockingbird/Justice-begins-with-seeing-clearly.png"
+      "imageUrl": "designs/anne-of-green-gables/Mistakes-can-grow-into-grace.png"
     },
     {
-      "id": "to-kill-a-mockingbird-Childhood-notices-everything",
-      "bookId": "to-kill-a-mockingbird",
-      "title": "Childhood notices everything",
-      "concept": "Childhood notices everything inspired by To Kill a Mockingbird, designed as adaptable typography and icon art for print products.",
+      "id": "anne-of-green-gables-Belonging-starts-with-being-seen",
+      "bookId": "anne-of-green-gables",
+      "title": "Belonging starts with being seen",
+      "concept": "Belonging starts with being seen inspired by Anne of Green Gables, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2501,205 +912,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/to-kill-a-mockingbird/Childhood-notices-everything.png"
-    },
-    {
-      "id": "the-great-gatsby-Glamour-can-hide-grief",
-      "bookId": "the-great-gatsby",
-      "title": "Glamour can hide grief",
-      "concept": "Glamour can hide grief inspired by The Great Gatsby, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-great-gatsby/Glamour-can-hide-grief.png"
-    },
-    {
-      "id": "the-great-gatsby-Dreams-throw-long-shadows",
-      "bookId": "the-great-gatsby",
-      "title": "Dreams throw long shadows",
-      "concept": "Dreams throw long shadows inspired by The Great Gatsby, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-great-gatsby/Dreams-throw-long-shadows.png"
-    },
-    {
-      "id": "the-great-gatsby-The-party-cannot-last",
-      "bookId": "the-great-gatsby",
-      "title": "The party cannot last",
-      "concept": "The party cannot last inspired by The Great Gatsby, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/the-great-gatsby/The-party-cannot-last.png"
-    },
-    {
-      "id": "moby-dick-Obsession-steers-badly",
-      "bookId": "moby-dick",
-      "title": "Obsession steers badly",
-      "concept": "Obsession steers badly inspired by Moby-Dick, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/moby-dick/Obsession-steers-badly.png"
-    },
-    {
-      "id": "moby-dick-The-sea-keeps-its-counsel",
-      "bookId": "moby-dick",
-      "title": "The sea keeps its counsel",
-      "concept": "The sea keeps its counsel inspired by Moby-Dick, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/moby-dick/The-sea-keeps-its-counsel.png"
-    },
-    {
-      "id": "moby-dick-Some-quests-consume-the-captain",
-      "bookId": "moby-dick",
-      "title": "Some quests consume the captain",
-      "concept": "Some quests consume the captain inspired by Moby-Dick, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/moby-dick/Some-quests-consume-the-captain.png"
-    },
-    {
-      "id": "great-expectations-Expectation-can-be-a-trap",
-      "bookId": "great-expectations",
-      "title": "Expectation can be a trap",
-      "concept": "Expectation can be a trap inspired by Great Expectations, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/great-expectations/Expectation-can-be-a-trap.png"
-    },
-    {
-      "id": "great-expectations-Kindness-outranks-status",
-      "bookId": "great-expectations",
-      "title": "Kindness outranks status",
-      "concept": "Kindness outranks status inspired by Great Expectations, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/great-expectations/Kindness-outranks-status.png"
-    },
-    {
-      "id": "great-expectations-The-past-funds-the-future",
-      "bookId": "great-expectations",
-      "title": "The past funds the future",
-      "concept": "The past funds the future inspired by Great Expectations, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/great-expectations/The-past-funds-the-future.png"
-    },
-    {
-      "id": "a-christmas-carol-Change-can-arrive-overnight",
-      "bookId": "a-christmas-carol",
-      "title": "Change can arrive overnight",
-      "concept": "Change can arrive overnight inspired by A Christmas Carol, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/a-christmas-carol/Change-can-arrive-overnight.png"
-    },
-    {
-      "id": "a-christmas-carol-Generosity-warms-old-rooms",
-      "bookId": "a-christmas-carol",
-      "title": "Generosity warms old rooms",
-      "concept": "Generosity warms old rooms inspired by A Christmas Carol, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/a-christmas-carol/Generosity-warms-old-rooms.png"
-    },
-    {
-      "id": "a-christmas-carol-The-future-is-still-editable",
-      "bookId": "a-christmas-carol",
-      "title": "The future is still editable",
-      "concept": "The future is still editable inspired by A Christmas Carol, designed as adaptable typography and icon art for print products.",
-      "products": [
-        "T-shirt",
-        "iPhone Case",
-        "Tote Bag",
-        "Tumbler",
-        "Throw Pillow",
-        "Ceramic Mug",
-        "Water Bottle"
-      ],
-      "imageUrl": "designs/a-christmas-carol/The-future-is-still-editable.png"
+      "imageUrl": "designs/anne-of-green-gables/Belonging-starts-with-being-seen.png"
     },
     {
       "id": "the-secret-garden-Hidden-places-can-heal",
       "bookId": "the-secret-garden",
       "title": "Hidden places can heal",
-      "concept": "Hidden places can heal inspired by The Secret Garden, designed as adaptable typography and icon art for print products.",
+      "concept": "Hidden places can heal inspired by The Secret Garden, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2715,7 +934,7 @@
       "id": "the-secret-garden-Growth-begins-behind-walls",
       "bookId": "the-secret-garden",
       "title": "Growth begins behind walls",
-      "concept": "Growth begins behind walls inspired by The Secret Garden, designed as adaptable typography and icon art for print products.",
+      "concept": "Growth begins behind walls inspired by The Secret Garden, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2731,7 +950,7 @@
       "id": "the-secret-garden-Care-opens-locked-gates",
       "bookId": "the-secret-garden",
       "title": "Care opens locked gates",
-      "concept": "Care opens locked gates inspired by The Secret Garden, designed as adaptable typography and icon art for print products.",
+      "concept": "Care opens locked gates inspired by The Secret Garden, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2744,10 +963,10 @@
       "imageUrl": "designs/the-secret-garden/Care-opens-locked-gates.png"
     },
     {
-      "id": "the-call-of-the-wild-The-wild-remembers",
-      "bookId": "the-call-of-the-wild",
-      "title": "The wild remembers",
-      "concept": "The wild remembers inspired by The Call of the Wild, designed as adaptable typography and icon art for print products.",
+      "id": "the-adventures-of-sherlock-holmes-Observation-changes-the-case",
+      "bookId": "the-adventures-of-sherlock-holmes",
+      "title": "Observation changes the case",
+      "concept": "Observation changes the case inspired by The Adventures of Sherlock Holmes, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2757,13 +976,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-call-of-the-wild/The-wild-remembers.png"
+      "imageUrl": "designs/the-adventures-of-sherlock-holmes/Observation-changes-the-case.png"
     },
     {
-      "id": "the-call-of-the-wild-Instinct-has-a-voice",
-      "bookId": "the-call-of-the-wild",
-      "title": "Instinct has a voice",
-      "concept": "Instinct has a voice inspired by The Call of the Wild, designed as adaptable typography and icon art for print products.",
+      "id": "the-adventures-of-sherlock-holmes-Small-clues-make-loud-truths",
+      "bookId": "the-adventures-of-sherlock-holmes",
+      "title": "Small clues make loud truths",
+      "concept": "Small clues make loud truths inspired by The Adventures of Sherlock Holmes, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2773,13 +992,13 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-call-of-the-wild/Instinct-has-a-voice.png"
+      "imageUrl": "designs/the-adventures-of-sherlock-holmes/Small-clues-make-loud-truths.png"
     },
     {
-      "id": "the-call-of-the-wild-Freedom-leaves-tracks",
-      "bookId": "the-call-of-the-wild",
-      "title": "Freedom leaves tracks",
-      "concept": "Freedom leaves tracks inspired by The Call of the Wild, designed as adaptable typography and icon art for print products.",
+      "id": "the-adventures-of-sherlock-holmes-The-ordinary-hides-mysteries",
+      "bookId": "the-adventures-of-sherlock-holmes",
+      "title": "The ordinary hides mysteries",
+      "concept": "The ordinary hides mysteries inspired by The Adventures of Sherlock Holmes, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2789,13 +1008,1453 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-call-of-the-wild/Freedom-leaves-tracks.png"
+      "imageUrl": "designs/the-adventures-of-sherlock-holmes/The-ordinary-hides-mysteries.png"
+    },
+    {
+      "id": "the-hound-of-the-baskervilles-The-moor-keeps-footprints",
+      "bookId": "the-hound-of-the-baskervilles",
+      "title": "The moor keeps footprints",
+      "concept": "The moor keeps footprints inspired by The Hound of the Baskervilles, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-hound-of-the-baskervilles/The-moor-keeps-footprints.png"
+    },
+    {
+      "id": "the-hound-of-the-baskervilles-Legends-fear-close-inspection",
+      "bookId": "the-hound-of-the-baskervilles",
+      "title": "Legends fear close inspection",
+      "concept": "Legends fear close inspection inspired by The Hound of the Baskervilles, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-hound-of-the-baskervilles/Legends-fear-close-inspection.png"
+    },
+    {
+      "id": "the-hound-of-the-baskervilles-Reason-enters-the-fog",
+      "bookId": "the-hound-of-the-baskervilles",
+      "title": "Reason enters the fog",
+      "concept": "Reason enters the fog inspired by The Hound of the Baskervilles, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-hound-of-the-baskervilles/Reason-enters-the-fog.png"
+    },
+    {
+      "id": "the-moonstone-Every-jewel-casts-a-shadow",
+      "bookId": "the-moonstone",
+      "title": "Every jewel casts a shadow",
+      "concept": "Every jewel casts a shadow inspired by The Moonstone, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-moonstone/Every-jewel-casts-a-shadow.png"
+    },
+    {
+      "id": "the-moonstone-Suspicion-changes-hands",
+      "bookId": "the-moonstone",
+      "title": "Suspicion changes hands",
+      "concept": "Suspicion changes hands inspired by The Moonstone, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-moonstone/Suspicion-changes-hands.png"
+    },
+    {
+      "id": "the-moonstone-Truth-has-many-witnesses",
+      "bookId": "the-moonstone",
+      "title": "Truth has many witnesses",
+      "concept": "Truth has many witnesses inspired by The Moonstone, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-moonstone/Truth-has-many-witnesses.png"
+    },
+    {
+      "id": "the-woman-in-white-Secrets-wear-pale-clothing",
+      "bookId": "the-woman-in-white",
+      "title": "Secrets wear pale clothing",
+      "concept": "Secrets wear pale clothing inspired by The Woman in White, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-woman-in-white/Secrets-wear-pale-clothing.png"
+    },
+    {
+      "id": "the-woman-in-white-Names-can-become-prisons",
+      "bookId": "the-woman-in-white",
+      "title": "Names can become prisons",
+      "concept": "Names can become prisons inspired by The Woman in White, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-woman-in-white/Names-can-become-prisons.png"
+    },
+    {
+      "id": "the-woman-in-white-Courage-follows-the-clue",
+      "bookId": "the-woman-in-white",
+      "title": "Courage follows the clue",
+      "concept": "Courage follows the clue inspired by The Woman in White, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-woman-in-white/Courage-follows-the-clue.png"
+    },
+    {
+      "id": "the-thirty-nine-steps-Run-before-the-map-closes",
+      "bookId": "the-thirty-nine-steps",
+      "title": "Run before the map closes",
+      "concept": "Run before the map closes inspired by The Thirty-Nine Steps, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-thirty-nine-steps/Run-before-the-map-closes.png"
+    },
+    {
+      "id": "the-thirty-nine-steps-Danger-counts-the-steps",
+      "bookId": "the-thirty-nine-steps",
+      "title": "Danger counts the steps",
+      "concept": "Danger counts the steps inspired by The Thirty-Nine Steps, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-thirty-nine-steps/Danger-counts-the-steps.png"
+    },
+    {
+      "id": "the-thirty-nine-steps-Trust-arrives-under-pressure",
+      "bookId": "the-thirty-nine-steps",
+      "title": "Trust arrives under pressure",
+      "concept": "Trust arrives under pressure inspired by The Thirty-Nine Steps, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-thirty-nine-steps/Trust-arrives-under-pressure.png"
+    },
+    {
+      "id": "the-murders-in-the-rue-morgue-Impossible-rooms-have-answers",
+      "bookId": "the-murders-in-the-rue-morgue",
+      "title": "Impossible rooms have answers",
+      "concept": "Impossible rooms have answers inspired by The Murders in the Rue Morgue, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-murders-in-the-rue-morgue/Impossible-rooms-have-answers.png"
+    },
+    {
+      "id": "the-murders-in-the-rue-morgue-The-mind-follows-strange-evidence",
+      "bookId": "the-murders-in-the-rue-morgue",
+      "title": "The mind follows strange evidence",
+      "concept": "The mind follows strange evidence inspired by The Murders in the Rue Morgue, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-murders-in-the-rue-morgue/The-mind-follows-strange-evidence.png"
+    },
+    {
+      "id": "the-murders-in-the-rue-morgue-Mystery-begins-where-logic-waits",
+      "bookId": "the-murders-in-the-rue-morgue",
+      "title": "Mystery begins where logic waits",
+      "concept": "Mystery begins where logic waits inspired by The Murders in the Rue Morgue, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-murders-in-the-rue-morgue/Mystery-begins-where-logic-waits.png"
+    },
+    {
+      "id": "the-mystery-of-edwin-drood-Unfinished-stories-keep-watch",
+      "bookId": "the-mystery-of-edwin-drood",
+      "title": "Unfinished stories keep watch",
+      "concept": "Unfinished stories keep watch inspired by The Mystery of Edwin Drood, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-mystery-of-edwin-drood/Unfinished-stories-keep-watch.png"
+    },
+    {
+      "id": "the-mystery-of-edwin-drood-Jealousy-darkens-the-choir",
+      "bookId": "the-mystery-of-edwin-drood",
+      "title": "Jealousy darkens the choir",
+      "concept": "Jealousy darkens the choir inspired by The Mystery of Edwin Drood, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-mystery-of-edwin-drood/Jealousy-darkens-the-choir.png"
+    },
+    {
+      "id": "the-mystery-of-edwin-drood-Absence-asks-sharp-questions",
+      "bookId": "the-mystery-of-edwin-drood",
+      "title": "Absence asks sharp questions",
+      "concept": "Absence asks sharp questions inspired by The Mystery of Edwin Drood, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-mystery-of-edwin-drood/Absence-asks-sharp-questions.png"
+    },
+    {
+      "id": "the-sign-of-four-Four-signs-point-inward",
+      "bookId": "the-sign-of-four",
+      "title": "Four signs point inward",
+      "concept": "Four signs point inward inspired by The Sign of Four, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-sign-of-four/Four-signs-point-inward.png"
+    },
+    {
+      "id": "the-sign-of-four-Treasure-carries-old-debts",
+      "bookId": "the-sign-of-four",
+      "title": "Treasure carries old debts",
+      "concept": "Treasure carries old debts inspired by The Sign of Four, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-sign-of-four/Treasure-carries-old-debts.png"
+    },
+    {
+      "id": "the-sign-of-four-Messages-arrive-with-consequences",
+      "bookId": "the-sign-of-four",
+      "title": "Messages arrive with consequences",
+      "concept": "Messages arrive with consequences inspired by The Sign of Four, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-sign-of-four/Messages-arrive-with-consequences.png"
+    },
+    {
+      "id": "the-secret-adversary-Courage-can-look-cheerful",
+      "bookId": "the-secret-adversary",
+      "title": "Courage can look cheerful",
+      "concept": "Courage can look cheerful inspired by The Secret Adversary, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-secret-adversary/Courage-can-look-cheerful.png"
+    },
+    {
+      "id": "the-secret-adversary-Secrets-dislike-bright-company",
+      "bookId": "the-secret-adversary",
+      "title": "Secrets dislike bright company",
+      "concept": "Secrets dislike bright company inspired by The Secret Adversary, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-secret-adversary/Secrets-dislike-bright-company.png"
+    },
+    {
+      "id": "the-secret-adversary-Adventure-answers-the-advertisement",
+      "bookId": "the-secret-adversary",
+      "title": "Adventure answers the advertisement",
+      "concept": "Adventure answers the advertisement inspired by The Secret Adversary, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-secret-adversary/Adventure-answers-the-advertisement.png"
+    },
+    {
+      "id": "the-man-who-was-thursday-Every-mask-asks-a-question",
+      "bookId": "the-man-who-was-thursday",
+      "title": "Every mask asks a question",
+      "concept": "Every mask asks a question inspired by The Man Who Was Thursday, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-man-who-was-thursday/Every-mask-asks-a-question.png"
+    },
+    {
+      "id": "the-man-who-was-thursday-Anarchy-wears-formal-clothes",
+      "bookId": "the-man-who-was-thursday",
+      "title": "Anarchy wears formal clothes",
+      "concept": "Anarchy wears formal clothes inspired by The Man Who Was Thursday, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-man-who-was-thursday/Anarchy-wears-formal-clothes.png"
+    },
+    {
+      "id": "the-man-who-was-thursday-The-chase-becomes-philosophy",
+      "bookId": "the-man-who-was-thursday",
+      "title": "The chase becomes philosophy",
+      "concept": "The chase becomes philosophy inspired by The Man Who Was Thursday, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-man-who-was-thursday/The-chase-becomes-philosophy.png"
+    },
+    {
+      "id": "pride-and-prejudice-A-laugh-can-reveal-the-truth",
+      "bookId": "pride-and-prejudice",
+      "title": "A laugh can reveal the truth",
+      "concept": "A laugh can reveal the truth inspired by Pride and Prejudice, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/pride-and-prejudice/A-laugh-can-reveal-the-truth.png"
+    },
+    {
+      "id": "pride-and-prejudice-First-impressions-can-be-rewritten",
+      "bookId": "pride-and-prejudice",
+      "title": "First impressions can be rewritten",
+      "concept": "First impressions can be rewritten inspired by Pride and Prejudice, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/pride-and-prejudice/First-impressions-can-be-rewritten.png"
+    },
+    {
+      "id": "pride-and-prejudice-Affection-grows-through-honesty",
+      "bookId": "pride-and-prejudice",
+      "title": "Affection grows through honesty",
+      "concept": "Affection grows through honesty inspired by Pride and Prejudice, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/pride-and-prejudice/Affection-grows-through-honesty.png"
+    },
+    {
+      "id": "sense-and-sensibility-Feeling-needs-a-steady-hand",
+      "bookId": "sense-and-sensibility",
+      "title": "Feeling needs a steady hand",
+      "concept": "Feeling needs a steady hand inspired by Sense and Sensibility, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/sense-and-sensibility/Feeling-needs-a-steady-hand.png"
+    },
+    {
+      "id": "sense-and-sensibility-Sisters-carry-each-other-forward",
+      "bookId": "sense-and-sensibility",
+      "title": "Sisters carry each other forward",
+      "concept": "Sisters carry each other forward inspired by Sense and Sensibility, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/sense-and-sensibility/Sisters-carry-each-other-forward.png"
+    },
+    {
+      "id": "sense-and-sensibility-Love-learns-patience",
+      "bookId": "sense-and-sensibility",
+      "title": "Love learns patience",
+      "concept": "Love learns patience inspired by Sense and Sensibility, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/sense-and-sensibility/Love-learns-patience.png"
+    },
+    {
+      "id": "emma-Matchmaking-needs-humility",
+      "bookId": "emma",
+      "title": "Matchmaking needs humility",
+      "concept": "Matchmaking needs humility inspired by Emma, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/emma/Matchmaking-needs-humility.png"
+    },
+    {
+      "id": "emma-Confidence-can-misread-the-room",
+      "bookId": "emma",
+      "title": "Confidence can misread the room",
+      "concept": "Confidence can misread the room inspired by Emma, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/emma/Confidence-can-misread-the-room.png"
+    },
+    {
+      "id": "emma-The-heart-resists-tidy-plans",
+      "bookId": "emma",
+      "title": "The heart resists tidy plans",
+      "concept": "The heart resists tidy plans inspired by Emma, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/emma/The-heart-resists-tidy-plans.png"
+    },
+    {
+      "id": "persuasion-Second-chances-speak-softly",
+      "bookId": "persuasion",
+      "title": "Second chances speak softly",
+      "concept": "Second chances speak softly inspired by Persuasion, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/persuasion/Second-chances-speak-softly.png"
+    },
+    {
+      "id": "persuasion-Constancy-survives-the-years",
+      "bookId": "persuasion",
+      "title": "Constancy survives the years",
+      "concept": "Constancy survives the years inspired by Persuasion, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/persuasion/Constancy-survives-the-years.png"
+    },
+    {
+      "id": "persuasion-Regret-can-learn-hope",
+      "bookId": "persuasion",
+      "title": "Regret can learn hope",
+      "concept": "Regret can learn hope inspired by Persuasion, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/persuasion/Regret-can-learn-hope.png"
+    },
+    {
+      "id": "jane-eyre-A-quiet-will-can-be-iron",
+      "bookId": "jane-eyre",
+      "title": "A quiet will can be iron",
+      "concept": "A quiet will can be iron inspired by Jane Eyre, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/jane-eyre/A-quiet-will-can-be-iron.png"
+    },
+    {
+      "id": "jane-eyre-Love-must-leave-room-for-selfhood",
+      "bookId": "jane-eyre",
+      "title": "Love must leave room for selfhood",
+      "concept": "Love must leave room for selfhood inspired by Jane Eyre, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/jane-eyre/Love-must-leave-room-for-selfhood.png"
+    },
+    {
+      "id": "jane-eyre-Secrets-darken-every-hallway",
+      "bookId": "jane-eyre",
+      "title": "Secrets darken every hallway",
+      "concept": "Secrets darken every hallway inspired by Jane Eyre, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/jane-eyre/Secrets-darken-every-hallway.png"
+    },
+    {
+      "id": "wuthering-heights-The-moors-remember-everything",
+      "bookId": "wuthering-heights",
+      "title": "The moors remember everything",
+      "concept": "The moors remember everything inspired by Wuthering Heights, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/wuthering-heights/The-moors-remember-everything.png"
+    },
+    {
+      "id": "wuthering-heights-Love-can-become-weather",
+      "bookId": "wuthering-heights",
+      "title": "Love can become weather",
+      "concept": "Love can become weather inspired by Wuthering Heights, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/wuthering-heights/Love-can-become-weather.png"
+    },
+    {
+      "id": "wuthering-heights-Revenge-inherits-an-empty-house",
+      "bookId": "wuthering-heights",
+      "title": "Revenge inherits an empty house",
+      "concept": "Revenge inherits an empty house inspired by Wuthering Heights, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/wuthering-heights/Revenge-inherits-an-empty-house.png"
+    },
+    {
+      "id": "north-and-south-Principle-meets-the-factory-floor",
+      "bookId": "north-and-south",
+      "title": "Principle meets the factory floor",
+      "concept": "Principle meets the factory floor inspired by North and South, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/north-and-south/Principle-meets-the-factory-floor.png"
+    },
+    {
+      "id": "north-and-south-Love-crosses-hard-weather",
+      "bookId": "north-and-south",
+      "title": "Love crosses hard weather",
+      "concept": "Love crosses hard weather inspired by North and South, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/north-and-south/Love-crosses-hard-weather.png"
+    },
+    {
+      "id": "north-and-south-Change-asks-for-courage",
+      "bookId": "north-and-south",
+      "title": "Change asks for courage",
+      "concept": "Change asks for courage inspired by North and South, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/north-and-south/Change-asks-for-courage.png"
+    },
+    {
+      "id": "far-from-the-madding-crowd-Independence-has-a-wild-field",
+      "bookId": "far-from-the-madding-crowd",
+      "title": "Independence has a wild field",
+      "concept": "Independence has a wild field inspired by Far from the Madding Crowd, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/far-from-the-madding-crowd/Independence-has-a-wild-field.png"
+    },
+    {
+      "id": "far-from-the-madding-crowd-Love-must-prove-steady",
+      "bookId": "far-from-the-madding-crowd",
+      "title": "Love must prove steady",
+      "concept": "Love must prove steady inspired by Far from the Madding Crowd, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/far-from-the-madding-crowd/Love-must-prove-steady.png"
+    },
+    {
+      "id": "far-from-the-madding-crowd-Choices-echo-across-the-farm",
+      "bookId": "far-from-the-madding-crowd",
+      "title": "Choices echo across the farm",
+      "concept": "Choices echo across the farm inspired by Far from the Madding Crowd, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/far-from-the-madding-crowd/Choices-echo-across-the-farm.png"
+    },
+    {
+      "id": "the-blue-castle-Freedom-starts-with-one-brave-yes",
+      "bookId": "the-blue-castle",
+      "title": "Freedom starts with one brave yes",
+      "concept": "Freedom starts with one brave yes inspired by The Blue Castle, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-blue-castle/Freedom-starts-with-one-brave-yes.png"
+    },
+    {
+      "id": "the-blue-castle-A-hidden-life-can-bloom",
+      "bookId": "the-blue-castle",
+      "title": "A hidden life can bloom",
+      "concept": "A hidden life can bloom inspired by The Blue Castle, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-blue-castle/A-hidden-life-can-bloom.png"
+    },
+    {
+      "id": "the-blue-castle-Joy-builds-its-own-castle",
+      "bookId": "the-blue-castle",
+      "title": "Joy builds its own castle",
+      "concept": "Joy builds its own castle inspired by The Blue Castle, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-blue-castle/Joy-builds-its-own-castle.png"
+    },
+    {
+      "id": "a-room-with-a-view-A-view-can-change-a-heart",
+      "bookId": "a-room-with-a-view",
+      "title": "A view can change a heart",
+      "concept": "A view can change a heart inspired by A Room with a View, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/a-room-with-a-view/A-view-can-change-a-heart.png"
+    },
+    {
+      "id": "a-room-with-a-view-Truth-needs-open-windows",
+      "bookId": "a-room-with-a-view",
+      "title": "Truth needs open windows",
+      "concept": "Truth needs open windows inspired by A Room with a View, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/a-room-with-a-view/Truth-needs-open-windows.png"
+    },
+    {
+      "id": "a-room-with-a-view-Love-asks-for-sunlight",
+      "bookId": "a-room-with-a-view",
+      "title": "Love asks for sunlight",
+      "concept": "Love asks for sunlight inspired by A Room with a View, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/a-room-with-a-view/Love-asks-for-sunlight.png"
+    },
+    {
+      "id": "the-king-of-elfland-s-daughter-Wonder-crosses-the-border",
+      "bookId": "the-king-of-elfland-s-daughter",
+      "title": "Wonder crosses the border",
+      "concept": "Wonder crosses the border inspired by The King of Elfland's Daughter, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-king-of-elfland-s-daughter/Wonder-crosses-the-border.png"
+    },
+    {
+      "id": "the-king-of-elfland-s-daughter-Time-moves-differently-in-magic",
+      "bookId": "the-king-of-elfland-s-daughter",
+      "title": "Time moves differently in magic",
+      "concept": "Time moves differently in magic inspired by The King of Elfland's Daughter, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-king-of-elfland-s-daughter/Time-moves-differently-in-magic.png"
+    },
+    {
+      "id": "the-king-of-elfland-s-daughter-Longing-opens-silver-gates",
+      "bookId": "the-king-of-elfland-s-daughter",
+      "title": "Longing opens silver gates",
+      "concept": "Longing opens silver gates inspired by The King of Elfland's Daughter, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-king-of-elfland-s-daughter/Longing-opens-silver-gates.png"
+    },
+    {
+      "id": "phantastes-Dream-forests-teach-the-heart",
+      "bookId": "phantastes",
+      "title": "Dream forests teach the heart",
+      "concept": "Dream forests teach the heart inspired by Phantastes, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/phantastes/Dream-forests-teach-the-heart.png"
+    },
+    {
+      "id": "phantastes-Beauty-asks-for-courage",
+      "bookId": "phantastes",
+      "title": "Beauty asks for courage",
+      "concept": "Beauty asks for courage inspired by Phantastes, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/phantastes/Beauty-asks-for-courage.png"
+    },
+    {
+      "id": "phantastes-Wonder-can-be-a-trial",
+      "bookId": "phantastes",
+      "title": "Wonder can be a trial",
+      "concept": "Wonder can be a trial inspired by Phantastes, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/phantastes/Wonder-can-be-a-trial.png"
+    },
+    {
+      "id": "the-princess-and-the-goblin-Courage-follows-a-silver-thread",
+      "bookId": "the-princess-and-the-goblin",
+      "title": "Courage follows a silver thread",
+      "concept": "Courage follows a silver thread inspired by The Princess and the Goblin, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-princess-and-the-goblin/Courage-follows-a-silver-thread.png"
+    },
+    {
+      "id": "the-princess-and-the-goblin-Kindness-lights-the-tunnels",
+      "bookId": "the-princess-and-the-goblin",
+      "title": "Kindness lights the tunnels",
+      "concept": "Kindness lights the tunnels inspired by The Princess and the Goblin, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-princess-and-the-goblin/Kindness-lights-the-tunnels.png"
+    },
+    {
+      "id": "the-princess-and-the-goblin-Small-feet-can-face-deep-darkness",
+      "bookId": "the-princess-and-the-goblin",
+      "title": "Small feet can face deep darkness",
+      "concept": "Small feet can face deep darkness inspired by The Princess and the Goblin, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-princess-and-the-goblin/Small-feet-can-face-deep-darkness.png"
+    },
+    {
+      "id": "the-gods-of-pegana-Myths-begin-before-maps",
+      "bookId": "the-gods-of-pegana",
+      "title": "Myths begin before maps",
+      "concept": "Myths begin before maps inspired by The Gods of Pegana, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-gods-of-pegana/Myths-begin-before-maps.png"
+    },
+    {
+      "id": "the-gods-of-pegana-Gods-dream-in-old-silence",
+      "bookId": "the-gods-of-pegana",
+      "title": "Gods dream in old silence",
+      "concept": "Gods dream in old silence inspired by The Gods of Pegana, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-gods-of-pegana/Gods-dream-in-old-silence.png"
+    },
+    {
+      "id": "the-gods-of-pegana-Creation-speaks-in-fragments",
+      "bookId": "the-gods-of-pegana",
+      "title": "Creation speaks in fragments",
+      "concept": "Creation speaks in fragments inspired by The Gods of Pegana, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-gods-of-pegana/Creation-speaks-in-fragments.png"
+    },
+    {
+      "id": "lilith-The-door-opens-inward",
+      "bookId": "lilith",
+      "title": "The door opens inward",
+      "concept": "The door opens inward inspired by Lilith, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/lilith/The-door-opens-inward.png"
+    },
+    {
+      "id": "lilith-Rest-can-be-transformation",
+      "bookId": "lilith",
+      "title": "Rest can be transformation",
+      "concept": "Rest can be transformation inspired by Lilith, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/lilith/Rest-can-be-transformation.png"
+    },
+    {
+      "id": "lilith-Dark-forests-ask-for-surrender",
+      "bookId": "lilith",
+      "title": "Dark forests ask for surrender",
+      "concept": "Dark forests ask for surrender inspired by Lilith, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/lilith/Dark-forests-ask-for-surrender.png"
+    },
+    {
+      "id": "the-crock-of-gold-Wisdom-laughs-in-the-grass",
+      "bookId": "the-crock-of-gold",
+      "title": "Wisdom laughs in the grass",
+      "concept": "Wisdom laughs in the grass inspired by The Crock of Gold, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-crock-of-gold/Wisdom-laughs-in-the-grass.png"
+    },
+    {
+      "id": "the-crock-of-gold-Mischief-carries-old-gold",
+      "bookId": "the-crock-of-gold",
+      "title": "Mischief carries old gold",
+      "concept": "Mischief carries old gold inspired by The Crock of Gold, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-crock-of-gold/Mischief-carries-old-gold.png"
+    },
+    {
+      "id": "the-crock-of-gold-Small-magic-asks-large-questions",
+      "bookId": "the-crock-of-gold",
+      "title": "Small magic asks large questions",
+      "concept": "Small magic asks large questions inspired by The Crock of Gold, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-crock-of-gold/Small-magic-asks-large-questions.png"
+    },
+    {
+      "id": "at-the-back-of-the-north-wind-Kindness-rides-the-cold-wind",
+      "bookId": "at-the-back-of-the-north-wind",
+      "title": "Kindness rides the cold wind",
+      "concept": "Kindness rides the cold wind inspired by At the Back of the North Wind, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/at-the-back-of-the-north-wind/Kindness-rides-the-cold-wind.png"
+    },
+    {
+      "id": "at-the-back-of-the-north-wind-Mystery-can-be-gentle",
+      "bookId": "at-the-back-of-the-north-wind",
+      "title": "Mystery can be gentle",
+      "concept": "Mystery can be gentle inspired by At the Back of the North Wind, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/at-the-back-of-the-north-wind/Mystery-can-be-gentle.png"
+    },
+    {
+      "id": "at-the-back-of-the-north-wind-Dreams-know-the-northern-road",
+      "bookId": "at-the-back-of-the-north-wind",
+      "title": "Dreams know the northern road",
+      "concept": "Dreams know the northern road inspired by At the Back of the North Wind, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/at-the-back-of-the-north-wind/Dreams-know-the-northern-road.png"
+    },
+    {
+      "id": "the-book-of-wonder-Wonder-keeps-a-side-door",
+      "bookId": "the-book-of-wonder",
+      "title": "Wonder keeps a side door",
+      "concept": "Wonder keeps a side door inspired by The Book of Wonder, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-book-of-wonder/Wonder-keeps-a-side-door.png"
+    },
+    {
+      "id": "the-book-of-wonder-Every-map-has-a-margin",
+      "bookId": "the-book-of-wonder",
+      "title": "Every map has a margin",
+      "concept": "Every map has a margin inspired by The Book of Wonder, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-book-of-wonder/Every-map-has-a-margin.png"
+    },
+    {
+      "id": "the-book-of-wonder-Strange-cities-wait-in-sentences",
+      "bookId": "the-book-of-wonder",
+      "title": "Strange cities wait in sentences",
+      "concept": "Strange cities wait in sentences inspired by The Book of Wonder, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-book-of-wonder/Strange-cities-wait-in-sentences.png"
+    },
+    {
+      "id": "the-well-at-the-world-s-end-Questing-changes-the-seeker",
+      "bookId": "the-well-at-the-world-s-end",
+      "title": "Questing changes the seeker",
+      "concept": "Questing changes the seeker inspired by The Well at the World's End, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-well-at-the-world-s-end/Questing-changes-the-seeker.png"
+    },
+    {
+      "id": "the-well-at-the-world-s-end-The-well-waits-beyond-fear",
+      "bookId": "the-well-at-the-world-s-end",
+      "title": "The well waits beyond fear",
+      "concept": "The well waits beyond fear inspired by The Well at the World's End, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-well-at-the-world-s-end/The-well-waits-beyond-fear.png"
+    },
+    {
+      "id": "the-well-at-the-world-s-end-Love-travels-with-the-road",
+      "bookId": "the-well-at-the-world-s-end",
+      "title": "Love travels with the road",
+      "concept": "Love travels with the road inspired by The Well at the World's End, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-well-at-the-world-s-end/Love-travels-with-the-road.png"
+    },
+    {
+      "id": "the-wood-beyond-the-world-The-forest-begins-after-certainty",
+      "bookId": "the-wood-beyond-the-world",
+      "title": "The forest begins after certainty",
+      "concept": "The forest begins after certainty inspired by The Wood Beyond the World, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-wood-beyond-the-world/The-forest-begins-after-certainty.png"
+    },
+    {
+      "id": "the-wood-beyond-the-world-Enchantment-has-a-price",
+      "bookId": "the-wood-beyond-the-world",
+      "title": "Enchantment has a price",
+      "concept": "Enchantment has a price inspired by The Wood Beyond the World, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-wood-beyond-the-world/Enchantment-has-a-price.png"
+    },
+    {
+      "id": "the-wood-beyond-the-world-Desire-loses-the-path",
+      "bookId": "the-wood-beyond-the-world",
+      "title": "Desire loses the path",
+      "concept": "Desire loses the path inspired by The Wood Beyond the World, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-wood-beyond-the-world/Desire-loses-the-path.png"
+    },
+    {
+      "id": "moby-dick-Obsession-steers-badly",
+      "bookId": "moby-dick",
+      "title": "Obsession steers badly",
+      "concept": "Obsession steers badly inspired by Moby-Dick, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/moby-dick/Obsession-steers-badly.png"
+    },
+    {
+      "id": "moby-dick-The-sea-keeps-its-counsel",
+      "bookId": "moby-dick",
+      "title": "The sea keeps its counsel",
+      "concept": "The sea keeps its counsel inspired by Moby-Dick, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/moby-dick/The-sea-keeps-its-counsel.png"
+    },
+    {
+      "id": "moby-dick-Some-quests-consume-the-captain",
+      "bookId": "moby-dick",
+      "title": "Some quests consume the captain",
+      "concept": "Some quests consume the captain inspired by Moby-Dick, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/moby-dick/Some-quests-consume-the-captain.png"
     },
     {
       "id": "dracula-The-night-keeps-correspondence",
       "bookId": "dracula",
       "title": "The night keeps correspondence",
-      "concept": "The night keeps correspondence inspired by Dracula, designed as adaptable typography and icon art for print products.",
+      "concept": "The night keeps correspondence inspired by Dracula, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2811,7 +2470,7 @@
       "id": "dracula-Old-shadows-travel-far",
       "bookId": "dracula",
       "title": "Old shadows travel far",
-      "concept": "Old shadows travel far inspired by Dracula, designed as adaptable typography and icon art for print products.",
+      "concept": "Old shadows travel far inspired by Dracula, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2827,7 +2486,7 @@
       "id": "dracula-Gothic-fear-has-red-ink",
       "bookId": "dracula",
       "title": "Gothic fear has red ink",
-      "concept": "Gothic fear has red ink inspired by Dracula, designed as adaptable typography and icon art for print products.",
+      "concept": "Gothic fear has red ink inspired by Dracula, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2843,7 +2502,7 @@
       "id": "frankenstein-Ambition-needs-a-conscience",
       "bookId": "frankenstein",
       "title": "Ambition needs a conscience",
-      "concept": "Ambition needs a conscience inspired by Frankenstein, designed as adaptable typography and icon art for print products.",
+      "concept": "Ambition needs a conscience inspired by Frankenstein, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2859,7 +2518,7 @@
       "id": "frankenstein-Creation-requires-care",
       "bookId": "frankenstein",
       "title": "Creation requires care",
-      "concept": "Creation requires care inspired by Frankenstein, designed as adaptable typography and icon art for print products.",
+      "concept": "Creation requires care inspired by Frankenstein, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2875,7 +2534,7 @@
       "id": "frankenstein-Loneliness-can-become-monstrous",
       "bookId": "frankenstein",
       "title": "Loneliness can become monstrous",
-      "concept": "Loneliness can become monstrous inspired by Frankenstein, designed as adaptable typography and icon art for print products.",
+      "concept": "Loneliness can become monstrous inspired by Frankenstein, designed as original bookish artwork for print products.",
       "products": [
         "T-shirt",
         "iPhone Case",
@@ -2886,6 +2545,342 @@
         "Water Bottle"
       ],
       "imageUrl": "designs/frankenstein/Loneliness-can-become-monstrous.png"
+    },
+    {
+      "id": "the-picture-of-dorian-gray-Beauty-can-keep-a-ledger",
+      "bookId": "the-picture-of-dorian-gray",
+      "title": "Beauty can keep a ledger",
+      "concept": "Beauty can keep a ledger inspired by The Picture of Dorian Gray, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-picture-of-dorian-gray/Beauty-can-keep-a-ledger.png"
+    },
+    {
+      "id": "the-picture-of-dorian-gray-A-portrait-remembers-the-soul",
+      "bookId": "the-picture-of-dorian-gray",
+      "title": "A portrait remembers the soul",
+      "concept": "A portrait remembers the soul inspired by The Picture of Dorian Gray, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-picture-of-dorian-gray/A-portrait-remembers-the-soul.png"
+    },
+    {
+      "id": "the-picture-of-dorian-gray-Vanity-makes-poor-bargains",
+      "bookId": "the-picture-of-dorian-gray",
+      "title": "Vanity makes poor bargains",
+      "concept": "Vanity makes poor bargains inspired by The Picture of Dorian Gray, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-picture-of-dorian-gray/Vanity-makes-poor-bargains.png"
+    },
+    {
+      "id": "a-tale-of-two-cities-Sacrifice-can-outlive-fear",
+      "bookId": "a-tale-of-two-cities",
+      "title": "Sacrifice can outlive fear",
+      "concept": "Sacrifice can outlive fear inspired by A Tale of Two Cities, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/a-tale-of-two-cities/Sacrifice-can-outlive-fear.png"
+    },
+    {
+      "id": "a-tale-of-two-cities-History-turns-with-sharp-wheels",
+      "bookId": "a-tale-of-two-cities",
+      "title": "History turns with sharp wheels",
+      "concept": "History turns with sharp wheels inspired by A Tale of Two Cities, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/a-tale-of-two-cities/History-turns-with-sharp-wheels.png"
+    },
+    {
+      "id": "a-tale-of-two-cities-Love-walks-through-revolution",
+      "bookId": "a-tale-of-two-cities",
+      "title": "Love walks through revolution",
+      "concept": "Love walks through revolution inspired by A Tale of Two Cities, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/a-tale-of-two-cities/Love-walks-through-revolution.png"
+    },
+    {
+      "id": "great-expectations-Expectation-can-be-a-trap",
+      "bookId": "great-expectations",
+      "title": "Expectation can be a trap",
+      "concept": "Expectation can be a trap inspired by Great Expectations, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/great-expectations/Expectation-can-be-a-trap.png"
+    },
+    {
+      "id": "great-expectations-Kindness-outranks-status",
+      "bookId": "great-expectations",
+      "title": "Kindness outranks status",
+      "concept": "Kindness outranks status inspired by Great Expectations, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/great-expectations/Kindness-outranks-status.png"
+    },
+    {
+      "id": "great-expectations-The-past-funds-the-future",
+      "bookId": "great-expectations",
+      "title": "The past funds the future",
+      "concept": "The past funds the future inspired by Great Expectations, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/great-expectations/The-past-funds-the-future.png"
+    },
+    {
+      "id": "the-count-of-monte-cristo-Patience-can-sharpen-justice",
+      "bookId": "the-count-of-monte-cristo",
+      "title": "Patience can sharpen justice",
+      "concept": "Patience can sharpen justice inspired by The Count of Monte Cristo, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-count-of-monte-cristo/Patience-can-sharpen-justice.png"
+    },
+    {
+      "id": "the-count-of-monte-cristo-Revenge-wears-expensive-gloves",
+      "bookId": "the-count-of-monte-cristo",
+      "title": "Revenge wears expensive gloves",
+      "concept": "Revenge wears expensive gloves inspired by The Count of Monte Cristo, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-count-of-monte-cristo/Revenge-wears-expensive-gloves.png"
+    },
+    {
+      "id": "the-count-of-monte-cristo-Hope-survives-the-dungeon",
+      "bookId": "the-count-of-monte-cristo",
+      "title": "Hope survives the dungeon",
+      "concept": "Hope survives the dungeon inspired by The Count of Monte Cristo, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-count-of-monte-cristo/Hope-survives-the-dungeon.png"
+    },
+    {
+      "id": "les-mis-rables-Mercy-can-remake-a-life",
+      "bookId": "les-mis-rables",
+      "title": "Mercy can remake a life",
+      "concept": "Mercy can remake a life inspired by Les Misérables, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/les-mis-rables/Mercy-can-remake-a-life.png"
+    },
+    {
+      "id": "les-mis-rables-Justice-needs-a-human-heart",
+      "bookId": "les-mis-rables",
+      "title": "Justice needs a human heart",
+      "concept": "Justice needs a human heart inspired by Les Misérables, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/les-mis-rables/Justice-needs-a-human-heart.png"
+    },
+    {
+      "id": "les-mis-rables-Hope-sings-in-hard-streets",
+      "bookId": "les-mis-rables",
+      "title": "Hope sings in hard streets",
+      "concept": "Hope sings in hard streets inspired by Les Misérables, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/les-mis-rables/Hope-sings-in-hard-streets.png"
+    },
+    {
+      "id": "treasure-island-Every-map-has-a-warning",
+      "bookId": "treasure-island",
+      "title": "Every map has a warning",
+      "concept": "Every map has a warning inspired by Treasure Island, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/treasure-island/Every-map-has-a-warning.png"
+    },
+    {
+      "id": "treasure-island-Adventure-smells-of-salt",
+      "bookId": "treasure-island",
+      "title": "Adventure smells of salt",
+      "concept": "Adventure smells of salt inspired by Treasure Island, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/treasure-island/Adventure-smells-of-salt.png"
+    },
+    {
+      "id": "treasure-island-Treasure-tests-the-crew",
+      "bookId": "treasure-island",
+      "title": "Treasure tests the crew",
+      "concept": "Treasure tests the crew inspired by Treasure Island, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/treasure-island/Treasure-tests-the-crew.png"
+    },
+    {
+      "id": "the-scarlet-letter-Shame-cannot-name-the-whole-heart",
+      "bookId": "the-scarlet-letter",
+      "title": "Shame cannot name the whole heart",
+      "concept": "Shame cannot name the whole heart inspired by The Scarlet Letter, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-scarlet-letter/Shame-cannot-name-the-whole-heart.png"
+    },
+    {
+      "id": "the-scarlet-letter-Secrets-burn-under-plain-cloth",
+      "bookId": "the-scarlet-letter",
+      "title": "Secrets burn under plain cloth",
+      "concept": "Secrets burn under plain cloth inspired by The Scarlet Letter, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-scarlet-letter/Secrets-burn-under-plain-cloth.png"
+    },
+    {
+      "id": "the-scarlet-letter-A-symbol-can-change-its-meaning",
+      "bookId": "the-scarlet-letter",
+      "title": "A symbol can change its meaning",
+      "concept": "A symbol can change its meaning inspired by The Scarlet Letter, designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/the-scarlet-letter/A-symbol-can-change-its-meaning.png"
     }
   ]
 }

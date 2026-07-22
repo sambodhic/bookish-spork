@@ -6,7 +6,7 @@ const toastEl = document.querySelector('#toast');
 
 const supportEmail = 'booktalkietees@gmail.com';
 const homePageScrambleDesigns = true;
-const inspiredDisclaimer = 'BookTalkieTees designs are original fan-inspired concepts. Some artwork and visual mockups may be created or assisted by AI tools, then selected, edited, or arranged by BookTalkieTees. They are not official merchandise and are not endorsed by, sponsored by, or affiliated with the authors, publishers, studios, rights holders, or trademark owners of the referenced books or films.';
+const inspiredDisclaimer = 'BookTalkieTees designs are original book-inspired concepts. Some artwork and visual mockups may be created or assisted by AI tools, then selected, edited, or arranged by BookTalkieTees. They are not official merchandise and are not endorsed by, sponsored by, or affiliated with the authors, publishers, estates, illustrators, rights holders, or trademark owners of the referenced books.';
 const privacyNotice = 'BookTalkieTees does not require signup and we do not collect, sell, or share personal data. Favorites, cart items, marketplace preference, and cached catalog data stay locally on your browser or app device. We do not collect shipping addresses, billing details, or payment information in this MVP. The only information we receive is what you choose to send by email when you contact support or submit an order inquiry, and we use that email only to reply and help with your request.';
 const productTypes = ['T-shirt', 'iPhone Case', 'Tote Bag', 'Tumbler', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle'];
 const usOnlyProductTypes = new Set(['Tote Bag', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle']);
@@ -82,6 +82,15 @@ function formatPrice(value, marketplace = state.marketplace) {
   const symbol = marketplaceSymbols[marketplace] ?? '';
   if (marketplace === 'JP') return `${symbol}${Math.round(value)}`;
   return `${symbol}${Number(value).toFixed(2)}`;
+}
+
+function publicationLabel(book) {
+  const year = book.publicationYear ?? book.movieYear ?? '';
+  return year ? `${book.author} / ${year}` : book.author;
+}
+
+function bookNote(book) {
+  return book.bookNote ?? book.movieSummary ?? '';
 }
 
 function cartTotals() {
@@ -332,11 +341,11 @@ function render() {
 
 function renderAbout() {
   app.innerHTML = `
-    <div class="section-head"><div><h1>About & Support</h1><p>Book, movie, quote, and product design ideas for readers and film fans.</p></div></div>
+    <div class="section-head"><div><h1>About & Support</h1><p>Book, quote, and product design ideas for readers.</p></div></div>
     <section class="policy-grid">
       <article class="panel policy-card">
         <h2>About BookTalkieTees</h2>
-        <p>BookTalkieTees connects book/movie pairings with quote-led, inspired product design ideas across shirts, mugs, totes, cases, bottles, tumblers, and home goods.</p>
+        <p>BookTalkieTees connects public-domain books with quote-led, inspired product design ideas across shirts, mugs, totes, cases, bottles, tumblers, and home goods.</p>
       </article>
       <article class="panel policy-card">
         <h2>Contact / Support</h2>
@@ -373,7 +382,7 @@ function renderHome() {
       <div class="hero-copy">
         <p class="eyebrow">Featured design</p>
         <h1>${escapeHtml(featured.design.title)}</h1>
-        <p class="lede">${escapeHtml(featured.book.title)} / ${escapeHtml(featured.book.movie)} (${escapeHtml(featured.book.movieYear)})</p>
+        <p class="lede">${escapeHtml(featured.book.title)} / ${escapeHtml(publicationLabel(featured.book))}</p>
         <p>${escapeHtml(featured.design.concept)}</p>
         <div class="product-picker hero-product-picker">
           ${productPickerHtml(featured.design, state.marketplace)}
@@ -406,7 +415,7 @@ function renderExplore() {
   const visible = state.books.filter((book) => book.genre === state.genre);
   app.innerHTML = `
     <div class="section-head">
-      <div><h1>Explore</h1><p>${visible.length} ${escapeHtml(state.genre)} connection${visible.length === 1 ? '' : 's'}.</p></div>
+      <div><h1>Explore</h1><p>${visible.length} ${escapeHtml(state.genre)} book${visible.length === 1 ? '' : 's'}.</p></div>
       ${genreChips()}
     </div>
     <section class="card-grid">${visible.map(bookCard).join('')}</section>
@@ -417,13 +426,13 @@ function renderExplore() {
 function renderSearch() {
   const query = state.query.trim().toLowerCase();
   const visible = state.books.filter((book) => {
-    const haystack = [book.title, book.author, book.movie, book.genre, ...book.quotes, ...book.shirtIdeas].join(' ').toLowerCase();
+    const haystack = [book.title, book.author, book.publicationYear, book.bookNote, book.genre, ...book.quotes, ...book.shirtIdeas].join(' ').toLowerCase();
     return !query || haystack.includes(query);
   });
   app.innerHTML = `
     <section class="panel">
       <h1>Search</h1>
-      <input class="search-box" value="${escapeHtml(state.query)}" placeholder="Title, author, movie, quote, genre" aria-label="Search catalog">
+      <input class="search-box" value="${escapeHtml(state.query)}" placeholder="Title, author, quote, genre" aria-label="Search catalog">
     </section>
     <div class="section-head"><div><h2>Results</h2><p>${visible.length} match${visible.length === 1 ? '' : 'es'}</p></div></div>
     <section class="card-grid">${visible.map(bookCard).join('')}</section>
@@ -486,7 +495,7 @@ function bookCard(book) {
       <div class="book-card-top"><span class="badge">${escapeHtml(book.genre)}</span></div>
       <div class="book-card-body">
         <h3>${escapeHtml(book.title)}</h3>
-        <p>${escapeHtml(book.author)} / ${escapeHtml(book.movie)} (${escapeHtml(book.movieYear)})</p>
+        <p>${escapeHtml(publicationLabel(book))}</p>
         <p>${escapeHtml(book.bookSummary)}</p>
         <div class="book-design-strip" aria-label="Design previews">
           ${previewDesigns.map((design) => `<div class="book-design-preview">${designArt(design, book)}</div>`).join('')}
@@ -520,15 +529,14 @@ function openBook(bookId, focusDesignId = '') {
       <section class="panel">
         <p class="eyebrow">${escapeHtml(book.genre)}</p>
         <h2 class="detail-title" id="modalTitle">${escapeHtml(book.title)}</h2>
-        <p class="meta">${escapeHtml(book.author)} / ${escapeHtml(book.movie)} (${escapeHtml(book.movieYear)})</p>
+        <p class="meta">${escapeHtml(publicationLabel(book))}</p>
         <p>${escapeHtml(book.bookSummary)}</p>
-        <h3>Movie adaptation</h3>
-        <p>${escapeHtml(book.movieSummary)}</p>
+        <h3>Book note</h3>
+        <p>${escapeHtml(bookNote(book))}</p>
         <h3>Quotes</h3>
         <div class="quote-list">${book.quotes.map((quote) => `<blockquote class="quote">${escapeHtml(quote)}</blockquote>`).join('')}</div>
         <div class="hero-actions">
           <button class="button secondary" data-favorite="book:${book.id}">${isFavorite('book', book.id) ? 'Book saved' : 'Save book'}</button>
-          <button class="button secondary" data-favorite="movie:${book.id}">${isFavorite('movie', book.id) ? 'Movie saved' : 'Save movie'}</button>
           <button class="button secondary" data-favorite="quote:${book.id}">${isFavorite('quote', book.id) ? 'Quotes saved' : 'Save quotes'}</button>
         </div>
       </section>
@@ -556,7 +564,7 @@ function designCard(book, design, options = {}) {
       <div class="design-art">${designArt(design, book)}</div>
       <div class="design-body">
         <h3>${escapeHtml(design.title)}</h3>
-        ${options.showBookMeta ? `<p class="design-meta">${escapeHtml(book.title)} / ${escapeHtml(book.movie)}</p>` : ''}
+        ${options.showBookMeta ? `<p class="design-meta">${escapeHtml(book.title)} / ${escapeHtml(book.author)}</p>` : ''}
         <p>${escapeHtml(design.concept)}</p>
         <div class="product-picker">
           ${productPickerHtml(design, state.marketplace)}
@@ -662,7 +670,7 @@ function favoriteRow(key) {
   }
   const book = state.books.find((item) => item.id === id);
   if (!book) return null;
-  const label = kind === 'movie' ? book.movie : kind === 'quote' ? `${book.title} quotes` : book.title;
+  const label = kind === 'movie' ? `${book.title} note` : kind === 'quote' ? `${book.title} quotes` : book.title;
   const design = designsFor(book)[0];
   return `<div class="favorite-row is-clickable" data-open-book="${escapeHtml(book.id)}" role="button" tabindex="0">${rowThumbnail(book, design)}<div class="row-copy"><strong>${escapeHtml(label)}</strong><span>${escapeHtml(kind)}</span></div><button class="icon-button is-active" data-favorite="${escapeHtml(kind)}:${escapeHtml(id)}" aria-label="Remove favorite">♥</button></div>`;
 }

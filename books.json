@@ -1,133 +1,12 @@
 [
   {
-    "id": "dune",
-    "title": "Dune",
-    "type": "book",
-    "author": "Frank Herbert",
-    "bookSummary": "A desert planet, a noble family in danger, and a young heir pulled into politics, prophecy, and survival.",
-    "movie": "Dune: Part One",
-    "movieYear": "2021",
-    "movieSummary": "Denis Villeneuve's adaptation follows Paul Atreides as House Atreides takes stewardship of Arrakis.",
-    "genre": "Sci-Fi",
-    "quotes": [
-      "Fear can be faced.",
-      "Power changes every promise.",
-      "The desert remembers."
-    ],
-    "shirtIdeas": [
-      "Desert State of Mind",
-      "Arrakis Travel Poster"
-    ]
-  },
-  {
-    "id": "the-martian",
-    "title": "The Martian",
-    "type": "book",
-    "author": "Andy Weir",
-    "bookSummary": "An astronaut stranded on Mars turns engineering, humor, and stubborn optimism into a survival plan.",
-    "movie": "The Martian",
-    "movieYear": "2015",
-    "movieSummary": "Ridley Scott's film turns the rescue mission into a bright, witty space survival adventure.",
-    "genre": "Sci-Fi",
-    "quotes": [
-      "Solve the next problem.",
-      "Hope grows one fix at a time.",
-      "Science can be heroic."
-    ],
-    "shirtIdeas": [
-      "Mars Problem Solver",
-      "Botany Bay Crew"
-    ]
-  },
-  {
-    "id": "jurassic-park",
-    "title": "Jurassic Park",
-    "type": "book",
-    "author": "Michael Crichton",
-    "bookSummary": "A theme park full of cloned dinosaurs becomes a warning about ambition, control, and systems failing at scale.",
-    "movie": "Jurassic Park",
-    "movieYear": "1993",
-    "movieSummary": "Steven Spielberg's blockbuster adaptation blends wonder, suspense, and sharp warnings about spectacle.",
-    "genre": "Sci-Fi",
-    "quotes": [
-      "Wonder needs wisdom.",
-      "Nature does not sign waivers.",
-      "Control is a fragile illusion."
-    ],
-    "shirtIdeas": [
-      "Clever Girl Fossil Club",
-      "Chaos Theory Tour"
-    ]
-  },
-  {
-    "id": "ready-player-one",
-    "title": "Ready Player One",
-    "type": "book",
-    "author": "Ernest Cline",
-    "bookSummary": "A treasure hunt inside a virtual universe becomes a race through pop culture, identity, and corporate control.",
-    "movie": "Ready Player One",
-    "movieYear": "2018",
-    "movieSummary": "The film adaptation turns the digital quest into a fast, effects-driven adventure.",
-    "genre": "Sci-Fi",
-    "quotes": [
-      "The real prize is connection.",
-      "Avatars still need courage.",
-      "Play can become resistance."
-    ],
-    "shirtIdeas": [
-      "Quest Key Arcade",
-      "Oasis Retro Grid"
-    ]
-  },
-  {
-    "id": "the-hunger-games",
-    "title": "The Hunger Games",
-    "type": "book",
-    "author": "Suzanne Collins",
-    "bookSummary": "A televised survival contest becomes the spark for resistance, image-making, and moral courage.",
-    "movie": "The Hunger Games",
-    "movieYear": "2012",
-    "movieSummary": "The adaptation follows Katniss Everdeen from tribute to reluctant symbol.",
-    "genre": "Sci-Fi",
-    "quotes": [
-      "A spark can travel.",
-      "Performance can hide defiance.",
-      "Survival has a cost."
-    ],
-    "shirtIdeas": [
-      "District Signal Badge",
-      "Mocking Flame Emblem"
-    ]
-  },
-  {
-    "id": "ender-s-game",
-    "title": "Ender's Game",
-    "type": "book",
-    "author": "Orson Scott Card",
-    "bookSummary": "A gifted child is trained through games that blur strategy, manipulation, and empathy.",
-    "movie": "Ender's Game",
-    "movieYear": "2013",
-    "movieSummary": "The film adaptation focuses on Battle School, command, and the burden of winning.",
-    "genre": "Sci-Fi",
-    "quotes": [
-      "Games can carry consequences.",
-      "Strategy without empathy fails.",
-      "Children should not inherit every war."
-    ],
-    "shirtIdeas": [
-      "Battle Room Geometry",
-      "Command School Crest"
-    ]
-  },
-  {
     "id": "the-time-machine",
     "title": "The Time Machine",
     "type": "book",
     "author": "H. G. Wells",
-    "bookSummary": "A traveler pushes into the far future and finds beauty, danger, and uncomfortable questions about progress.",
-    "movie": "The Time Machine",
-    "movieYear": "2002",
-    "movieSummary": "The film reimagines the journey through time with sweeping future-world visuals.",
+    "publicationYear": "1895",
+    "bookSummary": "A traveler journeys into the far future and discovers beauty, decay, and uneasy questions about progress.",
+    "bookNote": "First published in 1895, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
     "genre": "Sci-Fi",
     "quotes": [
       "Time reveals what choices build.",
@@ -135,8 +14,8 @@
       "Tomorrow is not neutral."
     ],
     "shirtIdeas": [
-      "Chrononaut Society",
-      "Future Clockwork Map"
+      "Time reveals what choices build",
+      "Progress needs a conscience"
     ]
   },
   {
@@ -144,199 +23,170 @@
     "title": "The War of the Worlds",
     "type": "book",
     "author": "H. G. Wells",
-    "bookSummary": "An invasion story turns human certainty upside down as ordinary life meets overwhelming alien force.",
-    "movie": "War of the Worlds",
-    "movieYear": "2005",
-    "movieSummary": "The modern film adaptation grounds the panic through one family's survival.",
+    "publicationYear": "1898",
+    "bookSummary": "Martian invaders overturn human certainty and expose how fragile civilization can be.",
+    "bookNote": "First published in 1898, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
     "genre": "Sci-Fi",
     "quotes": [
       "The sky can change everything.",
-      "Small lives matter in large disasters.",
-      "Survival begins at home."
+      "Survival begins at home.",
+      "Small lives matter in large disasters."
     ],
     "shirtIdeas": [
-      "Tripod Warning Poster",
-      "Red Planet Broadcast"
+      "The sky can change everything",
+      "Survival begins at home"
     ]
   },
   {
-    "id": "i-am-legend",
-    "title": "I Am Legend",
+    "id": "twenty-thousand-leagues-under-the-seas",
+    "title": "Twenty Thousand Leagues Under the Seas",
     "type": "book",
-    "author": "Richard Matheson",
-    "bookSummary": "A lone survivor navigates isolation, memory, and the frightening line between monster and myth.",
-    "movie": "I Am Legend",
-    "movieYear": "2007",
-    "movieSummary": "The film adaptation recasts the story as a haunting post-apocalyptic survival drama.",
+    "author": "Jules Verne",
+    "publicationYear": "1870",
+    "bookSummary": "Captain Nemo carries his guests through ocean wonders, danger, and the solitude of genius.",
+    "bookNote": "First published in 1870, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
     "genre": "Sci-Fi",
     "quotes": [
-      "Loneliness has an echo.",
-      "Legends depend on who is left.",
-      "Routine can hold back fear."
+      "Wonder dives below the map.",
+      "The deep keeps strange counsel.",
+      "Freedom can choose the sea."
     ],
     "shirtIdeas": [
-      "Last Light Research Club",
-      "Empty City Signal"
+      "Wonder dives below the map",
+      "The deep keeps strange counsel"
     ]
   },
   {
-    "id": "annihilation",
-    "title": "Annihilation",
+    "id": "journey-to-the-center-of-the-earth",
+    "title": "Journey to the Center of the Earth",
     "type": "book",
-    "author": "Jeff VanderMeer",
-    "bookSummary": "An expedition enters a transformed zone where biology, memory, and identity become unstable.",
-    "movie": "Annihilation",
-    "movieYear": "2018",
-    "movieSummary": "Alex Garland's film turns the strange area into a hypnotic ecological nightmare.",
+    "author": "Jules Verne",
+    "publicationYear": "1864",
+    "bookSummary": "A coded message sends explorers beneath the world into prehistoric marvels and scientific daring.",
+    "bookNote": "First published in 1864, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
     "genre": "Sci-Fi",
     "quotes": [
-      "Change can be beautiful and terrifying.",
-      "The unknown rewrites the observer.",
-      "Nature keeps no simple borders."
+      "Curiosity digs deep.",
+      "The map can point downward.",
+      "Discovery has underground weather."
     ],
     "shirtIdeas": [
-      "Shimmer Field Study",
-      "Biology of Wonder"
+      "Curiosity digs deep",
+      "The map can point downward"
     ]
   },
   {
-    "id": "the-hobbit",
-    "title": "The Hobbit",
+    "id": "from-the-earth-to-the-moon",
+    "title": "From the Earth to the Moon",
     "type": "book",
-    "author": "J.R.R. Tolkien",
-    "bookSummary": "A comfort-loving hobbit is pulled into a quest with dwarves, a wizard, a dragon, and a much larger world than he expected.",
-    "movie": "The Hobbit: An Unexpected Journey",
-    "movieYear": "2012",
-    "movieSummary": "The film adaptation begins Bilbo's road toward the Lonely Mountain.",
-    "genre": "Fantasy",
+    "author": "Jules Verne",
+    "publicationYear": "1865",
+    "bookSummary": "A bold club of inventors turns postwar energy toward a wildly ambitious lunar shot.",
+    "bookNote": "First published in 1865, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Sci-Fi",
     "quotes": [
-      "Adventure may knock softly.",
-      "Small travelers can change maps.",
-      "Home means more after the road."
+      "Aim beyond the argument.",
+      "Big dreams need calculations.",
+      "The moon invites audacity."
     ],
     "shirtIdeas": [
-      "There and Back Again Map",
-      "Mountain Door Adventure"
+      "Aim beyond the argument",
+      "Big dreams need calculations"
     ]
   },
   {
-    "id": "the-fellowship-of-the-ring",
-    "title": "The Fellowship of the Ring",
+    "id": "the-first-men-in-the-moon",
+    "title": "The First Men in the Moon",
     "type": "book",
-    "author": "J.R.R. Tolkien",
-    "bookSummary": "A dangerous ring draws a fellowship across a world of ancient power, loyalty, and sacrifice.",
-    "movie": "The Lord of the Rings: The Fellowship of the Ring",
-    "movieYear": "2001",
-    "movieSummary": "Peter Jackson's adaptation opens the journey from the Shire toward Mordor.",
-    "genre": "Fantasy",
+    "author": "H. G. Wells",
+    "publicationYear": "1901",
+    "bookSummary": "An eccentric invention carries two men to a lunar society that reframes ambition and empire.",
+    "bookNote": "First published in 1901, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Sci-Fi",
     "quotes": [
-      "Friendship carries heavy burdens.",
-      "Even small hands can help history turn.",
-      "The road chooses companions."
+      "Moonlight exposes ambition.",
+      "New worlds ask old questions.",
+      "Invention changes the view."
     ],
     "shirtIdeas": [
-      "Fellowship Trail Badge",
-      "One Quest Typography"
+      "Moonlight exposes ambition",
+      "New worlds ask old questions"
     ]
   },
   {
-    "id": "harry-potter-and-the-sorcerer-s-stone",
-    "title": "Harry Potter and the Sorcerer's Stone",
+    "id": "the-invisible-man",
+    "title": "The Invisible Man",
     "type": "book",
-    "author": "J.K. Rowling",
-    "bookSummary": "An orphan discovers a hidden school of magic, friendship, rivalry, and a mystery tied to his past.",
-    "movie": "Harry Potter and the Sorcerer's Stone",
-    "movieYear": "2001",
-    "movieSummary": "The film introduces Hogwarts, first friendships, and the wonder of the wizarding world.",
-    "genre": "Fantasy",
+    "author": "H. G. Wells",
+    "publicationYear": "1897",
+    "bookSummary": "A scientist gains invisibility and loses his moral bearings in a chilling study of power.",
+    "bookNote": "First published in 1897, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Sci-Fi",
     "quotes": [
-      "Magic begins with belonging.",
-      "New worlds need brave friends.",
-      "A letter can change a life."
+      "Power unseen still leaves marks.",
+      "Isolation can distort genius.",
+      "No secret stays weightless."
     ],
     "shirtIdeas": [
-      "Wizard School Welcome",
-      "First Year Spellbook"
+      "Power unseen still leaves marks",
+      "Isolation can distort genius"
     ]
   },
   {
-    "id": "the-princess-bride",
-    "title": "The Princess Bride",
+    "id": "a-princess-of-mars",
+    "title": "A Princess of Mars",
     "type": "book",
-    "author": "William Goldman",
-    "bookSummary": "A playful adventure of true love, swordplay, revenge, giants, and wonderfully theatrical danger.",
-    "movie": "The Princess Bride",
-    "movieYear": "1987",
-    "movieSummary": "A beloved fairy-tale comedy that turns quests, villains, and romance into endlessly quotable fun.",
-    "genre": "Fantasy",
+    "author": "Edgar Rice Burroughs",
+    "publicationYear": "1912",
+    "bookSummary": "A Civil War veteran awakens on Mars amid strange peoples, fierce loyalties, and planetary adventure.",
+    "bookNote": "First published in 1912, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Sci-Fi",
     "quotes": [
-      "True love travels well.",
-      "Adventure prefers wit.",
-      "Every quest needs style."
+      "Strange worlds test courage.",
+      "Honor travels between planets.",
+      "Adventure wears red dust."
     ],
     "shirtIdeas": [
-      "As You Wish Badge",
-      "Sword and Rose Crest"
+      "Strange worlds test courage",
+      "Honor travels between planets"
     ]
   },
   {
-    "id": "stardust",
-    "title": "Stardust",
+    "id": "the-lost-world",
+    "title": "The Lost World",
     "type": "book",
-    "author": "Neil Gaiman",
-    "bookSummary": "A young man crosses into a magical realm and finds that a fallen star is not what he imagined.",
-    "movie": "Stardust",
-    "movieYear": "2007",
-    "movieSummary": "The film adaptation turns the fairy-tale quest into a warm, witty romantic fantasy.",
-    "genre": "Fantasy",
+    "author": "Arthur Conan Doyle",
+    "publicationYear": "1912",
+    "bookSummary": "An expedition reaches a hidden plateau where prehistoric life unsettles certainty and pride.",
+    "bookNote": "First published in 1912, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Sci-Fi",
     "quotes": [
-      "Stars have their own plans.",
-      "Wishes can become journeys.",
-      "Magic rewards the open-hearted."
+      "The old world still roars.",
+      "Maps can keep secrets.",
+      "Discovery needs humility."
     ],
     "shirtIdeas": [
-      "Fallen Star Market",
-      "Wall Crossing Club"
+      "The old world still roars",
+      "Maps can keep secrets"
     ]
   },
   {
-    "id": "the-lion-the-witch-and-the-wardrobe",
-    "title": "The Lion, the Witch and the Wardrobe",
+    "id": "flatland",
+    "title": "Flatland",
     "type": "book",
-    "author": "C. S. Lewis",
-    "bookSummary": "Four children enter a winter-bound world where courage, loyalty, and wonder awaken a kingdom.",
-    "movie": "The Chronicles of Narnia",
-    "movieYear": "2005",
-    "movieSummary": "The film brings Narnia's snowy magic and battle for freedom to the screen.",
-    "genre": "Fantasy",
+    "author": "Edwin A. Abbott",
+    "publicationYear": "1884",
+    "bookSummary": "A geometric society becomes a clever satire about perception, hierarchy, and unseen dimensions.",
+    "bookNote": "First published in 1884, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Sci-Fi",
     "quotes": [
-      "A wardrobe can become a doorway.",
-      "Courage warms the longest winter.",
-      "Kings and queens begin as children."
+      "Perspective changes everything.",
+      "A line can dream of space.",
+      "Dimensions humble certainty."
     ],
     "shirtIdeas": [
-      "Wardrobe Door Society",
-      "Winter Kingdom Crest"
-    ]
-  },
-  {
-    "id": "howl-s-moving-castle",
-    "title": "Howl's Moving Castle",
-    "type": "book",
-    "author": "Diana Wynne Jones",
-    "bookSummary": "A young woman cursed into old age finds magic, self-possession, and a very unusual moving home.",
-    "movie": "Howl's Moving Castle",
-    "movieYear": "2004",
-    "movieSummary": "Studio Ghibli's adaptation emphasizes wonder, anti-war feeling, and emotional transformation.",
-    "genre": "Fantasy",
-    "quotes": [
-      "A home can walk with you.",
-      "Curses cannot name the whole heart.",
-      "Magic needs tenderness."
-    ],
-    "shirtIdeas": [
-      "Moving Castle Mechanics",
-      "Starfire Breakfast Club"
+      "Perspective changes everything",
+      "A line can dream of space"
     ]
   },
   {
@@ -344,19 +194,18 @@
     "title": "Alice's Adventures in Wonderland",
     "type": "book",
     "author": "Lewis Carroll",
-    "bookSummary": "A curious child tumbles into a world of riddles, reversals, and dreamlike logic.",
-    "movie": "Alice in Wonderland",
-    "movieYear": "2010",
-    "movieSummary": "The film reimagines Wonderland as a lavish return to a strange kingdom.",
-    "genre": "Fantasy",
+    "publicationYear": "1865",
+    "bookSummary": "A curious child follows a rabbit into a dream logic world of riddles, reversals, and wonder.",
+    "bookNote": "First published in 1865, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Children's Books",
     "quotes": [
       "Curiosity opens impossible doors.",
       "Nonsense has its own map.",
       "Wonder asks better questions."
     ],
     "shirtIdeas": [
-      "Wonderland Field Guide",
-      "Curious Doorway Club"
+      "Curiosity opens impossible doors",
+      "Nonsense has its own map"
     ]
   },
   {
@@ -364,639 +213,113 @@
     "title": "The Wonderful Wizard of Oz",
     "type": "book",
     "author": "L. Frank Baum",
-    "bookSummary": "A girl swept from Kansas follows a strange road toward courage, heart, wisdom, and home.",
-    "movie": "The Wizard of Oz",
-    "movieYear": "1939",
-    "movieSummary": "The classic film adaptation turns the journey into one of cinema's most recognizable fantasies.",
-    "genre": "Fantasy",
+    "publicationYear": "1900",
+    "bookSummary": "A girl swept from Kansas follows a bright road toward courage, heart, wisdom, and home.",
+    "bookNote": "First published in 1900, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Children's Books",
     "quotes": [
       "Home can be the bravest destination.",
       "Every road teaches a gift.",
       "Color arrives after the storm."
     ],
     "shirtIdeas": [
-      "Yellow Road Travel Co",
-      "Emerald City Souvenir"
+      "Home can be the bravest destination",
+      "Every road teaches a gift"
     ]
   },
   {
-    "id": "the-neverending-story",
-    "title": "The Neverending Story",
+    "id": "peter-pan",
+    "title": "Peter Pan",
     "type": "book",
-    "author": "Michael Ende",
-    "bookSummary": "A lonely reader discovers that imagination, grief, and courage can shape an endangered world.",
-    "movie": "The NeverEnding Story",
-    "movieYear": "1984",
-    "movieSummary": "The film adaptation celebrates reading as a portal into heroic fantasy.",
-    "genre": "Fantasy",
+    "author": "J. M. Barrie",
+    "publicationYear": "1911",
+    "bookSummary": "Children fly to Neverland, where play, danger, and the ache of growing up live side by side.",
+    "bookNote": "First published in 1911, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Children's Books",
     "quotes": [
-      "A book can answer back.",
-      "Imagination needs defenders.",
-      "Names can restore worlds."
+      "Childhood knows hidden routes.",
+      "Adventure forgets the clock.",
+      "Growing up casts a shadow."
     ],
     "shirtIdeas": [
-      "Fantasia Reading Club",
-      "Luck Dragon Sky Tour"
+      "Childhood knows hidden routes",
+      "Adventure forgets the clock"
     ]
   },
   {
-    "id": "pride-and-prejudice",
-    "title": "Pride and Prejudice",
+    "id": "the-velveteen-rabbit",
+    "title": "The Velveteen Rabbit",
     "type": "book",
-    "author": "Jane Austen",
-    "bookSummary": "Elizabeth Bennet and Mr. Darcy spar through pride, class, family pressure, and slowly earned affection.",
-    "movie": "Pride & Prejudice",
-    "movieYear": "2005",
-    "movieSummary": "A sweeping adaptation centered on glances, misunderstandings, and emotional restraint breaking open.",
-    "genre": "Romance",
+    "author": "Margery Williams",
+    "publicationYear": "1922",
+    "bookSummary": "A toy rabbit learns that love, wear, and tenderness can make something real.",
+    "bookNote": "First published in 1922, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Children's Books",
     "quotes": [
-      "A laugh can reveal the truth.",
-      "First impressions can be rewritten.",
-      "Affection grows through honesty."
+      "Love makes things real.",
+      "Tenderness leaves beautiful marks.",
+      "Being worn can mean being cherished."
     ],
     "shirtIdeas": [
-      "Regency Laugh Letterpress",
-      "Pemberley Ballroom Note"
+      "Love makes things real",
+      "Tenderness leaves beautiful marks"
     ]
   },
   {
-    "id": "the-notebook",
-    "title": "The Notebook",
+    "id": "the-wind-in-the-willows",
+    "title": "The Wind in the Willows",
     "type": "book",
-    "author": "Nicholas Sparks",
-    "bookSummary": "A summer romance becomes a lifelong story of memory, class difference, and devotion.",
-    "movie": "The Notebook",
-    "movieYear": "2004",
-    "movieSummary": "The film adaptation leans into rain-soaked longing and enduring love.",
-    "genre": "Romance",
+    "author": "Kenneth Grahame",
+    "publicationYear": "1908",
+    "bookSummary": "Riverbank friends wander through comfort, trouble, loyalty, and the pull of home.",
+    "bookNote": "First published in 1908, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Children's Books",
     "quotes": [
-      "Some summers keep writing back.",
-      "Memory can hold a hand.",
-      "Love returns to the page."
+      "Friendship follows the river.",
+      "Home waits beside the water.",
+      "Adventure needs a warm return."
     ],
     "shirtIdeas": [
-      "Rain Porch Romance",
-      "Letters by the Lake"
+      "Friendship follows the river",
+      "Home waits beside the water"
     ]
   },
   {
-    "id": "me-before-you",
-    "title": "Me Before You",
+    "id": "black-beauty",
+    "title": "Black Beauty",
     "type": "book",
-    "author": "Jojo Moyes",
-    "bookSummary": "A caregiver and a wealthy quadriplegic man form a bond that challenges comfort, choice, and love.",
-    "movie": "Me Before You",
-    "movieYear": "2016",
-    "movieSummary": "The film adaptation focuses on charm, tenderness, and difficult decisions.",
-    "genre": "Romance",
+    "author": "Anna Sewell",
+    "publicationYear": "1877",
+    "bookSummary": "A horse narrates kindness and cruelty in a humane plea for compassion.",
+    "bookNote": "First published in 1877, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Children's Books",
     "quotes": [
-      "Live boldly, even softly.",
-      "Care can change both people.",
-      "Love asks hard questions."
+      "Kindness has reins.",
+      "Gentle strength deserves care.",
+      "Every creature carries a story."
     ],
     "shirtIdeas": [
-      "Bumblebee Tights Club",
-      "Live Boldly Script"
+      "Kindness has reins",
+      "Gentle strength deserves care"
     ]
   },
   {
-    "id": "the-fault-in-our-stars",
-    "title": "The Fault in Our Stars",
+    "id": "heidi",
+    "title": "Heidi",
     "type": "book",
-    "author": "John Green",
-    "bookSummary": "Two teens living with cancer find wit, fear, and first love inside a fragile stretch of time.",
-    "movie": "The Fault in Our Stars",
-    "movieYear": "2014",
-    "movieSummary": "The film adaptation follows their connection with humor and heartbreak.",
-    "genre": "Romance",
+    "author": "Johanna Spyri",
+    "publicationYear": "1881",
+    "bookSummary": "A mountain child brings warmth, healing, and joy to people shaped by loneliness.",
+    "bookNote": "First published in 1881, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Children's Books",
     "quotes": [
-      "Small infinities still count.",
-      "Love is not measured by time.",
-      "Stars can be tender."
+      "Fresh air heals heavy hearts.",
+      "Kindness climbs mountains.",
+      "Home can smell like pine."
     ],
     "shirtIdeas": [
-      "Little Infinity Badge",
-      "Star Crossed Notebook"
-    ]
-  },
-  {
-    "id": "jane-eyre",
-    "title": "Jane Eyre",
-    "type": "book",
-    "author": "Charlotte Bronte",
-    "bookSummary": "An independent governess seeks dignity, love, and moral clarity in a house full of secrets.",
-    "movie": "Jane Eyre",
-    "movieYear": "2011",
-    "movieSummary": "The film adaptation emphasizes atmosphere, restraint, and fierce self-respect.",
-    "genre": "Romance",
-    "quotes": [
-      "A quiet will can be iron.",
-      "Love must leave room for selfhood.",
-      "Secrets darken every hallway."
-    ],
-    "shirtIdeas": [
-      "Governess Gothic Crest",
-      "Plain and Fierce Typography"
-    ]
-  },
-  {
-    "id": "sense-and-sensibility",
-    "title": "Sense and Sensibility",
-    "type": "book",
-    "author": "Jane Austen",
-    "bookSummary": "Two sisters navigate grief, money, manners, and different styles of loving wisely.",
-    "movie": "Sense and Sensibility",
-    "movieYear": "1995",
-    "movieSummary": "The film adaptation balances wit, feeling, and social pressure with warmth.",
-    "genre": "Romance",
-    "quotes": [
-      "Feeling needs a steady hand.",
-      "Sisters carry each other forward.",
-      "Love learns patience."
-    ],
-    "shirtIdeas": [
-      "Dashwood Sisterhood Club",
-      "Sense Meets Sensibility"
-    ]
-  },
-  {
-    "id": "emma",
-    "title": "Emma",
-    "type": "book",
-    "author": "Jane Austen",
-    "bookSummary": "A clever matchmaker learns humility as her confident social plans tangle other people's hearts.",
-    "movie": "Emma.",
-    "movieYear": "2020",
-    "movieSummary": "The film adaptation gives the comedy of manners a bright, stylized visual language.",
-    "genre": "Romance",
-    "quotes": [
-      "Matchmaking needs humility.",
-      "Confidence can misread the room.",
-      "The heart resists tidy plans."
-    ],
-    "shirtIdeas": [
-      "Highbury Matchmaker Society",
-      "Box Hill Apology Tour"
-    ]
-  },
-  {
-    "id": "atonement",
-    "title": "Atonement",
-    "type": "book",
-    "author": "Ian McEwan",
-    "bookSummary": "A child's accusation reshapes lives across class, war, guilt, and impossible longing.",
-    "movie": "Atonement",
-    "movieYear": "2007",
-    "movieSummary": "The film adaptation turns memory and regret into a lush romantic tragedy.",
-    "genre": "Romance",
-    "quotes": [
-      "A story can wound.",
-      "Regret edits every memory.",
-      "Love waits inside what might have been."
-    ],
-    "shirtIdeas": [
-      "Green Dress Typewriter",
-      "Unsent Letter Club"
-    ]
-  },
-  {
-    "id": "the-time-traveler-s-wife",
-    "title": "The Time Traveler's Wife",
-    "type": "book",
-    "author": "Audrey Niffenegger",
-    "bookSummary": "A relationship bends around involuntary time travel, absence, and devotion across years.",
-    "movie": "The Time Traveler's Wife",
-    "movieYear": "2009",
-    "movieSummary": "The film adaptation focuses on romance strained by impossible timing.",
-    "genre": "Romance",
-    "quotes": [
-      "Love keeps strange hours.",
-      "Waiting can become a language.",
-      "Time is not always linear."
-    ],
-    "shirtIdeas": [
-      "Chronology of Us",
-      "Time Slip Anniversary"
-    ]
-  },
-  {
-    "id": "crazy-rich-asians",
-    "title": "Crazy Rich Asians",
-    "type": "book",
-    "author": "Kevin Kwan",
-    "bookSummary": "A professor meets her boyfriend's ultra-wealthy family and faces expectation, spectacle, and self-worth.",
-    "movie": "Crazy Rich Asians",
-    "movieYear": "2018",
-    "movieSummary": "The film adaptation celebrates romance, family pressure, and lavish social comedy.",
-    "genre": "Romance",
-    "quotes": [
-      "Love meets legacy.",
-      "Belonging is not bought.",
-      "Confidence has its own sparkle."
-    ],
-    "shirtIdeas": [
-      "Mahjong Moment Club",
-      "Singapore Love Letter"
-    ]
-  },
-  {
-    "id": "gone-girl",
-    "title": "Gone Girl",
-    "type": "book",
-    "author": "Gillian Flynn",
-    "bookSummary": "A marriage becomes a media spectacle after a disappearance reveals layers of manipulation and resentment.",
-    "movie": "Gone Girl",
-    "movieYear": "2014",
-    "movieSummary": "David Fincher's cool, tense adaptation turns the missing-person story into a sharp psychological trap.",
-    "genre": "Thriller",
-    "quotes": [
-      "Every story has a frame.",
-      "Suspicion loves a spotlight.",
-      "Perfect images crack."
-    ],
-    "shirtIdeas": [
-      "Plot Twist Department",
-      "Missing Poster Noir"
-    ]
-  },
-  {
-    "id": "the-girl-with-the-dragon-tattoo",
-    "title": "The Girl with the Dragon Tattoo",
-    "type": "book",
-    "author": "Stieg Larsson",
-    "bookSummary": "A journalist and hacker investigate a decades-old disappearance inside a powerful family.",
-    "movie": "The Girl with the Dragon Tattoo",
-    "movieYear": "2011",
-    "movieSummary": "The film adaptation turns the mystery into icy investigative suspense.",
-    "genre": "Thriller",
-    "quotes": [
-      "Truth leaves a trace.",
-      "Cold cases still burn.",
-      "The archive has teeth."
-    ],
-    "shirtIdeas": [
-      "Archive Hacker Club",
-      "Nordic Noir Signal"
-    ]
-  },
-  {
-    "id": "the-da-vinci-code",
-    "title": "The Da Vinci Code",
-    "type": "book",
-    "author": "Dan Brown",
-    "bookSummary": "A symbolist and cryptologist follow clues through art, history, and conspiracy.",
-    "movie": "The Da Vinci Code",
-    "movieYear": "2006",
-    "movieSummary": "The film adaptation turns puzzle-solving into a globe-trotting mystery chase.",
-    "genre": "Thriller",
-    "quotes": [
-      "Every symbol points somewhere.",
-      "History hides in plain sight.",
-      "A clue can open a cathedral."
-    ],
-    "shirtIdeas": [
-      "Cipher Museum Tour",
-      "Symbol Hunter Badge"
-    ]
-  },
-  {
-    "id": "the-silence-of-the-lambs",
-    "title": "The Silence of the Lambs",
-    "type": "book",
-    "author": "Thomas Harris",
-    "bookSummary": "An FBI trainee consults a brilliant imprisoned killer while hunting another predator.",
-    "movie": "The Silence of the Lambs",
-    "movieYear": "1991",
-    "movieSummary": "The film adaptation became a tense psychological thriller built on interviews and dread.",
-    "genre": "Thriller",
-    "quotes": [
-      "Courage enters the cell.",
-      "Listening can be dangerous.",
-      "The mind is the darkest room."
-    ],
-    "shirtIdeas": [
-      "Case File Academy",
-      "Quiet Dread Typography"
-    ]
-  },
-  {
-    "id": "the-bourne-identity",
-    "title": "The Bourne Identity",
-    "type": "book",
-    "author": "Robert Ludlum",
-    "bookSummary": "An amnesiac man discovers dangerous skills and a conspiracy trying to erase him.",
-    "movie": "The Bourne Identity",
-    "movieYear": "2002",
-    "movieSummary": "The film adaptation reshaped the spy thriller with kinetic realism.",
-    "genre": "Thriller",
-    "quotes": [
-      "Identity is a moving target.",
-      "Memory can be a weapon.",
-      "Run first, ask carefully."
-    ],
-    "shirtIdeas": [
-      "Passport Unknown",
-      "Black Ops Running Club"
-    ]
-  },
-  {
-    "id": "shutter-island",
-    "title": "Shutter Island",
-    "type": "book",
-    "author": "Dennis Lehane",
-    "bookSummary": "A marshal investigates a psychiatric facility where weather, trauma, and truth twist together.",
-    "movie": "Shutter Island",
-    "movieYear": "2010",
-    "movieSummary": "The film adaptation turns the island mystery into a psychological maze.",
-    "genre": "Thriller",
-    "quotes": [
-      "The storm is inside too.",
-      "Truth can be a locked ward.",
-      "Every lighthouse casts a shadow."
-    ],
-    "shirtIdeas": [
-      "Lighthouse Case Notes",
-      "Storm Warning Institute"
-    ]
-  },
-  {
-    "id": "the-firm",
-    "title": "The Firm",
-    "type": "book",
-    "author": "John Grisham",
-    "bookSummary": "A young lawyer joins a prestigious firm and discovers the perks hide dangerous obligations.",
-    "movie": "The Firm",
-    "movieYear": "1993",
-    "movieSummary": "The film adaptation turns legal ambition into a paranoid escape plan.",
-    "genre": "Thriller",
-    "quotes": [
-      "Fine print can trap you.",
-      "Ambition needs an exit route.",
-      "The office has secrets."
-    ],
-    "shirtIdeas": [
-      "Billable Hours Escape Club",
-      "Legal Thriller Letterhead"
-    ]
-  },
-  {
-    "id": "misery",
-    "title": "Misery",
-    "type": "book",
-    "author": "Stephen King",
-    "bookSummary": "An injured author is held by a fan whose devotion turns terrifyingly possessive.",
-    "movie": "Misery",
-    "movieYear": "1990",
-    "movieSummary": "The film adaptation concentrates the dread into a claustrophobic battle of wills.",
-    "genre": "Thriller",
-    "quotes": [
-      "Fandom can turn sharp.",
-      "The page becomes a prison.",
-      "Rescue starts with one sentence."
-    ],
-    "shirtIdeas": [
-      "Writer's Block Survival",
-      "Number One Fan Warning"
-    ]
-  },
-  {
-    "id": "the-talented-mr-ripley",
-    "title": "The Talented Mr. Ripley",
-    "type": "book",
-    "author": "Patricia Highsmith",
-    "bookSummary": "A charming impostor pursues wealth, identity, and belonging through deception.",
-    "movie": "The Talented Mr. Ripley",
-    "movieYear": "1999",
-    "movieSummary": "The film adaptation bathes the suspense in sunlit elegance and unease.",
-    "genre": "Thriller",
-    "quotes": [
-      "Charm can be camouflage.",
-      "Envy packs a suitcase.",
-      "Identity can become a crime."
-    ],
-    "shirtIdeas": [
-      "Impostor Summer Club",
-      "Passport to Trouble"
-    ]
-  },
-  {
-    "id": "no-country-for-old-men",
-    "title": "No Country for Old Men",
-    "type": "book",
-    "author": "Cormac McCarthy",
-    "bookSummary": "A man finds drug money and triggers a bleak pursuit shaped by chance, violence, and fate.",
-    "movie": "No Country for Old Men",
-    "movieYear": "2007",
-    "movieSummary": "The film adaptation delivers stark suspense across the Texas borderlands.",
-    "genre": "Thriller",
-    "quotes": [
-      "Chance leaves tracks.",
-      "Fate walks quietly.",
-      "Some roads do not forgive."
-    ],
-    "shirtIdeas": [
-      "Desert Coin Toss",
-      "Borderland Dread Co"
-    ]
-  },
-  {
-    "id": "charlotte-s-web",
-    "title": "Charlotte's Web",
-    "type": "book",
-    "author": "E. B. White",
-    "bookSummary": "A gentle story about friendship, courage, farm life, and the words that can save someone.",
-    "movie": "Charlotte's Web",
-    "movieYear": "2006",
-    "movieSummary": "A warm family adaptation that keeps the farmyard friendship at the heart of the story.",
-    "genre": "Kids",
-    "quotes": [
-      "Kind words can rescue.",
-      "Friendship writes beautifully.",
-      "Small lives deserve wonder."
-    ],
-    "shirtIdeas": [
-      "Some Friend Web",
-      "Farmyard Kindness Badge"
-    ]
-  },
-  {
-    "id": "matilda",
-    "title": "Matilda",
-    "type": "book",
-    "author": "Roald Dahl",
-    "bookSummary": "A brilliant child uses books, courage, and a little magic against cruel adults.",
-    "movie": "Matilda",
-    "movieYear": "1996",
-    "movieSummary": "The film adaptation turns Matilda's clever rebellion into a funny, heartfelt family classic.",
-    "genre": "Kids",
-    "quotes": [
-      "Books make brave minds.",
-      "Tiny readers can be mighty.",
-      "Kindness beats cruelty."
-    ],
-    "shirtIdeas": [
-      "Tiny Genius Library",
-      "Telekinetic Book Club"
-    ]
-  },
-  {
-    "id": "where-the-wild-things-are",
-    "title": "Where the Wild Things Are",
-    "type": "book",
-    "author": "Maurice Sendak",
-    "bookSummary": "A child sails into a wild emotional world and learns about anger, imagination, and home.",
-    "movie": "Where the Wild Things Are",
-    "movieYear": "2009",
-    "movieSummary": "The film adaptation expands the picture book into a moody adventure about feelings.",
-    "genre": "Kids",
-    "quotes": [
-      "Wild feelings need room.",
-      "Imagination has a shoreline.",
-      "Home waits after the roar."
-    ],
-    "shirtIdeas": [
-      "Wild Rumpus Crew",
-      "Sail to Bedtime"
-    ]
-  },
-  {
-    "id": "the-polar-express",
-    "title": "The Polar Express",
-    "type": "book",
-    "author": "Chris Van Allsburg",
-    "bookSummary": "A nighttime train ride carries a child toward belief, wonder, and Christmas magic.",
-    "movie": "The Polar Express",
-    "movieYear": "2004",
-    "movieSummary": "The film adaptation transforms the journey into a snowy motion-capture spectacle.",
-    "genre": "Kids",
-    "quotes": [
-      "Belief has a sound.",
-      "Wonder boards at night.",
-      "Keep your ticket close."
-    ],
-    "shirtIdeas": [
-      "Midnight Train Ticket",
-      "Believe Bell Badge"
-    ]
-  },
-  {
-    "id": "the-lorax",
-    "title": "The Lorax",
-    "type": "book",
-    "author": "Dr. Seuss",
-    "bookSummary": "A bright cautionary tale about trees, greed, and speaking up for what cannot speak.",
-    "movie": "The Lorax",
-    "movieYear": "2012",
-    "movieSummary": "The film adaptation expands the environmental fable into a colorful musical comedy.",
-    "genre": "Kids",
-    "quotes": [
-      "Speak for the trees.",
-      "Small seeds need guardians.",
-      "The future grows from care."
-    ],
-    "shirtIdeas": [
-      "Tree Speaker Society",
-      "Unless Seed Club"
-    ]
-  },
-  {
-    "id": "paddington",
-    "title": "Paddington",
-    "type": "book",
-    "author": "Michael Bond",
-    "bookSummary": "A polite bear from Peru finds a new home, comic trouble, and a family in London.",
-    "movie": "Paddington",
-    "movieYear": "2014",
-    "movieSummary": "The film adaptation turns the beloved bear into a warm modern family adventure.",
-    "genre": "Kids",
-    "quotes": [
-      "Kindness travels well.",
-      "Marmalade solves plenty.",
-      "A stranger can become family."
-    ],
-    "shirtIdeas": [
-      "Marmalade Emergency Kit",
-      "Polite Bear London"
-    ]
-  },
-  {
-    "id": "how-to-train-your-dragon",
-    "title": "How to Train Your Dragon",
-    "type": "book",
-    "author": "Cressida Cowell",
-    "bookSummary": "A young Viking challenges tradition by befriending the dragon he was expected to fight.",
-    "movie": "How to Train Your Dragon",
-    "movieYear": "2010",
-    "movieSummary": "The animated film adaptation turns the premise into a soaring friendship adventure.",
-    "genre": "Kids",
-    "quotes": [
-      "Friendship can change a village.",
-      "Listen before you fight.",
-      "The sky belongs to the brave."
-    ],
-    "shirtIdeas": [
-      "Dragon Flight Academy",
-      "Viking Best Friend"
-    ]
-  },
-  {
-    "id": "the-tale-of-peter-rabbit",
-    "title": "The Tale of Peter Rabbit",
-    "type": "book",
-    "author": "Beatrix Potter",
-    "bookSummary": "A mischievous rabbit finds trouble in a garden while learning about boundaries and bravery.",
-    "movie": "Peter Rabbit",
-    "movieYear": "2018",
-    "movieSummary": "The film adaptation updates the garden rivalry with slapstick family comedy.",
-    "genre": "Kids",
-    "quotes": [
-      "Mischief loves a garden gate.",
-      "Bravery can be very small.",
-      "Carrots are worth a plan."
-    ],
-    "shirtIdeas": [
-      "Garden Gate Mischief",
-      "Carrot Patch Crew"
-    ]
-  },
-  {
-    "id": "the-bfg",
-    "title": "The BFG",
-    "type": "book",
-    "author": "Roald Dahl",
-    "bookSummary": "A girl and a gentle giant collect dreams and stand against much scarier giants.",
-    "movie": "The BFG",
-    "movieYear": "2016",
-    "movieSummary": "The film adaptation gives the dream-country adventure a glowing fantasy scale.",
-    "genre": "Kids",
-    "quotes": [
-      "Dreams need careful hands.",
-      "Gentle can still be giant.",
-      "Courage comes in unlikely sizes."
-    ],
-    "shirtIdeas": [
-      "Dream Jar Delivery",
-      "Friendly Giant Club"
-    ]
-  },
-  {
-    "id": "holes",
-    "title": "Holes",
-    "type": "book",
-    "author": "Louis Sachar",
-    "bookSummary": "A boy sent to a desert camp uncovers buried history, friendship, and family curses.",
-    "movie": "Holes",
-    "movieYear": "2003",
-    "movieSummary": "The film adaptation keeps the mystery, humor, and sunbaked adventure tightly connected.",
-    "genre": "Kids",
-    "quotes": [
-      "Every hole has a history.",
-      "Friendship can break a curse.",
-      "The desert keeps receipts."
-    ],
-    "shirtIdeas": [
-      "Camp Green Lake Crew",
-      "Digging for Justice"
+      "Fresh air heals heavy hearts",
+      "Kindness climbs mountains"
     ]
   },
   {
@@ -1004,119 +327,37 @@
     "title": "Little Women",
     "type": "book",
     "author": "Louisa May Alcott",
+    "publicationYear": "1868",
     "bookSummary": "Four sisters grow through art, ambition, love, loss, and the daily work of becoming themselves.",
-    "movie": "Little Women",
-    "movieYear": "2019",
-    "movieSummary": "Greta Gerwig's adaptation braids memory and adulthood into a lively portrait of the March sisters.",
-    "genre": "Classics",
+    "bookNote": "First published in 1868, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Children's Books",
     "quotes": [
       "Strong words matter.",
       "Sisterhood is a shelter.",
       "Ambition can be tender."
     ],
     "shirtIdeas": [
-      "Good Strong Words",
-      "March Sisters Crest"
+      "Strong words matter",
+      "Sisterhood is a shelter"
     ]
   },
   {
-    "id": "to-kill-a-mockingbird",
-    "title": "To Kill a Mockingbird",
+    "id": "anne-of-green-gables",
+    "title": "Anne of Green Gables",
     "type": "book",
-    "author": "Harper Lee",
-    "bookSummary": "A child's view of justice, prejudice, and courage unfolds in a small Southern town.",
-    "movie": "To Kill a Mockingbird",
-    "movieYear": "1962",
-    "movieSummary": "The film adaptation centers moral courage through Atticus Finch and Scout's perspective.",
-    "genre": "Classics",
+    "author": "L. M. Montgomery",
+    "publicationYear": "1908",
+    "bookSummary": "An imaginative orphan transforms a farm, a village, and herself with feeling and fierce hope.",
+    "bookNote": "First published in 1908, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Children's Books",
     "quotes": [
-      "Courage stands quietly.",
-      "Justice begins with seeing clearly.",
-      "Childhood notices everything."
+      "Imagination reddens the road.",
+      "Mistakes can grow into grace.",
+      "Belonging starts with being seen."
     ],
     "shirtIdeas": [
-      "Quiet Courage Courthouse",
-      "Scout's Front Porch"
-    ]
-  },
-  {
-    "id": "the-great-gatsby",
-    "title": "The Great Gatsby",
-    "type": "book",
-    "author": "F. Scott Fitzgerald",
-    "bookSummary": "A mysterious millionaire's dream collides with wealth, longing, and the illusions of reinvention.",
-    "movie": "The Great Gatsby",
-    "movieYear": "2013",
-    "movieSummary": "The film adaptation turns Jazz Age excess and yearning into a glittering tragedy.",
-    "genre": "Classics",
-    "quotes": [
-      "Glamour can hide grief.",
-      "Dreams throw long shadows.",
-      "The party cannot last."
-    ],
-    "shirtIdeas": [
-      "Green Light Social Club",
-      "Jazz Age Dreamer"
-    ]
-  },
-  {
-    "id": "moby-dick",
-    "title": "Moby-Dick",
-    "type": "book",
-    "author": "Herman Melville",
-    "bookSummary": "A whaling voyage becomes an obsession-driven confrontation with nature, fate, and command.",
-    "movie": "Moby Dick",
-    "movieYear": "1956",
-    "movieSummary": "The film adaptation brings Ahab's pursuit and the sea's scale to classic adventure cinema.",
-    "genre": "Classics",
-    "quotes": [
-      "Obsession steers badly.",
-      "The sea keeps its counsel.",
-      "Some quests consume the captain."
-    ],
-    "shirtIdeas": [
-      "White Whale Watch",
-      "Ahab's Compass"
-    ]
-  },
-  {
-    "id": "great-expectations",
-    "title": "Great Expectations",
-    "type": "book",
-    "author": "Charles Dickens",
-    "bookSummary": "An orphan's rise through class, shame, love, and mystery questions what truly makes a gentleman.",
-    "movie": "Great Expectations",
-    "movieYear": "1998",
-    "movieSummary": "The modern film adaptation reimagines Dickens through art-world ambition and longing.",
-    "genre": "Classics",
-    "quotes": [
-      "Expectation can be a trap.",
-      "Kindness outranks status.",
-      "The past funds the future."
-    ],
-    "shirtIdeas": [
-      "Pip's Ambition Club",
-      "Estella's Garden Gate"
-    ]
-  },
-  {
-    "id": "a-christmas-carol",
-    "title": "A Christmas Carol",
-    "type": "book",
-    "author": "Charles Dickens",
-    "bookSummary": "A miser's haunted night becomes a moral reckoning about generosity, memory, and change.",
-    "movie": "A Christmas Carol",
-    "movieYear": "2009",
-    "movieSummary": "The animated film adaptation turns the ghostly visits into a dark holiday spectacle.",
-    "genre": "Classics",
-    "quotes": [
-      "Change can arrive overnight.",
-      "Generosity warms old rooms.",
-      "The future is still editable."
-    ],
-    "shirtIdeas": [
-      "Ghostly Ledger Society",
-      "Bah Humbug Redemption"
+      "Imagination reddens the road",
+      "Mistakes can grow into grace"
     ]
   },
   {
@@ -1124,39 +365,607 @@
     "title": "The Secret Garden",
     "type": "book",
     "author": "Frances Hodgson Burnett",
+    "publicationYear": "1911",
     "bookSummary": "A lonely child discovers a locked garden and helps a household heal through care and growth.",
-    "movie": "The Secret Garden",
-    "movieYear": "1993",
-    "movieSummary": "The film adaptation emphasizes atmosphere, friendship, and emotional restoration.",
-    "genre": "Classics",
+    "bookNote": "First published in 1911, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Children's Books",
     "quotes": [
       "Hidden places can heal.",
       "Growth begins behind walls.",
       "Care opens locked gates."
     ],
     "shirtIdeas": [
-      "Locked Garden Club",
-      "Bloom Where Found"
+      "Hidden places can heal",
+      "Growth begins behind walls"
     ]
   },
   {
-    "id": "the-call-of-the-wild",
-    "title": "The Call of the Wild",
+    "id": "the-adventures-of-sherlock-holmes",
+    "title": "The Adventures of Sherlock Holmes",
     "type": "book",
-    "author": "Jack London",
-    "bookSummary": "A domesticated dog is pulled into the Yukon and awakens to instinct, hardship, and freedom.",
-    "movie": "The Call of the Wild",
-    "movieYear": "2020",
-    "movieSummary": "The film adaptation follows Buck through wilderness adventure and companionship.",
-    "genre": "Classics",
+    "author": "Arthur Conan Doyle",
+    "publicationYear": "1892",
+    "bookSummary": "Sherlock Holmes and Dr. Watson solve puzzles of disguise, motive, and close observation.",
+    "bookNote": "First published in 1892, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Thriller",
     "quotes": [
-      "The wild remembers.",
-      "Instinct has a voice.",
-      "Freedom leaves tracks."
+      "Observation changes the case.",
+      "Small clues make loud truths.",
+      "The ordinary hides mysteries."
     ],
     "shirtIdeas": [
-      "Yukon Trail Companion",
-      "Answer the Wild"
+      "Observation changes the case",
+      "Small clues make loud truths"
+    ]
+  },
+  {
+    "id": "the-hound-of-the-baskervilles",
+    "title": "The Hound of the Baskervilles",
+    "type": "book",
+    "author": "Arthur Conan Doyle",
+    "publicationYear": "1902",
+    "bookSummary": "A family legend, a moor, and a spectral hound become a masterwork of rational suspense.",
+    "bookNote": "First published in 1902, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Thriller",
+    "quotes": [
+      "The moor keeps footprints.",
+      "Legends fear close inspection.",
+      "Reason enters the fog."
+    ],
+    "shirtIdeas": [
+      "The moor keeps footprints",
+      "Legends fear close inspection"
+    ]
+  },
+  {
+    "id": "the-moonstone",
+    "title": "The Moonstone",
+    "type": "book",
+    "author": "Wilkie Collins",
+    "publicationYear": "1868",
+    "bookSummary": "A stolen diamond pulls family secrets, suspicion, and shifting narrators into an early detective landmark.",
+    "bookNote": "First published in 1868, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Thriller",
+    "quotes": [
+      "Every jewel casts a shadow.",
+      "Suspicion changes hands.",
+      "Truth has many witnesses."
+    ],
+    "shirtIdeas": [
+      "Every jewel casts a shadow",
+      "Suspicion changes hands"
+    ]
+  },
+  {
+    "id": "the-woman-in-white",
+    "title": "The Woman in White",
+    "type": "book",
+    "author": "Wilkie Collins",
+    "publicationYear": "1860",
+    "bookSummary": "Mistaken identities and legal traps drive a gothic mystery of conspiracy and endurance.",
+    "bookNote": "First published in 1860, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Thriller",
+    "quotes": [
+      "Secrets wear pale clothing.",
+      "Names can become prisons.",
+      "Courage follows the clue."
+    ],
+    "shirtIdeas": [
+      "Secrets wear pale clothing",
+      "Names can become prisons"
+    ]
+  },
+  {
+    "id": "the-thirty-nine-steps",
+    "title": "The Thirty-Nine Steps",
+    "type": "book",
+    "author": "John Buchan",
+    "publicationYear": "1915",
+    "bookSummary": "An ordinary man is swept into espionage, flight, and a race to prevent disaster.",
+    "bookNote": "First published in 1915, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Thriller",
+    "quotes": [
+      "Run before the map closes.",
+      "Danger counts the steps.",
+      "Trust arrives under pressure."
+    ],
+    "shirtIdeas": [
+      "Run before the map closes",
+      "Danger counts the steps"
+    ]
+  },
+  {
+    "id": "the-murders-in-the-rue-morgue",
+    "title": "The Murders in the Rue Morgue",
+    "type": "book",
+    "author": "Edgar Allan Poe",
+    "publicationYear": "1841",
+    "bookSummary": "A brilliant analyst unravels an impossible crime through observation and imagination.",
+    "bookNote": "First published in 1841, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Thriller",
+    "quotes": [
+      "Impossible rooms have answers.",
+      "The mind follows strange evidence.",
+      "Mystery begins where logic waits."
+    ],
+    "shirtIdeas": [
+      "Impossible rooms have answers",
+      "The mind follows strange evidence"
+    ]
+  },
+  {
+    "id": "the-mystery-of-edwin-drood",
+    "title": "The Mystery of Edwin Drood",
+    "type": "book",
+    "author": "Charles Dickens",
+    "publicationYear": "1870",
+    "bookSummary": "An unfinished disappearance leaves obsession, jealousy, and suspicion suspended in fog.",
+    "bookNote": "First published in 1870, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Thriller",
+    "quotes": [
+      "Unfinished stories keep watch.",
+      "Jealousy darkens the choir.",
+      "Absence asks sharp questions."
+    ],
+    "shirtIdeas": [
+      "Unfinished stories keep watch",
+      "Jealousy darkens the choir"
+    ]
+  },
+  {
+    "id": "the-sign-of-four",
+    "title": "The Sign of Four",
+    "type": "book",
+    "author": "Arthur Conan Doyle",
+    "publicationYear": "1890",
+    "bookSummary": "A strange message leads Holmes and Watson through treasure, betrayal, and imperial shadows.",
+    "bookNote": "First published in 1890, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Thriller",
+    "quotes": [
+      "Four signs point inward.",
+      "Treasure carries old debts.",
+      "Messages arrive with consequences."
+    ],
+    "shirtIdeas": [
+      "Four signs point inward",
+      "Treasure carries old debts"
+    ]
+  },
+  {
+    "id": "the-secret-adversary",
+    "title": "The Secret Adversary",
+    "type": "book",
+    "author": "Agatha Christie",
+    "publicationYear": "1922",
+    "bookSummary": "Two young adventurers chase missing documents, false identities, and a hidden enemy.",
+    "bookNote": "First published in 1922, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Thriller",
+    "quotes": [
+      "Courage can look cheerful.",
+      "Secrets dislike bright company.",
+      "Adventure answers the advertisement."
+    ],
+    "shirtIdeas": [
+      "Courage can look cheerful",
+      "Secrets dislike bright company"
+    ]
+  },
+  {
+    "id": "the-man-who-was-thursday",
+    "title": "The Man Who Was Thursday",
+    "type": "book",
+    "author": "G. K. Chesterton",
+    "publicationYear": "1908",
+    "bookSummary": "A poet-detective enters a surreal conspiracy where identities and ideas keep turning inside out.",
+    "bookNote": "First published in 1908, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Thriller",
+    "quotes": [
+      "Every mask asks a question.",
+      "Anarchy wears formal clothes.",
+      "The chase becomes philosophy."
+    ],
+    "shirtIdeas": [
+      "Every mask asks a question",
+      "Anarchy wears formal clothes"
+    ]
+  },
+  {
+    "id": "pride-and-prejudice",
+    "title": "Pride and Prejudice",
+    "type": "book",
+    "author": "Jane Austen",
+    "publicationYear": "1813",
+    "bookSummary": "Elizabeth Bennet and Mr. Darcy move through pride, wit, class pressure, and slowly earned affection.",
+    "bookNote": "First published in 1813, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Romance",
+    "quotes": [
+      "A laugh can reveal the truth.",
+      "First impressions can be rewritten.",
+      "Affection grows through honesty."
+    ],
+    "shirtIdeas": [
+      "A laugh can reveal the truth",
+      "First impressions can be rewritten"
+    ]
+  },
+  {
+    "id": "sense-and-sensibility",
+    "title": "Sense and Sensibility",
+    "type": "book",
+    "author": "Jane Austen",
+    "publicationYear": "1811",
+    "bookSummary": "Two sisters navigate grief, money, manners, and different styles of loving wisely.",
+    "bookNote": "First published in 1811, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Romance",
+    "quotes": [
+      "Feeling needs a steady hand.",
+      "Sisters carry each other forward.",
+      "Love learns patience."
+    ],
+    "shirtIdeas": [
+      "Feeling needs a steady hand",
+      "Sisters carry each other forward"
+    ]
+  },
+  {
+    "id": "emma",
+    "title": "Emma",
+    "type": "book",
+    "author": "Jane Austen",
+    "publicationYear": "1815",
+    "bookSummary": "A clever matchmaker learns humility as her confident social plans tangle other people's hearts.",
+    "bookNote": "First published in 1815, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Romance",
+    "quotes": [
+      "Matchmaking needs humility.",
+      "Confidence can misread the room.",
+      "The heart resists tidy plans."
+    ],
+    "shirtIdeas": [
+      "Matchmaking needs humility",
+      "Confidence can misread the room"
+    ]
+  },
+  {
+    "id": "persuasion",
+    "title": "Persuasion",
+    "type": "book",
+    "author": "Jane Austen",
+    "publicationYear": "1817",
+    "bookSummary": "Anne Elliot meets a once-refused love and learns how time, regret, and constancy can change a life.",
+    "bookNote": "First published in 1817, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Romance",
+    "quotes": [
+      "Second chances speak softly.",
+      "Constancy survives the years.",
+      "Regret can learn hope."
+    ],
+    "shirtIdeas": [
+      "Second chances speak softly",
+      "Constancy survives the years"
+    ]
+  },
+  {
+    "id": "jane-eyre",
+    "title": "Jane Eyre",
+    "type": "book",
+    "author": "Charlotte Bronte",
+    "publicationYear": "1847",
+    "bookSummary": "An independent governess seeks dignity, love, and moral clarity in a house full of secrets.",
+    "bookNote": "First published in 1847, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Romance",
+    "quotes": [
+      "A quiet will can be iron.",
+      "Love must leave room for selfhood.",
+      "Secrets darken every hallway."
+    ],
+    "shirtIdeas": [
+      "A quiet will can be iron",
+      "Love must leave room for selfhood"
+    ]
+  },
+  {
+    "id": "wuthering-heights",
+    "title": "Wuthering Heights",
+    "type": "book",
+    "author": "Emily Bronte",
+    "publicationYear": "1847",
+    "bookSummary": "Wild love, revenge, and inheritance haunt two families across the Yorkshire moors.",
+    "bookNote": "First published in 1847, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Romance",
+    "quotes": [
+      "The moors remember everything.",
+      "Love can become weather.",
+      "Revenge inherits an empty house."
+    ],
+    "shirtIdeas": [
+      "The moors remember everything",
+      "Love can become weather"
+    ]
+  },
+  {
+    "id": "north-and-south",
+    "title": "North and South",
+    "type": "book",
+    "author": "Elizabeth Gaskell",
+    "publicationYear": "1855",
+    "bookSummary": "Margaret Hale confronts class conflict, industrial change, and a difficult, transforming love.",
+    "bookNote": "First published in 1855, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Romance",
+    "quotes": [
+      "Principle meets the factory floor.",
+      "Love crosses hard weather.",
+      "Change asks for courage."
+    ],
+    "shirtIdeas": [
+      "Principle meets the factory floor",
+      "Love crosses hard weather"
+    ]
+  },
+  {
+    "id": "far-from-the-madding-crowd",
+    "title": "Far from the Madding Crowd",
+    "type": "book",
+    "author": "Thomas Hardy",
+    "publicationYear": "1874",
+    "bookSummary": "Bathsheba Everdene faces courtship, pride, work, and consequence in rural Wessex.",
+    "bookNote": "First published in 1874, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Romance",
+    "quotes": [
+      "Independence has a wild field.",
+      "Love must prove steady.",
+      "Choices echo across the farm."
+    ],
+    "shirtIdeas": [
+      "Independence has a wild field",
+      "Love must prove steady"
+    ]
+  },
+  {
+    "id": "the-blue-castle",
+    "title": "The Blue Castle",
+    "type": "book",
+    "author": "L. M. Montgomery",
+    "publicationYear": "1926",
+    "bookSummary": "A timid woman, believing time is short, claims freedom, romance, and a life of her own.",
+    "bookNote": "First published in 1926, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Romance",
+    "quotes": [
+      "Freedom starts with one brave yes.",
+      "A hidden life can bloom.",
+      "Joy builds its own castle."
+    ],
+    "shirtIdeas": [
+      "Freedom starts with one brave yes",
+      "A hidden life can bloom"
+    ]
+  },
+  {
+    "id": "a-room-with-a-view",
+    "title": "A Room with a View",
+    "type": "book",
+    "author": "E. M. Forster",
+    "publicationYear": "1908",
+    "bookSummary": "A young woman learns to choose feeling, honesty, and wider views over social performance.",
+    "bookNote": "First published in 1908, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Romance",
+    "quotes": [
+      "A view can change a heart.",
+      "Truth needs open windows.",
+      "Love asks for sunlight."
+    ],
+    "shirtIdeas": [
+      "A view can change a heart",
+      "Truth needs open windows"
+    ]
+  },
+  {
+    "id": "the-king-of-elfland-s-daughter",
+    "title": "The King of Elfland's Daughter",
+    "type": "book",
+    "author": "Lord Dunsany",
+    "publicationYear": "1924",
+    "bookSummary": "A mortal kingdom reaches toward Elfland, where wonder and longing reshape ordinary borders.",
+    "bookNote": "First published in 1924, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Wonder crosses the border.",
+      "Time moves differently in magic.",
+      "Longing opens silver gates."
+    ],
+    "shirtIdeas": [
+      "Wonder crosses the border",
+      "Time moves differently in magic"
+    ]
+  },
+  {
+    "id": "phantastes",
+    "title": "Phantastes",
+    "type": "book",
+    "author": "George MacDonald",
+    "publicationYear": "1858",
+    "bookSummary": "A young man wanders through faerie encounters that test desire, fear, and spiritual imagination.",
+    "bookNote": "First published in 1858, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Dream forests teach the heart.",
+      "Beauty asks for courage.",
+      "Wonder can be a trial."
+    ],
+    "shirtIdeas": [
+      "Dream forests teach the heart",
+      "Beauty asks for courage"
+    ]
+  },
+  {
+    "id": "the-princess-and-the-goblin",
+    "title": "The Princess and the Goblin",
+    "type": "book",
+    "author": "George MacDonald",
+    "publicationYear": "1872",
+    "bookSummary": "A princess, a miner boy, and a hidden grandmother face underground danger with trust and bravery.",
+    "bookNote": "First published in 1872, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Courage follows a silver thread.",
+      "Kindness lights the tunnels.",
+      "Small feet can face deep darkness."
+    ],
+    "shirtIdeas": [
+      "Courage follows a silver thread",
+      "Kindness lights the tunnels"
+    ]
+  },
+  {
+    "id": "the-gods-of-pegana",
+    "title": "The Gods of Pegana",
+    "type": "book",
+    "author": "Lord Dunsany",
+    "publicationYear": "1905",
+    "bookSummary": "Mythic fragments imagine gods, worlds, and fate with dreamlike grandeur.",
+    "bookNote": "First published in 1905, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Myths begin before maps.",
+      "Gods dream in old silence.",
+      "Creation speaks in fragments."
+    ],
+    "shirtIdeas": [
+      "Myths begin before maps",
+      "Gods dream in old silence"
+    ]
+  },
+  {
+    "id": "lilith",
+    "title": "Lilith",
+    "type": "book",
+    "author": "George MacDonald",
+    "publicationYear": "1895",
+    "bookSummary": "A scholar enters a strange spiritual world of death, renewal, and difficult awakening.",
+    "bookNote": "First published in 1895, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Fantasy",
+    "quotes": [
+      "The door opens inward.",
+      "Rest can be transformation.",
+      "Dark forests ask for surrender."
+    ],
+    "shirtIdeas": [
+      "The door opens inward",
+      "Rest can be transformation"
+    ]
+  },
+  {
+    "id": "the-crock-of-gold",
+    "title": "The Crock of Gold",
+    "type": "book",
+    "author": "James Stephens",
+    "publicationYear": "1912",
+    "bookSummary": "Philosophy, folklore, and mischief mingle in a comic quest through enchanted Ireland.",
+    "bookNote": "First published in 1912, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Wisdom laughs in the grass.",
+      "Mischief carries old gold.",
+      "Small magic asks large questions."
+    ],
+    "shirtIdeas": [
+      "Wisdom laughs in the grass",
+      "Mischief carries old gold"
+    ]
+  },
+  {
+    "id": "at-the-back-of-the-north-wind",
+    "title": "At the Back of the North Wind",
+    "type": "book",
+    "author": "George MacDonald",
+    "publicationYear": "1871",
+    "bookSummary": "A child encounters the North Wind and discovers mystery, tenderness, and sorrow beyond the everyday.",
+    "bookNote": "First published in 1871, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Kindness rides the cold wind.",
+      "Mystery can be gentle.",
+      "Dreams know the northern road."
+    ],
+    "shirtIdeas": [
+      "Kindness rides the cold wind",
+      "Mystery can be gentle"
+    ]
+  },
+  {
+    "id": "the-book-of-wonder",
+    "title": "The Book of Wonder",
+    "type": "book",
+    "author": "Lord Dunsany",
+    "publicationYear": "1912",
+    "bookSummary": "Short fantasies open strange cities, impossible treasures, and marvels glimpsed at the edge of maps.",
+    "bookNote": "First published in 1912, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Wonder keeps a side door.",
+      "Every map has a margin.",
+      "Strange cities wait in sentences."
+    ],
+    "shirtIdeas": [
+      "Wonder keeps a side door",
+      "Every map has a margin"
+    ]
+  },
+  {
+    "id": "the-well-at-the-world-s-end",
+    "title": "The Well at the World's End",
+    "type": "book",
+    "author": "William Morris",
+    "publicationYear": "1896",
+    "bookSummary": "A prince journeys through peril, love, and enchantment toward a legendary well.",
+    "bookNote": "First published in 1896, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Fantasy",
+    "quotes": [
+      "Questing changes the seeker.",
+      "The well waits beyond fear.",
+      "Love travels with the road."
+    ],
+    "shirtIdeas": [
+      "Questing changes the seeker",
+      "The well waits beyond fear"
+    ]
+  },
+  {
+    "id": "the-wood-beyond-the-world",
+    "title": "The Wood Beyond the World",
+    "type": "book",
+    "author": "William Morris",
+    "publicationYear": "1894",
+    "bookSummary": "A merchant enters an enchanted landscape of desire, danger, and old romance.",
+    "bookNote": "First published in 1894, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Fantasy",
+    "quotes": [
+      "The forest begins after certainty.",
+      "Enchantment has a price.",
+      "Desire loses the path."
+    ],
+    "shirtIdeas": [
+      "The forest begins after certainty",
+      "Enchantment has a price"
+    ]
+  },
+  {
+    "id": "moby-dick",
+    "title": "Moby-Dick",
+    "type": "book",
+    "author": "Herman Melville",
+    "publicationYear": "1851",
+    "bookSummary": "A whaling voyage becomes an obsession-driven confrontation with nature, fate, and command.",
+    "bookNote": "First published in 1851, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Classics",
+    "quotes": [
+      "Obsession steers badly.",
+      "The sea keeps its counsel.",
+      "Some quests consume the captain."
+    ],
+    "shirtIdeas": [
+      "Obsession steers badly",
+      "The sea keeps its counsel"
     ]
   },
   {
@@ -1164,10 +973,9 @@
     "title": "Dracula",
     "type": "book",
     "author": "Bram Stoker",
+    "publicationYear": "1897",
     "bookSummary": "Letters, diaries, and dread build a gothic hunt against an ancient vampire.",
-    "movie": "Bram Stoker's Dracula",
-    "movieYear": "1992",
-    "movieSummary": "The film adaptation leans into lavish gothic romance and horror.",
+    "bookNote": "First published in 1897, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
     "genre": "Classics",
     "quotes": [
       "The night keeps correspondence.",
@@ -1175,8 +983,8 @@
       "Gothic fear has red ink."
     ],
     "shirtIdeas": [
-      "Transylvania Night Mail",
-      "Gothic Stake Society"
+      "The night keeps correspondence",
+      "Old shadows travel far"
     ]
   },
   {
@@ -1184,19 +992,151 @@
     "title": "Frankenstein",
     "type": "book",
     "author": "Mary Shelley",
+    "publicationYear": "1818",
     "bookSummary": "A scientist's creation forces questions about ambition, responsibility, loneliness, and humanity.",
-    "movie": "Frankenstein",
-    "movieYear": "1994",
-    "movieSummary": "The film adaptation stages the gothic tragedy with heightened emotion and spectacle.",
+    "bookNote": "First published in 1818, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
     "genre": "Classics",
     "quotes": [
+      "Ambition needs a conscience.",
       "Creation requires care.",
-      "Loneliness can become monstrous.",
-      "Ambition needs a conscience."
+      "Loneliness can become monstrous."
     ],
     "shirtIdeas": [
-      "Modern Prometheus Lab",
-      "Creature Comfort Club"
+      "Ambition needs a conscience",
+      "Creation requires care"
+    ]
+  },
+  {
+    "id": "the-picture-of-dorian-gray",
+    "title": "The Picture of Dorian Gray",
+    "type": "book",
+    "author": "Oscar Wilde",
+    "publicationYear": "1890",
+    "bookSummary": "A beautiful young man hides moral decay behind art, vanity, and a dangerous wish.",
+    "bookNote": "First published in 1890, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Classics",
+    "quotes": [
+      "Beauty can keep a ledger.",
+      "A portrait remembers the soul.",
+      "Vanity makes poor bargains."
+    ],
+    "shirtIdeas": [
+      "Beauty can keep a ledger",
+      "A portrait remembers the soul"
+    ]
+  },
+  {
+    "id": "a-tale-of-two-cities",
+    "title": "A Tale of Two Cities",
+    "type": "book",
+    "author": "Charles Dickens",
+    "publicationYear": "1859",
+    "bookSummary": "Revolution, sacrifice, and resurrection unfold across London and Paris.",
+    "bookNote": "First published in 1859, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Classics",
+    "quotes": [
+      "Sacrifice can outlive fear.",
+      "History turns with sharp wheels.",
+      "Love walks through revolution."
+    ],
+    "shirtIdeas": [
+      "Sacrifice can outlive fear",
+      "History turns with sharp wheels"
+    ]
+  },
+  {
+    "id": "great-expectations",
+    "title": "Great Expectations",
+    "type": "book",
+    "author": "Charles Dickens",
+    "publicationYear": "1861",
+    "bookSummary": "An orphan's rise through class, shame, love, and mystery questions what truly makes a gentleman.",
+    "bookNote": "First published in 1861, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Classics",
+    "quotes": [
+      "Expectation can be a trap.",
+      "Kindness outranks status.",
+      "The past funds the future."
+    ],
+    "shirtIdeas": [
+      "Expectation can be a trap",
+      "Kindness outranks status"
+    ]
+  },
+  {
+    "id": "the-count-of-monte-cristo",
+    "title": "The Count of Monte Cristo",
+    "type": "book",
+    "author": "Alexandre Dumas",
+    "publicationYear": "1844",
+    "bookSummary": "A betrayed sailor escapes prison and reshapes himself into an instrument of revenge and justice.",
+    "bookNote": "First published in 1844, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Classics",
+    "quotes": [
+      "Patience can sharpen justice.",
+      "Revenge wears expensive gloves.",
+      "Hope survives the dungeon."
+    ],
+    "shirtIdeas": [
+      "Patience can sharpen justice",
+      "Revenge wears expensive gloves"
+    ]
+  },
+  {
+    "id": "les-mis-rables",
+    "title": "Les Misérables",
+    "type": "book",
+    "author": "Victor Hugo",
+    "publicationYear": "1862",
+    "bookSummary": "Mercy, law, rebellion, and redemption converge across lives marked by poverty and grace.",
+    "bookNote": "First published in 1862, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Classics",
+    "quotes": [
+      "Mercy can remake a life.",
+      "Justice needs a human heart.",
+      "Hope sings in hard streets."
+    ],
+    "shirtIdeas": [
+      "Mercy can remake a life",
+      "Justice needs a human heart"
+    ]
+  },
+  {
+    "id": "treasure-island",
+    "title": "Treasure Island",
+    "type": "book",
+    "author": "Robert Louis Stevenson",
+    "publicationYear": "1883",
+    "bookSummary": "A boy joins a dangerous voyage of maps, pirates, loyalty, and buried gold.",
+    "bookNote": "First published in 1883, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Classics",
+    "quotes": [
+      "Every map has a warning.",
+      "Adventure smells of salt.",
+      "Treasure tests the crew."
+    ],
+    "shirtIdeas": [
+      "Every map has a warning",
+      "Adventure smells of salt"
+    ]
+  },
+  {
+    "id": "the-scarlet-letter",
+    "title": "The Scarlet Letter",
+    "type": "book",
+    "author": "Nathaniel Hawthorne",
+    "publicationYear": "1850",
+    "bookSummary": "A public mark of shame becomes a study of sin, secrecy, strength, and society.",
+    "bookNote": "First published in 1850, this public-domain book is presented as a book-first literary inspiration for original quote-led artwork.",
+    "genre": "Classics",
+    "quotes": [
+      "Shame cannot name the whole heart.",
+      "Secrets burn under plain cloth.",
+      "A symbol can change its meaning."
+    ],
+    "shirtIdeas": [
+      "Shame cannot name the whole heart",
+      "Secrets burn under plain cloth"
     ]
   }
 ]
