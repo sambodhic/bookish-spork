@@ -121,6 +121,12 @@ h1 { margin: 0; font-size: clamp(36px, 7vw, 74px); line-height: 0.98; letter-spa
 .policy-card { padding: 18px; }
 .policy-card h2 { margin-top: 0; }
 .policy-card a { color: var(--teal); font-weight: 800; }
+.legal-page { padding-bottom: 48px; }
+.legal-content { width: min(100%, 820px); padding: 28px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: 0 10px 24px rgba(24, 32, 38, 0.06); }
+.legal-content h1 { margin: 0 0 10px; font-size: clamp(34px, 5vw, 54px); line-height: 1; }
+.legal-content h2 { margin: 28px 0 8px; font-size: 22px; }
+.legal-content p { color: var(--muted); line-height: 1.65; }
+.legal-content a { color: var(--teal); font-weight: 800; }
 .cart-row, .favorite-row { display: flex; justify-content: space-between; gap: 12px; padding: 13px; align-items: center; }
 .favorite-row.is-clickable, .cart-row.is-clickable { cursor: pointer; }
 .favorite-row.is-clickable:hover, .cart-row.is-clickable:hover { border-color: rgba(15, 118, 110, 0.42); background: #f5fbfa; }
