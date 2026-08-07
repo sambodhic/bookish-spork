@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updatedAt": "2026-07-22",
+  "updatedAt": "2026-08-07",
   "designs": [
     {
       "id": "the-time-machine-Time-reveals-what-choices-build",
@@ -32,7 +32,14 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-time-machine/Progress-needs-a-conscience.png"
+      "imageUrl": "designs/the-time-machine/Progress-needs-a-conscience.png",
+      "amazonListings": {
+        "T-shirt": {
+          "US": "https://a.co/d/034eivDV",
+          "UK": "https://amzn.eu/d/09XbqgjS",
+          "JP": "https://amzn.asia/d/0crpzVEJ"
+        }
+      }
     },
     {
       "id": "the-time-machine-Tomorrow-is-not-neutral",
@@ -128,7 +135,14 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/twenty-thousand-leagues-under-the-seas/The-deep-keeps-strange-counsel.png"
+      "imageUrl": "designs/twenty-thousand-leagues-under-the-seas/The-deep-keeps-strange-counsel.png",
+      "amazonListings": {
+        "T-shirt": {
+          "US": "https://a.co/d/01SOBpfx",
+          "UK": "https://amzn.eu/d/07u7Wj85",
+          "JP": "https://amzn.asia/d/0bD6x4Sr"
+        }
+      }
     },
     {
       "id": "twenty-thousand-leagues-under-the-seas-Freedom-can-choose-the-sea",
@@ -144,7 +158,14 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/twenty-thousand-leagues-under-the-seas/Freedom-can-choose-the-sea.png"
+      "imageUrl": "designs/twenty-thousand-leagues-under-the-seas/Freedom-can-choose-the-sea.png",
+      "amazonListings": {
+        "T-shirt": {
+          "US": "https://a.co/d/0aKwvcjy",
+          "UK": "https://amzn.eu/d/0hdm5EVc",
+          "JP": "https://amzn.asia/d/06Fym72i"
+        }
+      }
     },
     {
       "id": "journey-to-the-center-of-the-earth-Curiosity-digs-deep",
@@ -256,7 +277,14 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-first-men-in-the-moon/Moonlight-exposes-ambition.png"
+      "imageUrl": "designs/the-first-men-in-the-moon/Moonlight-exposes-ambition.png",
+      "amazonListings": {
+        "T-shirt": {
+          "US": "https://a.co/d/07sGdr0G",
+          "UK": "https://amzn.eu/d/0fZtUNF3",
+          "JP": "https://amzn.asia/d/06wuDpsZ"
+        }
+      }
     },
     {
       "id": "the-first-men-in-the-moon-New-worlds-ask-old-questions",
@@ -320,7 +348,14 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/the-invisible-man/Isolation-can-distort-genius.png"
+      "imageUrl": "designs/the-invisible-man/Isolation-can-distort-genius.png",
+      "amazonListings": {
+        "T-shirt": {
+          "US": "https://a.co/d/0j9UD5iV",
+          "UK": "https://amzn.eu/d/0emSrVSn",
+          "JP": "https://amzn.asia/d/02hAXgcW"
+        }
+      }
     },
     {
       "id": "the-invisible-man-No-secret-stays-weightless",
@@ -1616,7 +1651,14 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/persuasion/Constancy-survives-the-years.png"
+      "imageUrl": "designs/persuasion/Constancy-survives-the-years.png",
+      "amazonListings": {
+        "T-shirt": {
+          "US": "https://a.co/d/06a4m2bq",
+          "UK": "https://amzn.eu/d/08Bu6ieH",
+          "JP": "https://amzn.asia/d/0ePQcbOz"
+        }
+      }
     },
     {
       "id": "persuasion-Regret-can-learn-hope",
@@ -2544,7 +2586,14 @@
         "Ceramic Mug",
         "Water Bottle"
       ],
-      "imageUrl": "designs/frankenstein/Loneliness-can-become-monstrous.png"
+      "imageUrl": "designs/frankenstein/Loneliness-can-become-monstrous.png",
+      "amazonListings": {
+        "T-shirt": {
+          "US": "https://a.co/d/01qmWDnv",
+          "UK": "https://amzn.eu/d/0dSvnuNz",
+          "JP": "https://amzn.asia/d/00H8ET78"
+        }
+      }
     },
     {
       "id": "the-picture-of-dorian-gray-Beauty-can-keep-a-ledger",
