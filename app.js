@@ -277,6 +277,12 @@ function designsFor(book) {
   }));
 }
 
+function hasAmazonListing(design) {
+  return Object.values(design.amazonListings ?? {}).some((markets) =>
+    Object.values(markets ?? {}).some((url) => typeof url === 'string' && url.startsWith('https://')),
+  );
+}
+
 function favoriteKey(kind, id) {
   return `${kind}:${id}`;
 }
@@ -376,7 +382,8 @@ function renderHome() {
     }))
     .filter((entry) => entry.book);
   const visibleDesigns = homePageScrambleDesigns ? dailyShuffle(designEntries) : designEntries;
-  const featured = visibleDesigns[0];
+  const purchasableDesigns = visibleDesigns.filter(({ design }) => hasAmazonListing(design));
+  const featured = purchasableDesigns[0] ?? visibleDesigns[0];
   app.innerHTML = `
     <section class="hero design-hero" data-design-id="${escapeHtml(featured.design.id)}">
       <div class="hero-copy">
