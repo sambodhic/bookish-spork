@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-14",
   "designs": [
     {
       "id": "the-time-machine-Time-reveals-what-choices-build",
@@ -2930,6 +2930,534 @@
         "Water Bottle"
       ],
       "imageUrl": "designs/the-scarlet-letter/A-symbol-can-change-its-meaning.png"
+    },
+    {
+      "id": "pather-panchali-Wonder-beyond-the-field",
+      "bookId": "pather-panchali",
+      "title": "Wonder beyond the field",
+      "concept": "Wonder beyond the field inspired by পথের পাঁচালী (Pather Panchali), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/pather-panchali/Wonder-beyond-the-field.png"
+    },
+    {
+      "id": "pather-panchali-Monsoon-paths-of-Nishchindipur",
+      "bookId": "pather-panchali",
+      "title": "Monsoon paths of Nishchindipur",
+      "concept": "Monsoon paths of Nishchindipur inspired by পথের পাঁচালী (Pather Panchali), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/pather-panchali/Monsoon-paths-of-Nishchindipur.png"
+    },
+    {
+      "id": "pather-panchali-Follow-the-distant-train",
+      "bookId": "pather-panchali",
+      "title": "Follow the distant train",
+      "concept": "Follow the distant train inspired by পথের পাঁচালী (Pather Panchali), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/pather-panchali/Follow-the-distant-train.png"
+    },
+    {
+      "id": "abol-tabol-Nonsense-has-its-own-logic",
+      "bookId": "abol-tabol",
+      "title": "Nonsense has its own logic",
+      "concept": "Nonsense has its own logic inspired by আবোল তাবোল (Abol Tabol), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/abol-tabol/Nonsense-has-its-own-logic.png"
+    },
+    {
+      "id": "abol-tabol-A-parade-of-impossible-creatures",
+      "bookId": "abol-tabol",
+      "title": "A parade of impossible creatures",
+      "concept": "A parade of impossible creatures inspired by আবোল তাবোল (Abol Tabol), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/abol-tabol/A-parade-of-impossible-creatures.png"
+    },
+    {
+      "id": "abol-tabol-Words-turning-somersaults",
+      "bookId": "abol-tabol",
+      "title": "Words turning somersaults",
+      "concept": "Words turning somersaults inspired by আবোল তাবোল (Abol Tabol), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/abol-tabol/Words-turning-somersaults.png"
+    },
+    {
+      "id": "thakurmar-jhuli-Grandmothers-treasury-of-tales",
+      "bookId": "thakurmar-jhuli",
+      "title": "Grandmother's treasury of tales",
+      "concept": "Grandmother's treasury of tales inspired by ঠাকুরমার ঝুলি (Thakurmar Jhuli), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/thakurmar-jhuli/Grandmothers-treasury-of-tales.png"
+    },
+    {
+      "id": "thakurmar-jhuli-Beyond-the-enchanted-forest",
+      "bookId": "thakurmar-jhuli",
+      "title": "Beyond the enchanted forest",
+      "concept": "Beyond the enchanted forest inspired by ঠাকুরমার ঝুলি (Thakurmar Jhuli), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/thakurmar-jhuli/Beyond-the-enchanted-forest.png"
+    },
+    {
+      "id": "thakurmar-jhuli-Princes-princesses-and-rakshasas",
+      "bookId": "thakurmar-jhuli",
+      "title": "Princes, princesses, and rakshasas",
+      "concept": "Princes, princesses, and rakshasas inspired by ঠাকুরমার ঝুলি (Thakurmar Jhuli), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/thakurmar-jhuli/Princes-princesses-and-rakshasas.png"
+    },
+    {
+      "id": "kapalkundala-The-secret-by-the-sea",
+      "bookId": "kapalkundala",
+      "title": "The secret by the sea",
+      "concept": "The secret by the sea inspired by কপালকুণ্ডলা (Kapalkundala), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/kapalkundala/The-secret-by-the-sea.png"
+    },
+    {
+      "id": "kapalkundala-Moonlight-over-the-forest-shrine",
+      "bookId": "kapalkundala",
+      "title": "Moonlight over the forest shrine",
+      "concept": "Moonlight over the forest shrine inspired by কপালকুণ্ডলা (Kapalkundala), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/kapalkundala/Moonlight-over-the-forest-shrine.png"
+    },
+    {
+      "id": "kapalkundala-Between-wilderness-and-the-world",
+      "bookId": "kapalkundala",
+      "title": "Between wilderness and the world",
+      "concept": "Between wilderness and the world inspired by কপালকুণ্ডলা (Kapalkundala), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/kapalkundala/Between-wilderness-and-the-world.png"
+    },
+    {
+      "id": "anandamath-History-through-the-sal-forest",
+      "bookId": "anandamath",
+      "title": "History through the sal forest",
+      "concept": "History through the sal forest inspired by আনন্দমঠ (Anandamath), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/anandamath/History-through-the-sal-forest.png"
+    },
+    {
+      "id": "anandamath-The-ascetics-hidden-path",
+      "bookId": "anandamath",
+      "title": "The ascetics' hidden path",
+      "concept": "The ascetics' hidden path inspired by আনন্দমঠ (Anandamath), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/anandamath/The-ascetics-hidden-path.png"
+    },
+    {
+      "id": "anandamath-Memory-of-the-motherland",
+      "bookId": "anandamath",
+      "title": "Memory of the motherland",
+      "concept": "Memory of the motherland inspired by আনন্দমঠ (Anandamath), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/anandamath/Memory-of-the-motherland.png"
+    },
+    {
+      "id": "devdas-The-last-train-home",
+      "bookId": "devdas",
+      "title": "The last train home",
+      "concept": "The last train home inspired by দেবদাস (Devdas), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/devdas/The-last-train-home.png"
+    },
+    {
+      "id": "devdas-Love-beyond-the-zamindar-gate",
+      "bookId": "devdas",
+      "title": "Love beyond the zamindar gate",
+      "concept": "Love beyond the zamindar gate inspired by দেবদাস (Devdas), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/devdas/Love-beyond-the-zamindar-gate.png"
+    },
+    {
+      "id": "devdas-A-letter-never-answered",
+      "bookId": "devdas",
+      "title": "A letter never answered",
+      "concept": "A letter never answered inspired by দেবদাস (Devdas), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/devdas/A-letter-never-answered.png"
+    },
+    {
+      "id": "gitanjali-Song-offerings-at-dawn",
+      "bookId": "gitanjali",
+      "title": "Song offerings at dawn",
+      "concept": "Song offerings at dawn inspired by গীতাঞ্জলি (Gitanjali), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/gitanjali/Song-offerings-at-dawn.png"
+    },
+    {
+      "id": "gitanjali-Monsoon-light-and-open-sky",
+      "bookId": "gitanjali",
+      "title": "Monsoon light and open sky",
+      "concept": "Monsoon light and open sky inspired by গীতাঞ্জলি (Gitanjali), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/gitanjali/Monsoon-light-and-open-sky.png"
+    },
+    {
+      "id": "gitanjali-The-infinite-in-a-single-flower",
+      "bookId": "gitanjali",
+      "title": "The infinite in a single flower",
+      "concept": "The infinite in a single flower inspired by গীতাঞ্জলি (Gitanjali), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/gitanjali/The-infinite-in-a-single-flower.png"
+    },
+    {
+      "id": "chokher-bali-A-grain-of-sand-in-the-eye",
+      "bookId": "chokher-bali",
+      "title": "A grain of sand in the eye",
+      "concept": "A grain of sand in the eye inspired by চোখের বালি (Chokher Bali), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/chokher-bali/A-grain-of-sand-in-the-eye.png"
+    },
+    {
+      "id": "chokher-bali-Letters-behind-the-lattice",
+      "bookId": "chokher-bali",
+      "title": "Letters behind the lattice",
+      "concept": "Letters behind the lattice inspired by চোখের বালি (Chokher Bali), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/chokher-bali/Letters-behind-the-lattice.png"
+    },
+    {
+      "id": "chokher-bali-Desire-in-the-inner-courtyard",
+      "bookId": "chokher-bali",
+      "title": "Desire in the inner courtyard",
+      "concept": "Desire in the inner courtyard inspired by চোখের বালি (Chokher Bali), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/chokher-bali/Desire-in-the-inner-courtyard.png"
+    },
+    {
+      "id": "gora-Beyond-every-boundary",
+      "bookId": "gora",
+      "title": "Beyond every boundary",
+      "concept": "Beyond every boundary inspired by গোরা (Gora), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/gora/Beyond-every-boundary.png"
+    },
+    {
+      "id": "gora-Identity-under-the-Bengal-sky",
+      "bookId": "gora",
+      "title": "Identity under the Bengal sky",
+      "concept": "Identity under the Bengal sky inspired by গোরা (Gora), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/gora/Identity-under-the-Bengal-sky.png"
+    },
+    {
+      "id": "gora-When-certainty-meets-truth",
+      "bookId": "gora",
+      "title": "When certainty meets truth",
+      "concept": "When certainty meets truth inspired by গোরা (Gora), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/gora/When-certainty-meets-truth.png"
+    },
+    {
+      "id": "dak-ghar-The-road-beyond-the-window",
+      "bookId": "dak-ghar",
+      "title": "The road beyond the window",
+      "concept": "The road beyond the window inspired by ডাকঘর (The Post Office), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/dak-ghar/The-road-beyond-the-window.png"
+    },
+    {
+      "id": "dak-ghar-A-letter-from-the-king",
+      "bookId": "dak-ghar",
+      "title": "A letter from the king",
+      "concept": "A letter from the king inspired by ডাকঘর (The Post Office), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/dak-ghar/A-letter-from-the-king.png"
+    },
+    {
+      "id": "dak-ghar-Waiting-for-the-postman",
+      "bookId": "dak-ghar",
+      "title": "Waiting for the postman",
+      "concept": "Waiting for the postman inspired by ডাকঘর (The Post Office), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/dak-ghar/Waiting-for-the-postman.png"
+    },
+    {
+      "id": "galpaguchchha-A-universe-in-every-village",
+      "bookId": "galpaguchchha",
+      "title": "A universe in every village",
+      "concept": "A universe in every village inspired by গল্পগুচ্ছ (Galpaguchchha), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/galpaguchchha/A-universe-in-every-village.png"
+    },
+    {
+      "id": "galpaguchchha-Stories-beside-the-river",
+      "bookId": "galpaguchchha",
+      "title": "Stories beside the river",
+      "concept": "Stories beside the river inspired by গল্পগুচ্ছ (Galpaguchchha), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/galpaguchchha/Stories-beside-the-river.png"
+    },
+    {
+      "id": "galpaguchchha-Small-lives-boundless-worlds",
+      "bookId": "galpaguchchha",
+      "title": "Small lives, boundless worlds",
+      "concept": "Small lives, boundless worlds inspired by গল্পগুচ্ছ (Galpaguchchha), designed as original bookish artwork for print products.",
+      "products": [
+        "T-shirt",
+        "iPhone Case",
+        "Tote Bag",
+        "Tumbler",
+        "Throw Pillow",
+        "Ceramic Mug",
+        "Water Bottle"
+      ],
+      "imageUrl": "designs/galpaguchchha/Small-lives-boundless-worlds.png"
     }
   ]
 }

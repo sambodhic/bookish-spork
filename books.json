@@ -1138,5 +1138,137 @@
       "Shame cannot name the whole heart",
       "Secrets burn under plain cloth"
     ]
+  },
+  {
+    "id": "pather-panchali",
+    "title": "পথের পাঁচালী (Pather Panchali)",
+    "type": "book",
+    "author": "Bibhutibhushan Bandyopadhyay",
+    "publicationYear": "1929",
+    "bookSummary": "Apu and Durga discover wonder and hardship amid village paths, monsoon fields, and the distant promise of a train.",
+    "bookNote": "First published in Bengali in 1929, this public-domain classic is presented as inspiration for original artwork.",
+    "genre": "Bengali Classics",
+    "quotes": ["Wonder waits beyond the field.", "The monsoon remembers every path.", "A distant train can carry a whole dream."],
+    "shirtIdeas": ["Wonder beyond the field", "Monsoon paths of Nishchindipur", "Follow the distant train"]
+  },
+  {
+    "id": "abol-tabol",
+    "title": "আবোল তাবোল (Abol Tabol)",
+    "type": "book",
+    "author": "Sukumar Ray",
+    "publicationYear": "1923",
+    "bookSummary": "Nonsense verse fills Bengal with impossible animals, eccentric characters, and gleefully topsy-turvy logic.",
+    "bookNote": "First published in Bengali in 1923, this public-domain collection is presented as inspiration for original artwork.",
+    "genre": "Bengali Classics",
+    "quotes": ["Nonsense has its own logic.", "Impossible creatures need room to roam.", "Let the words turn somersaults."],
+    "shirtIdeas": ["Nonsense has its own logic", "A parade of impossible creatures", "Words turning somersaults"]
+  },
+  {
+    "id": "thakurmar-jhuli",
+    "title": "ঠাকুরমার ঝুলি (Thakurmar Jhuli)",
+    "type": "book",
+    "author": "Dakshinaranjan Mitra Majumder",
+    "publicationYear": "1907",
+    "bookSummary": "Princes, princesses, rakshasas, enchanted forests, and magical palaces gather in a beloved treasury of Bengali folk tales.",
+    "bookNote": "First published in Bengali in 1907, this public-domain collection is presented as inspiration for original artwork.",
+    "genre": "Bengali Classics",
+    "quotes": ["Every forest keeps an old story.", "Grandmother opens the door to wonder.", "Courage enters the enchanted palace."],
+    "shirtIdeas": ["Grandmother's treasury of tales", "Beyond the enchanted forest", "Princes, princesses, and rakshasas"]
+  },
+  {
+    "id": "kapalkundala",
+    "title": "কপালকুণ্ডলা (Kapalkundala)",
+    "type": "book",
+    "author": "Bankim Chandra Chattopadhyay",
+    "publicationYear": "1866",
+    "bookSummary": "A mysterious young woman raised near a forest shrine enters a tragic romance shaped by the sea, society, and fate.",
+    "bookNote": "First published in Bengali in 1866, this public-domain novel is presented as inspiration for original artwork.",
+    "genre": "Bengali Classics",
+    "quotes": ["The sea keeps a gothic secret.", "The forest cannot teach the city.", "Fate waits beside the shrine."],
+    "shirtIdeas": ["The secret by the sea", "Moonlight over the forest shrine", "Between wilderness and the world"]
+  },
+  {
+    "id": "anandamath",
+    "title": "আনন্দমঠ (Anandamath)",
+    "type": "book",
+    "author": "Bankim Chandra Chattopadhyay",
+    "publicationYear": "1882",
+    "bookSummary": "Against famine and rebellion, a band of ascetics confronts sacrifice, resistance, and competing visions of the motherland.",
+    "bookNote": "First published in Bengali in 1882, this public-domain historical novel is presented as inspiration for original artwork.",
+    "genre": "Bengali Classics",
+    "quotes": ["History moves through the forest.", "Conviction asks for sacrifice.", "The motherland lives in memory."],
+    "shirtIdeas": ["History through the sal forest", "The ascetics' hidden path", "Memory of the motherland"]
+  },
+  {
+    "id": "devdas",
+    "title": "দেবদাস (Devdas)",
+    "type": "book",
+    "author": "Sarat Chandra Chattopadhyay",
+    "publicationYear": "1917",
+    "bookSummary": "Childhood affection becomes a devastating story of pride, class, missed choices, and self-destruction.",
+    "bookNote": "Published in Bengali in 1917, this public-domain novel is presented as inspiration for original artwork, independent of later screen adaptations.",
+    "genre": "Bengali Classics",
+    "quotes": ["Some distances begin at home.", "Pride misses the last train.", "Love cannot live on hesitation."],
+    "shirtIdeas": ["The last train home", "Love beyond the zamindar gate", "A letter never answered"]
+  },
+  {
+    "id": "gitanjali",
+    "title": "গীতাঞ্জলি (Gitanjali)",
+    "type": "book",
+    "author": "Rabindranath Tagore",
+    "publicationYear": "1910",
+    "bookSummary": "Poems of devotion, nature, mortality, and spiritual longing find the infinite within ordinary life.",
+    "bookNote": "The Bengali collection was published in 1910 and is presented here as public-domain inspiration for original artwork.",
+    "genre": "Bengali Classics",
+    "quotes": ["The infinite visits the everyday.", "Rain carries a song to the earth.", "Light enters through an open heart."],
+    "shirtIdeas": ["Song offerings at dawn", "Monsoon light and open sky", "The infinite in a single flower"]
+  },
+  {
+    "id": "chokher-bali",
+    "title": "চোখের বালি (Chokher Bali)",
+    "type": "book",
+    "author": "Rabindranath Tagore",
+    "publicationYear": "1903",
+    "bookSummary": "Desire, friendship, jealousy, and the constraints placed upon widowed women unsettle a Bengali household.",
+    "bookNote": "Published in Bengali in 1903, this public-domain novel is presented as inspiration for original artwork.",
+    "genre": "Bengali Classics",
+    "quotes": ["A grain of sand can trouble the eye.", "Desire rearranges the household.", "Silence reads every letter."],
+    "shirtIdeas": ["A grain of sand in the eye", "Letters behind the lattice", "Desire in the inner courtyard"]
+  },
+  {
+    "id": "gora",
+    "title": "গোরা (Gora)",
+    "type": "book",
+    "author": "Rabindranath Tagore",
+    "publicationYear": "1910",
+    "bookSummary": "Identity, faith, caste, friendship, and nationalism collide as a young man's certainty meets a transforming truth.",
+    "bookNote": "Published in Bengali in 1910, this public-domain novel is presented as inspiration for original artwork.",
+    "genre": "Bengali Classics",
+    "quotes": ["Identity is larger than inheritance.", "Certainty must meet the world.", "Belonging crosses every boundary."],
+    "shirtIdeas": ["Beyond every boundary", "Identity under the Bengal sky", "When certainty meets truth"]
+  },
+  {
+    "id": "dak-ghar",
+    "title": "ডাকঘর (The Post Office)",
+    "type": "book",
+    "author": "Rabindranath Tagore",
+    "publicationYear": "1912",
+    "bookSummary": "A housebound child imagines roads, travelers, and a letter from the king in a tender play about freedom and transcendence.",
+    "bookNote": "Published in Bengali in 1912, this public-domain play is presented as inspiration for original artwork.",
+    "genre": "Bengali Classics",
+    "quotes": ["The open road begins at the window.", "A letter can carry freedom.", "Waiting becomes a journey."],
+    "shirtIdeas": ["The road beyond the window", "A letter from the king", "Waiting for the postman"]
+  },
+  {
+    "id": "galpaguchchha",
+    "title": "গল্পগুচ্ছ (Galpaguchchha)",
+    "type": "book",
+    "author": "Rabindranath Tagore",
+    "publicationYear": "1891–1901",
+    "bookSummary": "Village lives, families, strangers, and quiet revelations form a landmark collection of Bengali short stories.",
+    "bookNote": "These Bengali stories were originally published around the turn of the twentieth century and are presented as public-domain inspiration for original artwork.",
+    "genre": "Bengali Classics",
+    "quotes": ["Every village holds a universe.", "Small lives contain great journeys.", "A quiet story can cross the world."],
+    "shirtIdeas": ["A universe in every village", "Stories beside the river", "Small lives, boundless worlds"]
   }
 ]
