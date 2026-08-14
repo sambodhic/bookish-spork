@@ -554,6 +554,7 @@ function openBook(bookId, focusDesignId = '') {
     </div>
   `;
   modal.hidden = false;
+  modal.querySelector('.modal-panel')?.scrollTo({ top: 0, left: 0 });
   bindCommonActions(modalContent);
   bindDesignActions(modalContent, book, designs);
   if (focusDesignId) {
