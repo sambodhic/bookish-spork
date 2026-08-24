@@ -4,7 +4,7 @@ const modalContent = document.querySelector('#modalContent');
 const cartCount = document.querySelector('#cartCount');
 const toastEl = document.querySelector('#toast');
 
-const supportEmail = 'booktalkietees@gmail.com';
+const supportEmail = 'support@booktalkietees.com';
 const homePageScrambleDesigns = true;
 const inspiredDisclaimer = 'BookTalkieTees designs are original book-inspired concepts. Some artwork and visual mockups may be created or assisted by AI tools, then selected, edited, or arranged by BookTalkieTees. They are not official merchandise and are not endorsed by, sponsored by, or affiliated with the authors, publishers, estates, illustrators, rights holders, or trademark owners of the referenced books.';
 const privacyNotice = 'BookTalkieTees does not require signup and we do not collect, sell, or share personal data. Favorites, cart items, marketplace preference, and cached catalog data stay locally on your browser or app device. We do not collect shipping addresses, billing details, or payment information in this MVP. The only information we receive is what you choose to send by email when you contact support or submit an order inquiry, and we use that email only to reply and help with your request.';
