@@ -35,9 +35,42 @@
       "imageUrl": "designs/the-time-machine/Progress-needs-a-conscience.png",
       "amazonListings": {
         "T-shirt": {
-          "US": "https://a.co/d/034eivDV",
-          "UK": "https://amzn.eu/d/09XbqgjS",
-          "JP": "https://amzn.asia/d/0crpzVEJ"
+          "US": "https://www.amazon.com/dp/B0HB7KWYFT",
+          "UK": "https://www.amazon.co.uk/dp/B0HB7KYTBM",
+          "JP": "https://www.amazon.co.jp/dp/B0HB7SL7FF",
+          "DE": "https://www.amazon.de/dp/B0HFV5SHKW",
+          "IT": "https://www.amazon.it/dp/B0HFTX52SC",
+          "FR": "https://www.amazon.fr/dp/B0HFTZNB9R",
+          "ES": "https://www.amazon.es/dp/B0HFYQ5SHL"
+        },
+        "iPhone Case":{
+          "DE": "https://www.amazon.de/dp/B0HGKB1KY8",
+          "UK": "https://www.amazon.co.uk/dp/B0HGBX6LHL",
+          "IT": "https://www.amazon.it/dp/B0HGKNLCHV",
+          "FR": "https://www.amazon.fr/dp/B0HGKB3N37",
+          "US": "https://www.amazon.com/dp/B0HG5HG56C",
+          "JP": "https://www.amazon.co.jp/dp/B0HG59RNPZ"
+        },
+        "Tote Bag":{
+          "US": "https://www.amazon.com/dp/B0HG5DHWNN"
+        },
+        "Tumbler":{
+          "DE": "https://www.amazon.de/dp/B0HG8C1CNG",
+          "UK": "https://www.amazon.co.uk/dp/B0HG88GML7",
+          "IT": "https://www.amazon.it/dp/B0HGBVCJ15",
+          "FR": "https://www.amazon.fr/dp/B0HG85X6WP",
+          "ES": "https://www.amazon.es/dp/B0HGBYQJM3",
+          "US": "https://www.amazon.com/dp/B0HFZWPHPB"
+        },
+        "Throw Pillow":{
+          "US": "https://www.amazon.com/dp/B0HFZV33B4"
+        },
+        "Ceramic Mug":{
+          "US": "https://www.amazon.com/dp/B0HG118MSJ"
+        },
+        "Water Bottle":{
+          "US": "https://www.amazon.com/dp/B0HFYFL89H",
+          "UK": "https://www.amazon.co.uk/dp/B0HFYTZX48"          
         }
       }
     },

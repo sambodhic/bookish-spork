@@ -428,7 +428,7 @@ function renderHome() {
       <button class="button secondary" data-home-explore>Explore categories</button>
     </div>
     <section class="design-grid home-design-grid">
-      ${visibleDesigns.map(({ book, design }) => designCard(book, design, { showBookMeta: true })).join('')}
+      ${visibleDesigns.slice(1).map(({ book, design }) => designCard(book, design, { showBookMeta: true })).join('')}
     </section>
   `;
   bindCommonActions();
