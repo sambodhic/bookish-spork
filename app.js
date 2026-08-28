@@ -9,9 +9,10 @@ const homePageScrambleDesigns = true;
 const inspiredDisclaimer = 'BookTalkieTees designs are original book-inspired concepts. Some artwork and visual mockups may be created or assisted by AI tools, then selected, edited, or arranged by BookTalkieTees. They are not official merchandise and are not endorsed by, sponsored by, or affiliated with the authors, publishers, estates, illustrators, rights holders, or trademark owners of the referenced books.';
 const privacyNotice = 'BookTalkieTees does not require signup and we do not collect, sell, or share personal data. Favorites, cart items, marketplace preference, and cached catalog data stay locally on your browser or app device. We do not collect shipping addresses, billing details, or payment information in this MVP. The only information we receive is what you choose to send by email when you contact support or submit an order inquiry, and we use that email only to reply and help with your request.';
 const productTypes = ['T-shirt', 'iPhone Case', 'Tote Bag', 'Tumbler', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle'];
-const usOnlyProductTypes = new Set(['Tote Bag', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle']);
+const usOnlyProductTypes = new Set(['Tote Bag', 'Throw Pillow', 'Ceramic Mug']);
 function isProductAvailableForMarketplace(product, marketplace) {
   if (usOnlyProductTypes.has(product)) return marketplace === 'US';
+  if (product === 'Water Bottle') return marketplace === 'US' || marketplace === 'UK';
   if (product === 'Tumbler') return marketplace !== 'JP';
   return true;
 }
@@ -30,13 +31,13 @@ const amazonMarketplaces = {
 };
 let marketplaceSymbols = { US: '$', UK: '£', JP: '¥', IT: '€', FR: '€', DE: '€', ES: '€' };
 let suggestedPrices = {
-  'T-shirt': { US: 24.99, UK: 22.99, JP: 3200, IT: 24.99, FR: 24.99, DE: 24.99, ES: 24.99 },
-  'iPhone Case': { US: 19.99, UK: 18.99, JP: 2800, IT: 21.99, FR: 21.99, DE: 21.99, ES: 21.99 },
-  'Tote Bag': { US: 21.99, UK: 19.99, JP: 3000, IT: 22.99, FR: 22.99, DE: 22.99, ES: 22.99 },
-  Tumbler: { US: 27.99, UK: 25.99, JP: 3900, IT: 29.99, FR: 29.99, DE: 29.99, ES: 29.99 },
-  'Throw Pillow': { US: 26.99, UK: 24.99, JP: 3800, IT: 28.99, FR: 28.99, DE: 28.99, ES: 28.99 },
+  'T-shirt': { US: 18.99, UK: 16.49, JP: 2000, IT: 16.99, FR: 16.99, DE: 15.99, ES: 16.49 },
+  'iPhone Case': { US: 17.99, UK: 15.99, JP: 2000, IT: 17.99, FR: 17.99, DE: 16.99, ES: 17.99 },
+  'Tote Bag': { US: 18.99, UK: 19.99, JP: 3000, IT: 22.99, FR: 22.99, DE: 22.99, ES: 22.99 },
+  Tumbler: { US: 26.99, UK: 18.20, JP: 3900, IT: 20.57, FR: 20.57, DE: 20.57, ES: 20.57 },
+  'Throw Pillow': { US: 19.99, UK: 24.99, JP: 3800, IT: 28.99, FR: 28.99, DE: 28.99, ES: 28.99 },
   'Ceramic Mug': { US: 16.99, UK: 14.99, JP: 2200, IT: 17.99, FR: 17.99, DE: 17.99, ES: 17.99 },
-  'Water Bottle': { US: 25.99, UK: 23.99, JP: 3600, IT: 27.99, FR: 27.99, DE: 27.99, ES: 27.99 },
+  'Water Bottle': { US: 28.99, UK: 18.20, JP: 3600, IT: 27.99, FR: 27.99, DE: 27.99, ES: 27.99 },
 };
 const state = {
   view: 'home',

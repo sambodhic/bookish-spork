@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-08-27",
   "note": "Suggested product subtotal estimates only. Actual Amazon prices, taxes, and shipping can vary by marketplace, availability, and delivery address.",
   "marketplaces": {
     "US": "amazon.com",
@@ -22,25 +22,25 @@
   },
   "suggestedPrices": {
     "T-shirt": {
-      "US": 24.99,
-      "UK": 22.99,
-      "JP": 3200,
-      "IT": 24.99,
-      "FR": 24.99,
-      "DE": 24.99,
-      "ES": 24.99
+      "US": 18.99,
+      "UK": 16.49,
+      "JP": 2000,
+      "IT": 16.99,
+      "FR": 16.99,
+      "DE": 15.99,
+      "ES": 16.49
     },
     "iPhone Case": {
-      "US": 19.99,
-      "UK": 18.99,
-      "JP": 2800,
-      "IT": 21.99,
-      "FR": 21.99,
-      "DE": 21.99,
-      "ES": 21.99
+      "US": 17.99,
+      "UK": 15.99,
+      "JP": 2000,
+      "IT": 17.99,
+      "FR": 17.99,
+      "DE": 16.99,
+      "ES": 17.99
     },
     "Tote Bag": {
-      "US": 21.99,
+      "US": 18.99,
       "UK": 19.99,
       "JP": 3000,
       "IT": 22.99,
@@ -49,16 +49,16 @@
       "ES": 22.99
     },
     "Tumbler": {
-      "US": 27.99,
-      "UK": 25.99,
+      "US": 26.99,
+      "UK": 18.20,
       "JP": 3900,
-      "IT": 29.99,
-      "FR": 29.99,
-      "DE": 29.99,
-      "ES": 29.99
+      "IT": 20.57,
+      "FR": 20.57,
+      "DE": 20.57,
+      "ES": 20.57
     },
     "Throw Pillow": {
-      "US": 26.99,
+      "US": 19.99,
       "UK": 24.99,
       "JP": 3800,
       "IT": 28.99,
@@ -76,8 +76,8 @@
       "ES": 17.99
     },
     "Water Bottle": {
-      "US": 29.99,
-      "UK": 27.99,
+      "US": 28.99,
+      "UK": 18.20,
       "JP": 4200,
       "IT": 32.99,
       "FR": 32.99,
