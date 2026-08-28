@@ -278,10 +278,25 @@ function designsFor(book) {
   }));
 }
 
-function hasAmazonListing(design) {
-  return Object.values(design.amazonListings ?? {}).some((markets) =>
-    Object.values(markets ?? {}).some((url) => typeof url === 'string' && url.startsWith('https://')),
-  );
+function isValidAmazonUrl(url) {
+  if (typeof url !== 'string') return false;
+  try {
+    return new URL(url).protocol === 'https:';
+  } catch {
+    return false;
+  }
+}
+
+function orderedProductsForMarketplace(design, marketplace) {
+  const available = productsForMarketplace(design.products, marketplace);
+  const linked = available.filter((product) => isValidAmazonUrl(design.amazonListings?.[product]?.[marketplace]));
+  const remaining = available.filter((product) => !linked.includes(product));
+  return [...linked, ...remaining];
+}
+
+function hasAmazonListingForMarketplace(design, marketplace) {
+  return orderedProductsForMarketplace(design, marketplace)
+    .some((product) => isValidAmazonUrl(design.amazonListings?.[product]?.[marketplace]));
 }
 
 function favoriteKey(kind, id) {
@@ -382,9 +397,11 @@ function renderHome() {
       book: state.books.find((book) => book.id === design.bookId),
     }))
     .filter((entry) => entry.book);
-  const visibleDesigns = homePageScrambleDesigns ? dailyShuffle(designEntries) : designEntries;
-  const purchasableDesigns = visibleDesigns.filter(({ design }) => hasAmazonListing(design));
-  const featured = purchasableDesigns[0] ?? visibleDesigns[0];
+  const randomizedDesigns = homePageScrambleDesigns ? dailyShuffle(designEntries) : designEntries;
+  const purchasableDesigns = randomizedDesigns.filter(({ design }) => hasAmazonListingForMarketplace(design, state.marketplace));
+  const remainingDesigns = randomizedDesigns.filter(({ design }) => !hasAmazonListingForMarketplace(design, state.marketplace));
+  const visibleDesigns = [...purchasableDesigns, ...remainingDesigns];
+  const featured = visibleDesigns[0];
   app.innerHTML = `
     <section class="hero design-hero" data-design-id="${escapeHtml(featured.design.id)}">
       <div class="hero-copy">
@@ -486,6 +503,13 @@ function renderCart() {
       writeStore('booktalkietees:cart', state.cart);
       updateCartCount();
       renderCart();
+    });
+  });
+  document.querySelectorAll('[data-buy-cart]').forEach((button) => {
+    button.addEventListener('click', (event) => {
+      event.stopPropagation();
+      const amazonUrl = button.dataset.buyCart;
+      if (isValidAmazonUrl(amazonUrl)) window.open(amazonUrl, '_blank', 'noopener');
     });
   });
   document.querySelector('[data-checkout]')?.addEventListener('click', emailSupportForCart);
@@ -590,7 +614,7 @@ function designCard(book, design, options = {}) {
 
 
 function productPickerHtml(design, marketplace) {
-  const products = productsForMarketplace(design.products, marketplace);
+  const products = orderedProductsForMarketplace(design, marketplace);
   if (!products.length) return '<p class="muted-note">No products are available for this marketplace yet.</p>';
   return products.map((product, index) => `<button class="product-chip ${index === 0 ? 'is-selected' : ''}" data-product="${escapeHtml(product)}">${escapeHtml(product)} <span>${escapeHtml(formatPrice(suggestedPriceFor(product, marketplace), marketplace))}</span></button>`).join('');
 }
@@ -712,8 +736,12 @@ function cartRow(item) {
   const book = state.books.find((book) => book.id === item.bookId);
   const design = state.designs.find((design) => design.id === item.designId)
     ?? (book ? designsFor(book).find((design) => design.id === item.designId) : null);
+  const amazonUrl = design?.amazonListings?.[item.product]?.[marketplace] ?? '';
+  const buyButton = isValidAmazonUrl(amazonUrl)
+    ? `<button class="button cart-buy-button" data-buy-cart="${escapeHtml(amazonUrl)}">Buy on Amazon</button>`
+    : '';
   const openAttrs = book ? ` data-open-book="${escapeHtml(book.id)}" data-focus-design="${escapeHtml(item.designId)}" role="button" tabindex="0"` : '';
-  return `<div class="cart-row ${book ? 'is-clickable' : ''}"${openAttrs}>${rowThumbnail(book, design)}<div class="row-copy"><strong>${escapeHtml(item.designTitle)}</strong><span>${escapeHtml(item.product)} / ${escapeHtml(item.bookTitle)} / ${escapeHtml(marketplaceLabel(marketplace))} / ${escapeHtml(formatPrice(price, marketplace))} estimate</span></div><button class="icon-button" data-remove-cart="${escapeHtml(item.id)}" aria-label="Remove item">x</button></div>`;
+  return `<div class="cart-row ${book ? 'is-clickable' : ''}"${openAttrs}>${rowThumbnail(book, design)}<div class="row-copy"><strong>${escapeHtml(item.designTitle)}</strong><span>${escapeHtml(item.product)} / ${escapeHtml(item.bookTitle)} / ${escapeHtml(marketplaceLabel(marketplace))} / ${escapeHtml(formatPrice(price, marketplace))} estimate</span></div><div class="cart-row-actions">${buyButton}<button class="icon-button" data-remove-cart="${escapeHtml(item.id)}" aria-label="Remove item">x</button></div></div>`;
 }
 
 function closeModal() {
