@@ -351,9 +351,43 @@
       "imageUrl": "designs/the-invisible-man/Isolation-can-distort-genius.png",
       "amazonListings": {
         "T-shirt": {
-          "US": "https://a.co/d/0j9UD5iV",
-          "UK": "https://amzn.eu/d/0emSrVSn",
-          "JP": "https://amzn.asia/d/02hAXgcW"
+          "US": "https://www.amazon.com/dp/B0HBBDQ1B2",
+          "UK": "https://www.amazon.co.uk/dp/B0HBBQ1Z3L",
+          "JP": "https://amzn.asia/d/02hAXgcW",
+          "IT": "https://www.amazon.it/dp/B0HH3JNRT2",
+          "FR": "https://www.amazon.fr/dp/B0HH35SZBS",
+          "DE": "https://www.amazon.de/dp/B0HH3CQTCL",
+          "ES": "https://www.amazon.es/dp/B0HHC5JMCW"
+        },
+        "iPhone Case": {
+          "US": "https://www.amazon.com/dp/B0HHBR516K",
+          "UK": "https://www.amazon.co.uk/dp/B0HHHQ4FPY",
+          "JP": "https://www.amazon.co.jp/dp/B0HHRYZZX5",
+          "IT": "https://www.amazon.it/dp/B0HHS1WWFG",
+          "FR": "https://www.amazon.fr/dp/B0HHHQLSGN",
+          "DE": "https://www.amazon.de/dp/B0HHHMYTP4",
+          "ES": "https://www.amazon.es/dp/B0HHS297V2"
+        },
+        "Tote Bag": {
+          "US": "https://www.amazon.com/dp/B0HH7CQD4M"
+        },
+        "Tumbler": {
+          "US": "https://www.amazon.com/dp/B0HHBSHQ57",
+          "UK": "https://www.amazon.co.uk/dp/B0HHTPV6BD",
+          "IT": "https://www.amazon.it/dp/B0HHY44B31",
+          "FR": "https://www.amazon.fr/dp/B0HHT6LK6Y",
+          "DE": "https://www.amazon.de/dp/B0HHTBHGCQ",
+          "ES": "https://www.amazon.es/dp/B0HHY771Z3"
+        },
+        "Throw Pillow": {
+          "US": "https://www.amazon.com/dp/B0HH7BC23D"
+        },
+        "Ceramic Mug": {
+          "US": "https://www.amazon.com/dp/B0HH7K1WJZ"
+        },
+        "Water Bottle": {
+          "US": "https://www.amazon.com/dp/B0HGWSZK4T",
+          "UK": "https://www.amazon.co.uk/dp/B0HGWL7KVK"
         }
       }
     },
@@ -1654,9 +1688,43 @@
       "imageUrl": "designs/persuasion/Constancy-survives-the-years.png",
       "amazonListings": {
         "T-shirt": {
-          "US": "https://a.co/d/06a4m2bq",
-          "UK": "https://amzn.eu/d/08Bu6ieH",
-          "JP": "https://amzn.asia/d/0ePQcbOz"
+          "US": "https://www.amazon.com/dp/B0HBK4BLGG",
+          "UK": "https://www.amazon.co.uk/dp/B0HBK7W18H",
+          "JP": "https://www.amazon.co.jp/dp/B0HBK6FMH1",
+          "IT": "https://www.amazon.it/dp/B0HHJKCTMP",
+          "FR": "https://www.amazon.fr/dp/B0HHJJNK2V",
+          "DE": "https://www.amazon.de/dp/B0HHJBD1W3",
+          "ES": "https://www.amazon.es/dp/B0HHY9TLLK"
+        },
+        "iPhone Case": {
+          "US": "https://www.amazon.com/dp/B0HJBPM8RP",
+          "UK": "https://www.amazon.co.uk/dp/B0HJBLYLRZ",
+          "JP": "https://www.amazon.co.jp/dp/B0HJM53VQ4",
+          "IT": "https://www.amazon.it/dp/B0HJH12LDB",
+          "FR": "https://www.amazon.fr/dp/B0HJGVFF15",
+          "DE": "https://www.amazon.de/dp/B0HJBZ4GJV",
+          "ES": "https://www.amazon.es/dp/B0HJGS2JLX"
+        },
+        "Tote Bag": {
+          "US": "https://www.amazon.com/dp/B0HJ46XKYR"
+        },
+        "Tumbler": {
+          "US": "https://www.amazon.com/dp/B0HJ45MFW8",
+          "UK": "https://www.amazon.co.uk/dp/B0HJ5NJWMJ",
+          "IT": "https://www.amazon.it/dp/B0HJM6L3FR",
+          "FR": "https://www.amazon.fr/dp/B0HJ5ZL4ZY",
+          "DE": "https://www.amazon.de/dp/B0HJ5LPR3B",
+          "ES": "https://www.amazon.es/dp/B0HJLXXFR7"
+        },
+        "Throw Pillow": {
+          "US": "https://www.amazon.com/dp/B0HJ47B9SP"
+        },
+        "Ceramic Mug": {
+          "US": "https://www.amazon.com/dp/B0HHYXHZT6"
+        },
+        "Water Bottle": {
+          "US": "https://www.amazon.com/dp/B0HHYXZ3QT",
+          "UK": "https://www.amazon.co.uk/dp/B0HHYXRMP4"
         }
       }
     },
