@@ -7,7 +7,7 @@ const toastEl = document.querySelector('#toast');
 const supportEmail = 'support@booktalkietees.com';
 const homePageScrambleDesigns = true;
 const inspiredDisclaimer = 'BookTalkieTees designs are original book-inspired concepts. Some artwork and visual mockups may be created or assisted by AI tools, then selected, edited, or arranged by BookTalkieTees. They are not official merchandise and are not endorsed by, sponsored by, or affiliated with the authors, publishers, estates, illustrators, rights holders, or trademark owners of the referenced books.';
-const privacyNotice = 'BookTalkieTees does not require signup and we do not collect, sell, or share personal data. Favorites, cart items, marketplace preference, and cached catalog data stay locally on your browser or app device. We do not collect shipping addresses, billing details, or payment information in this MVP. The only information we receive is what you choose to send by email when you contact support or submit an order inquiry, and we use that email only to reply and help with your request.';
+const privacyNotice = 'BookTalkieTees does not require signup or sell personal information. Favorites, cart items, marketplace preference, consent preference, and cached catalog data stay locally on your browser or app device. Optional, non-advertising website analytics runs only after you accept it and does not receive cart contents, searches, names, or email addresses. The native mobile app does not run the website analytics tag.';
 const productTypes = ['T-shirt', 'iPhone Case', 'Tote Bag', 'Tumbler', 'Throw Pillow', 'Ceramic Mug', 'Water Bottle'];
 const usOnlyProductTypes = new Set(['Tote Bag', 'Throw Pillow', 'Ceramic Mug']);
 function isProductAvailableForMarketplace(product, marketplace) {
@@ -60,6 +60,10 @@ function readStore(key, fallback) {
 
 function writeStore(key, value) {
   localStorage.setItem(key, JSON.stringify(value));
+}
+
+function trackAnalytics(eventName, parameters = {}) {
+  window.bookTalkieAnalytics?.track(eventName, parameters);
 }
 
 function defaultMarketplaceForTimezone() {
@@ -190,6 +194,7 @@ function setupMarketplaceSelector() {
   menu.querySelectorAll('[data-marketplace-option]').forEach((option) => {
     option.addEventListener('click', () => {
       setPreferredMarketplace(option.dataset.marketplaceOption);
+      trackAnalytics('select_marketplace', { marketplace: option.dataset.marketplaceOption });
       closeMarketplaceMenu();
       render();
     });
@@ -238,6 +243,11 @@ function setView(view) {
   state.view = view;
   document.querySelectorAll('.nav-tab').forEach((tab) => tab.classList.toggle('is-active', tab.dataset.view === view));
   render();
+  trackAnalytics('page_view', {
+    page_title: `${view[0].toUpperCase()}${view.slice(1)} | BookTalkieTees`,
+    page_location: `${window.location.origin}${window.location.pathname}#${encodeURIComponent(view)}`,
+    page_path: `${window.location.pathname}#${encodeURIComponent(view)}`,
+  });
   app.focus({ preventScroll: true });
 }
 
@@ -381,6 +391,7 @@ function renderAbout() {
       <article class="panel policy-card">
         <h2>Privacy Policy</h2>
         <p>${escapeHtml(privacyNotice)}</p>
+        <p><a href="privacy.html">Read the full Privacy Policy</a> or <button class="text-button" type="button" data-privacy-settings>change analytics consent</button>.</p>
       </article>
     </section>
   `;
@@ -509,7 +520,16 @@ function renderCart() {
     button.addEventListener('click', (event) => {
       event.stopPropagation();
       const amazonUrl = button.dataset.buyCart;
-      if (isValidAmazonUrl(amazonUrl)) window.open(amazonUrl, '_blank', 'noopener');
+      if (isValidAmazonUrl(amazonUrl)) {
+        const itemId = button.closest('.cart-row')?.querySelector('[data-remove-cart]')?.dataset.removeCart;
+        const item = state.cart.find((entry) => entry.id === itemId);
+        trackAnalytics('amazon_outbound_click', {
+          marketplace: item?.marketplace ?? state.marketplace,
+          product_type: item?.product ?? 'unknown',
+          placement: 'cart',
+        });
+        window.open(amazonUrl, '_blank', 'noopener');
+      }
     });
   });
   document.querySelector('[data-checkout]')?.addEventListener('click', emailSupportForCart);
@@ -556,6 +576,7 @@ function openBook(bookId, focusDesignId = '') {
   const book = state.books.find((item) => item.id === bookId);
   if (!book) return;
   const designs = designsFor(book);
+  trackAnalytics('view_design_collection', { marketplace: state.marketplace, genre: book.genre });
   modalContent.innerHTML = `
     <div class="detail-layout">
       <section class="panel">
@@ -657,6 +678,12 @@ function bindDesignActions(root, scopedBook = null, scopedDesigns = null) {
       if (!book) return;
       const amazonUrl = amazonUrlForSelection(card, design);
       if (amazonUrl) {
+        const selectedProduct = card.querySelector('[data-product].is-selected')?.dataset.product ?? 'unknown';
+        trackAnalytics('amazon_outbound_click', {
+          marketplace: state.marketplace,
+          product_type: selectedProduct,
+          placement: 'catalog',
+        });
         window.open(amazonUrl, '_blank', 'noopener');
         return;
       }
