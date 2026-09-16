@@ -550,7 +550,7 @@ function bookCard(book) {
         <p>${escapeHtml(publicationLabel(book))}</p>
         <p>${escapeHtml(book.bookSummary)}</p>
         <div class="book-design-strip" aria-label="Design previews">
-          ${previewDesigns.map((design) => `<div class="book-design-preview">${designArt(design, book)}</div>`).join('')}
+          ${previewDesigns.map((design) => `<button type="button" class="book-design-preview" data-open-book="${escapeHtml(book.id)}" data-focus-design="${escapeHtml(design.id)}" aria-label="Open ${escapeHtml(design.title)} design for ${escapeHtml(book.title)}">${designArt(design, book)}</button>`).join('')}
         </div>
         <div class="book-card-actions">
           <button class="button" data-open-book="${book.id}">Open</button>
