@@ -389,6 +389,10 @@ function renderAbout() {
         <p>${escapeHtml(inspiredDisclaimer)}</p>
       </article>
       <article class="panel policy-card">
+        <h2>Amazon marketplace links</h2>
+        <p>BookTalkieTees does not earn affiliate commissions from Amazon links. Amazon handles checkout, payment, delivery, returns, availability, and final pricing under its own terms. Prices shown here are estimates.</p>
+      </article>
+      <article class="panel policy-card">
         <h2>Privacy Policy</h2>
         <p>${escapeHtml(privacyNotice)}</p>
         <p><a href="privacy.html">Read the full Privacy Policy</a> or <button class="text-button" type="button" data-privacy-settings>change analytics consent</button>.</p>

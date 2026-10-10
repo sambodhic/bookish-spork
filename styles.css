@@ -129,6 +129,10 @@ h1 { margin: 0; font-size: clamp(36px, 7vw, 74px); line-height: 0.98; letter-spa
 .legal-content h2 { margin: 28px 0 8px; font-size: 22px; }
 .legal-content p { color: var(--muted); line-height: 1.65; }
 .legal-content a { color: var(--teal); font-weight: 800; }
+.legal-table-wrap { overflow-x: auto; }
+.legal-table { width: 100%; border-collapse: collapse; color: var(--muted); line-height: 1.45; }
+.legal-table th, .legal-table td { padding: 10px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+.legal-table th { color: var(--ink); background: #f7f1e6; }
 .text-button, .footer-link { padding: 0; border: 0; background: transparent; color: var(--teal); font: inherit; font-weight: 800; text-decoration: underline; }
 .site-footer { display: flex; justify-content: center; gap: 20px; padding: 0 16px 28px; color: var(--muted); font-size: 14px; }
 .site-footer a { color: var(--teal); font-weight: 800; }
